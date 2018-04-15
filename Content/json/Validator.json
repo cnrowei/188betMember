@@ -1,0 +1,52 @@
+[{
+    "MsgKey": "jquery.validator.accept",
+    "MsgVal": "Please enter a value with a valid extension"
+}, {
+    "MsgKey": "jquery.validator.creditcard",
+    "MsgVal": "Please enter a valid credit card number"
+}, {
+    "MsgKey": "jquery.validator.date",
+    "MsgVal": "Please enter a valid date"
+}, {
+    "MsgKey": "jquery.validator.dateISO",
+    "MsgVal": "Please enter a valid date (ISO)"
+}, {
+    "MsgKey": "jquery.validator.digits",
+    "MsgVal": "Please enter only digits"
+}, {
+    "MsgKey": "jquery.validator.email",
+    "MsgVal": "Please enter a valid email address"
+}, {
+    "MsgKey": "jquery.validator.equalTo",
+    "MsgVal": "Please enter the same value again"
+}, {
+    "MsgKey": "jquery.validator.max",
+    "MsgVal": "Please enter a value less than or equal to {0}"
+}, {
+    "MsgKey": "jquery.validator.maxLength",
+    "MsgVal": "Please enter no more than {0} characters"
+}, {
+    "MsgKey": "jquery.validator.min",
+    "MsgVal": "Please enter a value greater than or equal to {0}"
+}, {
+    "MsgKey": "jquery.validator.minLength",
+    "MsgVal": "Please enter at least {0} characters"
+}, {
+    "MsgKey": "jquery.validator.number",
+    "MsgVal": "Please enter a valid number"
+}, {
+    "MsgKey": "jquery.validator.range",
+    "MsgVal": "Please enter a value between {0} and {1}"
+}, {
+    "MsgKey": "jquery.validator.rangeLength",
+    "MsgVal": "Please enter a value between {0} and {1} characters long"
+}, {
+    "MsgKey": "jquery.validator.remote",
+    "MsgVal": "Please fix this field"
+}, {
+    "MsgKey": "jquery.validator.required",
+    "MsgVal": "This field is required"
+}, {
+    "MsgKey": "jquery.validator.url",
+    "MsgVal": "Please enter a valid URL"
+}]

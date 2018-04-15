@@ -1,0 +1,33 @@
+[{
+    "Id": "3f761285-88dd-480c-81e6-f071caf9be2d",
+    "Code": "en",
+    "Descr": "English"
+}, {
+    "Id": "46de0c3f-29ee-4dd1-8596-c79e382c205e",
+    "Code": "id-ID",
+    "Descr": "Bahasa Indonesia"
+}, {
+    "Id": "efacfe04-9527-41f2-990e-cec9d81e1eed",
+    "Code": "ja-JP",
+    "Descr": "日本語"
+}, {
+    "Id": "4827f334-6da7-47a4-bf03-660844011aaf",
+    "Code": "km-KH",
+    "Descr": "ភាសាខ្មែរ"
+}, {
+    "Id": "ab2061fe-9dd1-40fa-91bb-3825c2138607",
+    "Code": "ko-KR",
+    "Descr": "한국어"
+}, {
+    "Id": "9eb47757-901f-412f-9647-c43d8d2e9bd5",
+    "Code": "th-TH",
+    "Descr": "ไทย"
+}, {
+    "Id": "a179a473-24ef-4239-b1a9-4300daca7f91",
+    "Code": "vi-VN",
+    "Descr": "Tiếng Việt"
+}, {
+    "Id": "7c0cd173-926f-4e70-b4b1-64a855bc4206",
+    "Code": "zh-CN",
+    "Descr": "中文(简体)"
+}]

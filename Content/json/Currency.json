@@ -1,0 +1,61 @@
+[{
+    "Id": "78225290-1c57-4906-83df-baddaddde3cc",
+    "Code": "AUD"
+}, {
+    "Id": "3009fc6a-00b6-484e-8784-4e38c0fa7bad",
+    "Code": "BRL"
+}, {
+    "Id": "771e73de-6554-4732-9d0e-8f2c56168dac",
+    "Code": "CAD"
+}, {
+    "Id": "654bf5cd-24f9-42e8-b16b-01aea61756b3",
+    "Code": "DZD"
+}, {
+    "Id": "67dcef7c-2085-4c8f-b7bd-3d847275188d",
+    "Code": "EEK"
+}, {
+    "Id": "4a29d7e6-548f-4f2c-a25b-b22a77173c69",
+    "Code": "EUR"
+}, {
+    "Id": "df30dad4-6fef-47ef-8ff8-9eb4bb181ba8",
+    "Code": "GBP"
+}, {
+    "Id": "9d939a5a-b4e1-4a0a-9183-235a50293cfd",
+    "Code": "HKD"
+}, {
+    "Id": "fd71ad33-e703-432e-9379-76ed13484d77",
+    "Code": "IDR"
+}, {
+    "Id": "6f45e9a5-aa3b-4688-bba5-f74549b609ab",
+    "Code": "INR"
+}, {
+    "Id": "0d28b121-b116-445f-a588-7f0f99ec677a",
+    "Code": "JPY"
+}, {
+    "Id": "4bb1e55f-0578-4f00-a8fd-0a78a6d6bc44",
+    "Code": "KRW"
+}, {
+    "Id": "db4246b9-dacd-41c1-9488-16ab0d99446f",
+    "Code": "MYR"
+}, {
+    "Id": "5fe952f4-304a-4876-976e-ba6c78e67a97",
+    "Code": "PHP"
+}, {
+    "Id": "6e74b08c-eeb8-4224-ba5a-0f1a0f9226a9",
+    "Code": "RMB"
+}, {
+    "Id": "1ac4bcca-8659-4f75-ac45-17a8439882d8",
+    "Code": "SGD"
+}, {
+    "Id": "df2a39ea-4d6c-40bc-bf0c-6a0e1c718dec",
+    "Code": "THB"
+}, {
+    "Id": "ab81f2db-1f89-429f-8ab0-e76d8a772e99",
+    "Code": "TWD"
+}, {
+    "Id": "d0e5685e-5402-4074-ae47-e6031f884779",
+    "Code": "USD"
+}, {
+    "Id": "58ced557-a5f0-47d8-8776-389768154faa",
+    "Code": "VND"
+}]

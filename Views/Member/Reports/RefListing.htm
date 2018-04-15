@@ -1,0 +1,82 @@
+<div id="referralListingView" >
+    <div id="left-panel">
+        <div class="panel-top">
+            <span></span>
+            <div>
+            </div>
+            <h2 data-bind="labelTemplate:['report',commonLabel()]"></h2>
+        </div>
+        <div class="panel-content">
+            <ul id="submenu">
+                <li><a class="m selected" id="hpl-ref-listing" href="#!/RefListing" data-bind="labelTemplate:['referral.listing',label()]"></a></li>
+                <li><a class="m" id="hpl-win-loss-product" href="#!/WinLossProduct" style="letter-spacing: -1px;" data-bind="labelTemplate:['summary.of.win.loss.based.on.product',label()]"></a></li>
+                <li><a class="m" id="hpl-aff-commission-by-period" href="#!/AffCommissionByPeriod" data-bind="labelTemplate:['affiliate.commission.reports.by.period',label()]"></a></li>
+                <li><a class="m" id="hpl-aff-collateral" href="#!/AffCollateral" data-bind="labelTemplate:['affiliate.collateral.performance.by.report',label()]"></a></li>
+                <li><a class="m" id="hpl-aff-commission-payment" href="#!/AffCommissionPayment" data-bind="labelTemplate:['commission.payment.report',label()]"></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="content-panel">
+                <div id="c" class="content data-grid">    
+                    <div class="#"> 
+                    	<h3 class="account-settings" data-bind="labelTemplate:['referral.listing',label()]"></h3>
+                        <div class="search-pad-content">
+                            <div class="search-pad-inner-content">
+                                <div id="div-print-link" class="print-link">
+                                    <a href="javascript:void(0)" id="referralListing-download-excel" class="print" data-bind="labelTemplate:['print',commonLabel()]"></a></div>
+                            </div>
+                        </div>
+                        
+                        <div id="div-main-div" class="maindiv">
+                            <div class="data-container">
+        
+            					<div id="div-data-title" class="data-title"> <a class="coll0"><strong data-bind="labelTemplate:['referral.listing',label()]"></strong></a></div>
+                                <table border="0" cellspacing="0" cellpadding="0" class="st">
+                                    <colgroup>
+                                        <col width="100px" />
+                                        <col width="100px" />
+                                        <col width="100px" />
+                                        <col width="70px" />
+                                        <col width="70px" />
+                                        <col width="70px" />
+                                        <col />
+                                    </colgroup>
+                                    <thead>
+                                        <tr class="st-hdr" style="line-height: 100%;">
+                                            <th class="tac" data-bind="labelTemplate:['online',label()]"></th>
+                                            <th class="tac" data-bind="labelTemplate:['member.code',label()]"></th>
+                                            <th class="tac" data-bind="labelTemplate:['registration.date',label()]"></th>
+                                            <th class="tac" data-bind="labelTemplate:['balance',label()]"></th>
+                                            <th class="tac" data-bind="labelTemplate:['member.credit',label()]"></th>
+                                            <th class="tac" data-bind="labelTemplate:['member.status',label()]"></th>
+                                            <th class="tac" data-bind="labelTemplate:['administration',label()]"></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody data-bind="foreach:memberModal.memberList">
+                                            <tr>
+                                                <td class="tac" data-bind="text:online"></td>
+                                                <td class="tac" data-bind="text:username"></td>
+                                                <td class="tac" data-bind="text:created"></td>
+                                                <td class="tac" data-bind="text:balance"></td>
+                                                <td class="tac" data-bind="text:credit"></td>
+                                                <td class="tac" data-bind="text:status"></td>
+                                                <td class="tac" >
+                                                        <a href="#" class="submit" data-bind="labelTemplate:['edit',$root.label()],click: manageMember.bind(), attr: {id: 'hpl-generate-qr-' + $index()}"></a> , 
+                                                        <a href="#" class="submit" data-bind="labelTemplate:['stop.betting',$root.label()],click: manageMember.bind(), attr: {id: 'hpl-generate-qr-' + $index()}"></a> , 
+                                                        <a href="#" class="submit" data-bind="labelTemplate:['frozen.account',$root.label()],click: manageMember.bind(), attr: {id: 'hpl-generate-qr-' + $index()}"></a>
+                                                </td>
+                                            </tr>
+                                    </tbody>
+                                </table>
+            				</div>
+                        </div>
+                        
+                    </div>
+                </div>
+            
+            </div>
+
+</div>
+<!--Core JS-->
+<script type="text/javascript" src="/Content/scripts/Member/reports/refListing.js?v=100113231111"></script>

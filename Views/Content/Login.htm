@@ -1,0 +1,30 @@
+<div id="content-panel">
+        <div id="loginView">
+            <!--Header-->
+            <div class="content-header">
+                <h3 class="corp-affairs" >
+                    <span></span><p data-bind="labelTemplate:['sub.forgot.your.password',label()]"></p></span></span></h3>
+            </div>
+          
+            <ul class="r-user-info">
+                <li class="r-fields">
+                        <input type="text" class="login" id="txtNameMask" maxlength="20" data-bind="customPlaceHolderTemplate:['username',label()]" />
+                </li>          
+            </ul>
+            <ul class="r-user-info">
+                    <li class="r-fields">
+                            <input type="password" class="login" id="txtPassMask" maxlength="20" data-bind="customPlaceHolderTemplate:['password',commonLabel()]" />
+                    </li>          
+                </ul>
+            <ul class="r-user-info">
+                <li class="r-fields">
+                        <input type="hidden" id="failedLogin-captcha-input" style="height:29px;" class="zip-code" maxlength="4"/>
+                        <button id="formlogin" type="button" class="btn btn-success"  data-bind="labelTemplate:['login',commonLabel()]"></button>
+                </li>
+            </ul>
+        </div>
+
+        
+    </div>
+<!-- Core Script -->
+<script type="text/javascript" src="/Content/scripts/public/login.js?v=10011323"></script>    

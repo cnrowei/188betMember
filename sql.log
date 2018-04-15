@@ -1,0 +1,28 @@
+[xorm] [info]  2018/04/12 13:53:36.437051 [sql]SELECT tablename FROM pg_tables WHERE schemaname = $1[public]
+[xorm] [info]  2018/04/12 13:53:37.542259 [sql]SELECT column_name, column_default, is_nullable, data_type, character_maximum_length, numeric_precision, numeric_precision_radix ,
+    CASE WHEN p.contype = 'p' THEN true ELSE false END AS primarykey,
+    CASE WHEN p.contype = 'u' THEN true ELSE false END AS uniquekey
+FROM pg_attribute f
+    JOIN pg_class c ON c.oid = f.attrelid JOIN pg_type t ON t.oid = f.atttypid
+    LEFT JOIN pg_attrdef d ON d.adrelid = c.oid AND d.adnum = f.attnum
+    LEFT JOIN pg_namespace n ON n.oid = c.relnamespace
+    LEFT JOIN pg_constraint p ON p.conrelid = c.oid AND f.attnum = ANY (p.conkey)
+    LEFT JOIN pg_class AS g ON p.confrelid = g.oid
+    LEFT JOIN INFORMATION_SCHEMA.COLUMNS s ON s.column_name=f.attname AND c.relname=s.table_name
+WHERE c.relkind = 'r'::char AND c.relname = $1 AND s.table_schema = $2 AND f.attnum > 0 ORDER BY f.attnum;[users public]
+[xorm] [info]  2018/04/12 13:53:37.560288 [sql]SELECT indexname, indexdef FROM pg_indexes WHERE schemaname=$1 AND tablename=$2[public users]
+[xorm] [info]  2018/04/12 13:53:37.563634 [sql]SELECT column_name, column_default, is_nullable, data_type, character_maximum_length, numeric_precision, numeric_precision_radix ,
+    CASE WHEN p.contype = 'p' THEN true ELSE false END AS primarykey,
+    CASE WHEN p.contype = 'u' THEN true ELSE false END AS uniquekey
+FROM pg_attribute f
+    JOIN pg_class c ON c.oid = f.attrelid JOIN pg_type t ON t.oid = f.atttypid
+    LEFT JOIN pg_attrdef d ON d.adrelid = c.oid AND d.adnum = f.attnum
+    LEFT JOIN pg_namespace n ON n.oid = c.relnamespace
+    LEFT JOIN pg_constraint p ON p.conrelid = c.oid AND f.attnum = ANY (p.conkey)
+    LEFT JOIN pg_class AS g ON p.confrelid = g.oid
+    LEFT JOIN INFORMATION_SCHEMA.COLUMNS s ON s.column_name=f.attname AND c.relname=s.table_name
+WHERE c.relkind = 'r'::char AND c.relname = $1 AND s.table_schema = $2 AND f.attnum > 0 ORDER BY f.attnum;[language public]
+[xorm] [info]  2018/04/12 13:53:37.574032 [sql]SELECT indexname, indexdef FROM pg_indexes WHERE schemaname=$1 AND tablename=$2[public language]
+[xorm] [info]  2018/04/12 13:53:41.162382 [sql] SELECT "code", "descr" FROM "language" - took: 512.845µs
+[xorm] [info]  2018/04/12 13:53:41.291686 [sql] SELECT "code", "descr" FROM "language" - took: 300.661µs
+[xorm] [info]  2018/04/12 13:53:49.065108 [sql] SELECT "id", "username", "password", "nickname", "agent", "agentgrade", "currencycode", "balance", "credit", "nowbalance", "btccoin", "ethcoin", "ltbcoin", "online", "loginstatus", "odds", "status", "created", "updated" FROM "users" WHERE "username" = $1 LIMIT 1 [args] [admind] - took: 848.602µs

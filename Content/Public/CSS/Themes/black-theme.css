@@ -1,0 +1,686 @@
+
+body { background:#232323;color:#ffffff;}
+body a { color:#ffffff; text-decoration:none;}
+body #page-holder  { background:url(../../../Contents/Star/images/Themes/Black/page-bg.png); border-bottom:1px solid #4e4c4d; min-height:590px; box-shadow:1px 1px 3px rgba(0,0,0,.3);}
+#page-holder #HeadContainer { height:91px; background:url(../../images/Themes/Black/orange-divider.png) repeat-x; }
+
+#bgno #HeadContainer { height:91px; background:url(../../images/Themes/Black/orange-divider.png) repeat-x; }
+body #bgno  { background:url(../../images/Themes/Black/page-bg.png); border-bottom:1px solid #4e4c4d; min-height:590px; box-shadow:1px 1px 3px rgba(0,0,0,.3); }
+
+#header .balance { background:url(../../Images/common/big-btn-icon.png) no-repeat center right 5px; background:url(../../Images/common/big-btn-icon.png?v=489) no-repeat center right 5px; background:url(../../Images/common/big-btn-icon.png?v=489) no-repeat center right\9; }
+.selector > a {
+	background: url(../../images/Themes/Black/select-arrow.png) no-repeat scroll right top transparent;
+	padding: 0 25px 0 3px;
+}
+
+#footer {
+	background:url(../../images/Themes/Black/footer-shadow.png) top center no-repeat; color: #707071;
+}
+#header .nav {
+}
+#header .nav a {
+	color:black;
+}
+#header .member-login {
+	border-color:#61625d;
+	background-color:#777777;
+}
+
+#header .member-login ul .works.bnr {
+ background: url("../../images/Themes/Black/button-bg.png") repeat-x scroll 0 0 transparent;
+ overflow: hidden;
+ border: 1px solid #333333;
+ border-radius: 2px;
+}
+#header .time-wrapper {
+	color:#ffffff;
+}
+#header .member-login ul#preLogin .works a.bnr, #header .bottom-half .site-info-options li, .sub-nav #selGames,.main-contents .btn_submit, .btn-fields {
+	background:url(../../images/Themes/Black/button-bg.png) repeat-x;
+	border-color:#161616;
+	color:#ffffff;
+}
+.main-contents .btn_submit:hover {
+	color:#ff9200;
+}
+#header #txtName, #header #txtNameMask, #header #txtPass, #header #txtPassMask {
+	border-color:#484848;
+	color:#505050;
+}
+#header .bottom-half .site-info-options li a ,.btn-fields a{ color:#f0f0f0;}
+#header .bottom-half .site-info-options li ul li a { color:#f0f0f0;}
+.sub-nav {
+	background:url(../../images/Themes/Black/sub-menu-bg.png) repeat-x top left #e2e2e2;
+	border-bottom:1px solid #a9a9a9;
+}
+
+.sub-nav-list a.home { background: url(../../images/Themes/Black/icon_sprites.png) no-repeat scroll -150px -31px transparent; }
+.sub-nav-list a.home-alt { background: url(../../images/Themes/Black/icon_sprites.png) no-repeat scroll -150px -6px transparent; }
+.sub-nav-list a.home-alt:hover { background: url(../../images/Themes/Black/icon_sprites.png) no-repeat scroll -150px -31px transparent; }
+
+#footer #footer-text li { border-color:#b0b0b0;}
+#footer .footer-links {border-color:#484848;}
+#footer #footer-links, #footer .address { border-color:#484848;}
+#footer .footer-links a ,#footer .address a{ color: #707071;}
+#footer .major-partners .bwec { background-position:0 -92px;}
+#footer .major-partners .liverpool { background-position:-60px -92px;}
+#footer .major-partners .mcfc { background-position:-134px -1px;}
+/*security-and-trust*/
+#footer .security-and-trust .iom { background-position:0 -37px; }
+#footer .security-and-trust .tst { background-position:-53px -37px;}
+#footer .security-and-trust .tawte { background-position:-112px -37px;}
+#footer .icra { background-position:-207px -37px;}
+/*responsible-gaming*/
+#footer .responsible-gaming .resgame { background-position:-316px -34px;}
+#footer .responsible-gaming .gamcare { background-position:-345px -34px;}
+#footer .responsible-gaming .gambleaware {background-position:-380px -34px;}
+/*payment-methods*/
+#footer .payment-methods .guoneiyinhang { background-position:-540px -34px;}
+#footer .payment-methods .neteller { background-position:-635px -34px; }
+#footer .payment-methods .moneybookers { background-position:-703px -34px;}
+#footer .payment-methods .visa { background-position:-755px -34px;}
+#footer .payment-methods .mastercard { background-position:-802px -34px;}
+#footer .payment-methods .entropay { background-position:-847px -34px;}
+#footer .payment-methods .skrill { background-position:-1052px -34px;}
+#footer .payment-methods .chinadebit { background-position:-1144px -34px;}
+#footer .payment-methods .lbt { background-position:-917px -34px;}
+#footer .payment-methods .cbt { background-position:-983px -34px;}
+/* social-media */
+#footer .social-media .weibo { background-position:-263px -75px;}
+#footer .social-media .qq { background-position:-299px -75px;}
+#footer .social-media .t163 { background-position:-335px -75px;}
+#footer .social-media .sohu { background-position:-365px -75px;}
+#footer .social-media .facebook { background-position:-81px -110px;}
+#footer .social-media .facebookuk { background-position:-117px -110px;}
+#footer .social-media .twitter { background-position:-226px -110px;}
+#footer .social-media .youtube { background-position:-155px -110px;}
+
+.widget {
+	background:url(../../images/Themes/Black/widget-titlebar-bg.png);
+}
+.widget-minmax-button {
+	background:url(../../images/Themes/Black/close-button.png) no-repeat;
+}
+.menuitems {
+	background:#FFFFFF;
+	border:1px solid #c8c8c8;
+}
+.right-minor-panel {
+	background:Bisque;
+	color:black;
+}
+.site-info-options p {
+	color:black;
+}
+.casino-banner-a {
+	text-align:right;
+	background:#ffffff;
+}
+
+
+
+.subnav {
+	display: none;
+	position:absolute;
+}
+.topnav > li {
+	display: inline-block;
+	vertical-align: top;
+	position:relative;
+}
+.retail-banner-slit {
+	background:url(../../images/Themes/Black/slit-bright.png) no-repeat;
+}
+.anitem, .anitem a {
+	color:#ffffff;
+}
+.casino-games-list-top {
+	background:url(../../images/Themes/Black/paper-border-top.png) top left repeat-x;
+}
+.casino-games-list-bottom {
+	background:url(../../images/Themes/Black/paper-border-bottom.png) bottom left repeat-x;
+}
+.casino-games-list-left {
+	background:url(../../images/Themes/Black/paper-border-left.png) top left repeat-y;
+}
+.casino-games-list-right {
+	background:url(../../images/Themes/Black/paper-border-right.png) top right repeat-y;
+}
+.casino-games-list-corner-ul {
+	background:url(../../images/Themes/Black/slit-uleft.png) top left no-repeat;
+}
+.casino-games-list-corner-ur {
+	background:url(../../images/Themes/Black/slit-uright.png) top right no-repeat;
+}
+.casino-games-list-corner-bl {
+	background:url(../../images/Themes/Black/slit-bleft.png) bottom left no-repeat;
+}
+.casino-games-list-corner-br {
+	background:url(../../images/Themes/Black/slit-bright.png) bottom right no-repeat;
+}
+
+/* Modify this attritube to match the poker page tournament information
+from ART's css */
+.ui-state-default { border: 1px solid #333333; border-bottom: none; }
+
+ .game-categories li a { color:#bbbbbb; }
+
+li.ui-tabs-active {
+	padding-bottom: 4px;
+}
+
+/*UAT-364*/
+.casino .list-group { background:url(../../Images/Themes/Black/prog-jp-list-bg.png) 0 0 no-repeat;}
+.zh-cn.casino .list-group { background:url(../../images/Themes/Black/prog-jp-list-bg-zh-cn.png) -1px 0 no-repeat;}
+.id-id.casino .list-group { background:url(../../images/Themes/Black/prog-jp-list-bg-id-id.png) -1px 0 no-repeat;}
+.ko-kr.casino .list-group { background:url(../../images/Themes/Black/prog-jp-list-bg-ko-kr.png) -1px 0 no-repeat;}
+.th-th.casino .list-group { background:url(../../images/Themes/Black/prog-jp-list-bg-th-th.png) -1px 0 no-repeat;}
+.vi-vn.casino .list-group { background:url(../../images/Themes/Black/prog-jp-list-bg-vi-vn.png) -1px 0 no-repeat;}
+.anitem {color:000;}
+.anitem a:hover {color:#ff9200;}
+.li-title, .li-jackpot {text-shadow:1px 1px #333333;}
+.featured-jp .li-jackpot {color:#ff9200;text-shadow:1px 1px #333333;}
+
+/*.casino .anitem { background:url(../../images/Themes/Black/prog-jp-list-bg.png) repeat-x;}*/
+.casino .casino-games-list-top { background:url(../../images/Themes/Black/paper-border-top.png) top left repeat-x; }
+.casino .casino-games-list-bottom { background:url(../../images/Themes/Black/paper-border-bottom.png) bottom left repeat-x;}
+.casino .casino-games-list-left { background:url(../../images/Themes/Black/paper-border-left.png) top left repeat-y;}
+.casino .casino-games-list-right { background:url(../../images/Themes/Black/paper-border-right.png) top right repeat-y; }
+.casino .slit-corner-ul { background:url(../../images/Themes/Black/slit-uleft.png) top left no-repeat; }
+.casino .slit-corner-ur { background:url(../../images/Themes/Black/slit-uright.png) top right no-repeat;}
+.casino .slit-corner-bl { background:url(../../images/Themes/Black/slit-bleft.png) bottom left no-repeat;}
+.casino .slit-corner-br { background:url(../../images/Themes/Black/slit-bright.png) bottom right no-repeat;}
+.live .slit-corner-ul { background:url(../../images/Themes/Black/slit-uleft.png) top left no-repeat; }
+.live .slit-corner-ur { background:url(../../images/Themes/Black/slit-uright.png) top right no-repeat;}
+.live .slit-corner-bl { background:url(../../images/Themes/Black/slit-bleft.png) bottom left no-repeat;}
+.live .slit-corner-br { background:url(../../images/Themes/Black/slit-bright.png) bottom right no-repeat;}
+.live-uk .slit-corner-ul { background:url(../../images/Themes/Black/slit-uleft.png) top left no-repeat; }
+
+
+.game-categories li {
+	background:url(../../images/Themes/Black/button-bg.png) repeat-x scroll 0 0 transparent;
+	border:1px solid #333333;
+	border-bottom:none;
+}
+
+li.ui-tabs-active {
+	background:url(../../images/Themes/Black/button-bg.png) repeat-x 0 -300px;
+}
+.ui-tabs-active a { color:#ffffff;}
+.search-topics-wrapper {
+	float:right;
+	padding:3px 5px;
+	background-color:#787878;
+	}
+
+[type="button"] {
+background:url("../../images/Themes/Black/button-bg.png") repeat-x scroll 0 0 transparent;
+color:#FFFFFF;
+font-weight:700;
+font-size:12px;
+}
+
+.retail-banner-img-bg {
+  background :url(../../Images/Themes/Black/bnr-bdr-bg.png) no-repeat;
+}
+/* Casino Section */
+.casino-game-item {
+	border:1px solid #121212;
+	}
+	
+.casino-game-item .game-title {
+ background: url(../../images/Themes/Black/button-bg.png) repeat scroll 0 -200px transparent;
+}
+
+.ui-tabs-active a {
+	color:#ff9200;
+	}
+
+.dropmenu ul li {
+        background: url(../../images/themes/black/button-bg.png) 0 -100px repeat-x;
+}
+
+[type="button"], .rc-input-btn input , .ui-dialog .ui-button,.ui-deposit-dialog-titlebar .ui-deposit-dialog-titlebar-close {
+background:url("../../Images/Themes/Black/button-bg.png") repeat-x scroll 0 0 transparent;
+color:#FFFFFF;
+}
+
+.rc-input-btn {
+background: url("../../Images/Themes/Black/round-corner-buttons.png") no-repeat scroll left -75px transparent;
+display:inline-block;
+
+	}
+	
+.rc-input-btn [type="button"] {
+	background: url("../../Images/Themes/Black/round-corner-buttons.png") no-repeat scroll right -99px transparent;
+	border:none;
+	line-height:21px;
+	padding:0 5px;
+	}
+
+
+.mobile-ready-notice { background:#535353; border:1px solid #333333; }
+
+#gameFooter { background: url(../../Images/Themes/Black/gamelobby-foot-bg.png) repeat-x;}
+body.gamelobby #header { background: url(../../images/Themes/Black/page-bg.png) repeat scroll 0 0 transparent;}
+.button-icons.favorite:hover,.button-icons.favorite.selected { background:url(../../Images/Themes/Black/icon-buttons.png) 0 0; }
+.button-icons.favorite { background:url(../../Images/Themes/Black/icon-buttons.png) 0 -21px; }
+
+/* Modal Dialog Box */
+.ui-dialog { border:1px solid #111111; }
+.ui-dialog-titlebar { background:url(../../Images/Themes/Black/tb-modal.png) repeat-x; border-bottom:1px solid #111111; }
+.ui-dialog-titlebar .ui-dialog-titlebar-close {  background:url(../../images/common/sml-icons.png) -2px -102px no-repeat; color: #FFFFFF; }	
+.ui-icon-circle-check.icon-alert,.ui-icon-circle-check.icon-confirm { background:url(../../Images/Common/icon_attention.gif) no-repeat; }
+.ui-icon-circle-check.ui-icon.icon-info {background:url(../../Images/Common/icon_info.gif) no-repeat;background-position-x: 4px; }
+
+/* To make Poker tournament info to match the MOCK UP page */
+.ui-tabs-active a { color: #ffffff; } 
+.ui-state-default a:hover { color: #ff9200; }
+
+/* Mobile footer shadow*/
+.footer-shadow {
+	background:url(../../Images/Themes/Black/footer-shadow.png) top center repeat-x;
+	color:#707071;
+}
+
+/* info-centre/contact-us */
+.rc-left, .rc-right, .rc-left2, .rc-right2, .rc-left3, .rc-right3 {
+	background:url(../../Images/Themes/Black/round-corner-buttons.png) no-repeat top left;
+	display: block;
+} 
+.rc-right {
+	background-position: right -25px;
+	display: block;
+	padding: 0 9px 0 5px;
+}
+/* info-centre/promotions */
+.spr-search { background-color: #444444;}
+/*Static page*/
+#c ul {
+	margin-left: 10px;
+	padding: 0;
+	margin-bottom: 10px;
+	list-style: disc;
+}
+#c ul li {
+margin-left: 40px;
+}
+
+/* Product Maintenance */
+body .maintain-frame .image-border {
+	background-color:#444444 !important;
+	}
+	
+body .maintain-frame .banner-image {
+	border-color:#333333 !important;
+	}
+	
+.maintain-frame .hd-ttl,.maintain .sub-hd {
+	color:#ff9200;
+	}
+.maintain-frame .hd-ttl {
+	border-bottom:1px solid #4a4a4a;
+}
+	
+.maintain-frame h3.sub-ttl {
+	border-color:#4a4a4a;
+	}
+	
+.maintain-frame .time-est-cd {
+	color:#ff9200;
+	}
+	
+/* Main Maintenance page for live casino*/
+body .maintain .image-border {background-color:#444444 !important;}
+body .maintain .banner-image {border-color:#333333 !important;}
+.maintain .msg-bar{background:url(../../images/Themes/Black/page-bg.png);border-bottom:1px solid #4e4c4d;}
+.maintain .hd-ttl,.maintain .sub-hd {color:#ff9200;}
+.maintain .hd-ttl {border-bottom:1px solid #4a4a4a;}
+
+/* Poker Tournament Page */
+.tourney-list-pane h4 {
+	border-color:#333333;
+	background:url(../../Images/Themes/Black/pkr-hdr-01.png) repeat-x;
+	}
+	
+.tourney-list-pane .tourney-categories li {
+	line-height:28px;
+	}
+	
+.tourney-list-pane .heading {
+	line-height:24px;
+	height: 28px;
+	}
+	
+.tourney-list-pane .grid-row {
+	background:#ffffff;
+	color:#333333;
+	line-height:19px;
+	}
+	
+.tourney-list-pane .tourney-page-wrap {
+	background-color:#cbcbcb;
+	border:1px solid #333333;
+	border-top:0;
+	}
+	
+.tourney-list-pane .ui-tabs-nav {
+	background-color:#333333;
+	}
+
+/* Datepicker */
+.ui-datepicker { background: #535353;border: 1px solid #333333; }
+.ui-datepicker .ui-datepicker-header {background: url(../../Images/Themes/Black/casino-title-bar.gif) repeat-x #393939;border: 1px solid #333333;}
+.ui-datepicker .ui-icon {background-image: url(../../Images/Themes/Black/ui-icons-black.png);text-indent: -99999px;overflow: hidden;background-repeat: no-repeat;width: 16px;height: 16px;}
+.ui-datepicker .ui-datepicker-prev .ui-icon {background-position: -80px -192px;}
+.ui-datepicker .ui-datepicker-next .ui-icon{background-position: -48px -192px;}
+.ui-datepicker-calendar .ui-state-default {background-image: none;border: 1px solid #6f6f6f;}
+.ui-datepicker th {background: none;color: #ffffff;}
+.ui-datepicker-unselectable.ui-state-disabled span {display: block;color: #6f6f6f;border-color: #5b5b5b;}
+.ui-datepicker-today a {background-color: #6f6f6f;color: #434343;}
+.ui-datepicker-today a:hover {color: #ff9200;}
+
+/* statement */
+.print-link, .search-labels.dp-blok .submit-btn {
+	background: url(../../Images/Themes/Black/round-corner-buttons.png) no-repeat 0 0;
+}
+.print-link>.print, .submit-btn>.submit {
+	background: url(../../Images/Themes/Black/round-corner-buttons.png) no-repeat right -25px;
+}
+.print-link>.print, .submit-btn>.submit {
+	display: block;
+	height: 24px;
+	padding-right: 10px;
+}
+.date-range{
+    border:1px solid #494949;
+	border-width:1px 0;
+}
+.disp-date-range-txt{
+	color: #ff9200;
+}
+.dt-pk-bar {
+	background: url(../../images/Themes/Black/statement-bg.png) 0 -75px repeat-x;
+	border:1px solid #333333;
+	border-bottom:0;
+}
+.dt-pk-bar ul li {
+	border-right: 1px solid #333333;
+}
+.search-labels ul li a {
+	color: #bbbbbb;
+}
+.dt-pk-bar ul li a.active {
+	background: url(../../Images/Themes/Black/statement-bg.png) repeat-x;
+	color: #ffffff;
+}
+table.st {
+	border-width: 0 1px 1px 1px;
+}
+table.st tbody {
+	background: #ffffff;
+	color: #000000;
+}
+.data-container { border:1px solid #333333;}
+.data-container>.data-title {
+	background: url(../../Images/Themes/Black/statement-bg.png) 0 -151px repeat-x;
+	border-bottom:1px solid #333333;
+}
+.data-container>.data-title a{
+	background: url(../../images/Themes/Black/statement-bg.png) no-repeat 0 -300px;
+	padding: 0 0 0 26px;
+	border-top: none;
+	display:inline-block;
+	height:23px;
+	cursor:pointer;
+}
+.data-container>.data-title a:hover {
+	color:#ffffff;
+	background-position:0 -323px;
+}
+.data-container>.data-title.collapsed a{
+	background: url(../../images/Themes/Black/statement-bg.png) no-repeat 0 -346px;
+}
+.data-container>.data-title.collapsed a:hover{
+	background: url(../../images/Themes/Black/statement-bg.png) no-repeat 0 -369px;
+}
+.st-hdr th:first-child{ border-left:0;}
+.st-hdr>th{
+	background: url(../../images/Themes/Black/statement-bg.png) repeat-x #393939;
+	border: 1px solid #333333;
+	border-width:0 0 0 1px;
+	color: #ffffff;
+}
+.tac {border-left:0;}
+table.st tbody td {
+	border: 1px solid #333333;
+}
+.st-tl th {
+	border: 1px solid #333333;
+	border-width: 0 1px 1px 0px;
+	background: #6f6f6f;
+	color: #ffffff;
+}
+.st tr:hover {
+background: #dddddd;
+}
+table.st tbody a{
+	color: #000000;
+}
+table.st tbody a:hover{
+	color: #ff9200;
+}
+
+/* Jquery-UI dialog */
+
+.ui-deposit-dialog .ui-deposit-dialog-titlebar {
+	background: url(../../Images/Themes/Black/tb-modal.png) repeat-x;
+	border-bottom: 1px solid #111111;
+}
+.ui-deposit-dialog-title-r-close .dialogClose {
+    background:url(../../images/common/sml-icons.png) -2px -102px no-repeat;
+}
+.ui-deposit-dialog-buttonpane .ui-deposit-dialog-button-close{
+     background:url(../../images/common/sml-icons.png) -2px -102px no-repeat;
+    color: #FFFFFF;
+}
+
+/* Switch Region */
+.ud-arw {
+background: url(../../Images/Common/btn_dd_arrow.png) 0 1px no-repeat;
+}
+
+/*
+.ui-datepicker .ui-datepicker-unselectable.ui-state-disabled {background-color:#FF9200;}
+.ui-datepicker .ui-datepicker-other-month.ui-datepicker-unselectable.ui-state-disabled{background-color:#FFF;}
+*/
+
+/***
+Sitemap
+***/
+
+/***
+Sitemap
+***/
+
+#site-map h2 {
+	color:#ff9200;
+	}
+	
+#site-map h3 {
+	/*background:url(../Images/Themes/Black/sp-tbl-hd-bg.png?v=192) repeat-x #5f5f5f;*/
+	border-color:#494949;
+	color:#ff9200;
+	}
+#site-map .sm-list ul li{
+    font-style: italic;
+    }
+
+#site-map hr, #site-map .clear-sp {
+	border-color:#494949;
+	}
+	
+#site-map .sm-list ul strong {
+	color:#ff9200;
+	}
+	
+#site-map .sm-list ul li a {
+	color:#ffffff;
+	font-style:normal;
+	}
+	
+#site-map .sm-list ul li a:hover {
+	text-decoration:underline;
+	color:#ff9200;
+	}
+	
+span.b, ol.numlist {
+	color:#ff9200;
+	}
+	
+body #site-map ul {list-style:url(../../Images/themes/black/img_bullets.gif)}
+	
+ol.numlist span.b~p, ol.numlist span.b~ul, ol.numlist span.b~ol  {
+	color:#ffffff;
+	}
+	
+.bnr-tt {
+    background: none repeat scroll 0 0 #535353;
+    border: 1px solid #333333;
+	color:#ffffff;
+	}
+	
+.bnr-tt .inner-border {
+	border-top:1px solid #6F6F6F;
+	}
+	
+.bnr-tt .inner-border .up-arrow {
+	background:url(../../Images/Themes/black/speech-arrow.png?v=192) no-repeat scroll 0 0 transparent;
+	}
+
+/*** Widgets & Nano***/
+#w-blok .ui-tabs-active a {color: #FF9200;}
+#w-blok .nano-blok {border: 1px solid #333333;}
+#w-blok .w-hd-r1 {background: url("../../images/common/w-hdng-bg.png") no-repeat scroll 0 0 transparent;border-color: #333333;color: white;}
+#w-blok .btn-toggle {background: url("../../images/common/btn-bg-sprite.png") repeat-x scroll 0 -150px #383838;border-color: #333333;}
+#w-blok .btn-refresh {background: url("../../images/common/btn_refresh.png") no-repeat scroll 0 0 transparent;border-color: #333333;}
+#w-blok .w-hd-r1 .btn-toggle .toggle-arrow {background: url("../../images/common/btn_toggle01_arrow.png") no-repeat scroll 0 0 transparent;}
+#w-blok .w-hd-r1 .btn-toggle.expand .toggle-arrow { background: url("../../images/common/btn_toggle01_arrow.png") no-repeat scroll -38px 0 transparent;}
+#w-blok .icon-info {background: url("../../images/common/icon_sprites.png") repeat scroll 0 -15px transparent;}
+#w-blok .nano-spacer {background-color: #2B2B2B;}
+#w-blok .nano-tabs .ui-tabs-nav li.ui-tabs-active.ui-state-active a {border-color: #8B8B8B;}
+#w-blok .nano-tabs .ui-tabs-nav li a {border-color: #2B2B2B;}
+#w-blok .nano-tab-bottom {background-color: #686868;border-bottom: 1px solid #2B2B2B;}
+#w-blok .nano-play-status {background: none repeat scroll 0 0 #FFFFFF;border-top: 1px solid #888888;}
+#w-blok .nano-play-status {color: #FF9200;}
+#w-blok .ui-state-default {background: url("../../images/Themes/Black/button-bg.png") repeat-x scroll 0 0 transparent;}
+#w-blok .ui-tabs-active a {color: #FFFFFF;}
+#w-blok .nano-tabs .ui-tabs-nav li a { border-color: #2B2B2B;}
+#w-blok .nano-play-status {background: url("../../images/Themes/Black/nano-status-bar.png") repeat-x scroll 0 0 transparent;color: #FF9200;}
+#w-blok li.ui-tabs-active { background: url("../../Images/Themes/Black/button-alt-bg.png") repeat-x scroll 0 0 transparent;}
+#w-blok .ui-state-default a:hover { color: #ff9200; }
+#w-blok .btn-orange-l {background-image:none;}
+#w-blok .btn-orange-r { background: url("../../Images/Common/btn-orange.png") repeat-x scroll center -1px transparent; border:1px solid #333333;}
+
+/*Financial*/
+.game-view {background-image:url(../../images/Themes/Black/icon-buttons.png);}
+
+/* MyAccount Announcement page */
+body.static .tbl-style-03 .tabletit td, body.myAccount .tbl-style-03 .tbl-hdr td{
+    background: url("../../Images/Themes/Black/sp-tbl-hd-bg.png") repeat-x scroll 0 0 #5F5F5F;
+    border-color: #333333;
+    color: #FFFFFF;
+}
+body.static .tbl-style-03 td, body.myAccount .tbl-style-03 td{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #A2A2A2;
+    color: #000000;
+}
+
+.poker .grid-row {border:1px solid #000000;	border-bottom:0;color:#333333}
+.poker .tourney-list-pane .tourney-tab-footer {border-top:1px solid #000000;}
+.poker .tourney-categories li.ui-tabs-active {background-image: url(../../Images/Themes/Black/tabs-bg.png);background-position:0 0;}
+.poker .tourney-list-pane .tourney-categories li.ui-tabs-active {background-position:0 -25px;}
+body.poker .tourney-tab-footer {background:url("../../Images/Poker/color-strips-sprite.png") repeat-x scroll 0 -200px transparent; }
+body.poker .dropdown-list.page { background:url("../../Images/Poker/color-strips-sprite.png") repeat-x scroll 0 -600px transparent; border-left:1px solid #000000; }
+body.poker .ddl-txt { border-right:1px solid #000000; }	
+body.poker .ddl-arrow { border-left:1px solid #6a6967; background:url("../../images/Themes/Black/select-arrow.png?v=192") no-repeat -2px 1px; }
+body.poker .tourney-box .heading {background-position: 0 -650px;}
+body.poker .dropmenu ul.pagination li a {background: url("../../images/common/dropdown_bg.png") repeat-x 0 0;color:#ffffff;border-color:#000000;}
+body.poker .dropmenu ul.pagination li a:hover {background: url("../../images/common/dropdown_bg.png") repeat-x 0 0;color:#ff9c00;border-color:#000000;}
+
+.poker-tournaments .grid-row {border:1px solid #000000;	border-bottom:0;color:#333333}
+.poker-tournaments .tourney-list-pane .tourney-tab-footer {border-top:1px solid #000000;}
+.poker-tournaments .tourney-categories li.ui-tabs-active {background-image: url(../../Images/Themes/Black/tabs-bg.png);background-position:0 0;}
+.poker-tournaments .tourney-list-pane .tourney-categories li.ui-tabs-active {background-position:0 -25px;}
+
+/* Poker Tournament Pagination */
+body.poker-tournaments .tourney-tab-footer {background:url("../../Images/Poker/color-strips-sprite.png") repeat-x scroll 0 -200px transparent; }
+body.poker-tournaments .dropdown-list.page { background:url("../../Images/Poker/color-strips-sprite.png") repeat-x scroll 0 -600px transparent; border-left:1px solid #000000; }
+body.poker-tournaments .ddl-txt { border-right:1px solid #000000; }	
+body.poker-tournaments .ddl-arrow { border-left:1px solid #6a6967; background:url("../../images/Themes/Black/select-arrow.png?v=192") no-repeat -2px 1px; }
+body.poker-tournaments .tourney-box .heading {background-position: 0 -650px;}
+body.poker-tournaments .dropmenu ul.pagination li a {background: url("../../images/common/dropdown_bg.png") repeat-x 0 0;color:#ffffff;border-color:#000000;}
+body.poker-tournaments .dropmenu ul.pagination li a:hover {background: url("../../images/common/dropdown_bg.png") repeat-x 0 0;color:#ff9c00;border-color:#000000;}
+
+.more-matches-box {
+	background-image:url(../../images/themes/black/tabs-bg.png);
+	background-position:0 -154px;
+	border:1px solid #000000;
+	}
+.more-matches-box a {
+	color:#333333;
+	}
+	
+.more-matches-box a:hover {
+	color:#ff5400;
+}
+.ui-tabs-active .ui-tabs-anchor .selected-marker {
+	background: url(../../Images/Themes/Black/icon-buttons.png) center -84px no-repeat;
+}
+
+/* Registration */
+.registration .r-err-msg { color: #DDDDDD;}
+.tooltip-arr-c {
+background: url(../../Images/Themes/Black/speech-arrow.png) no-repeat scroll -7px -1px transparent; width: 8px; }
+body.user.register a.btn_submit:hover {background-position:0 -300px; color:#ffffff;}
+
+/*Static*/
+.stlnt tr.tabletit { background-color: #333333; height: 30px; text-align: center; font-weight: bold; }
+.stlnt tr.tabletit:first-child{border: 1px solid #3D3D3D;}
+.stlnt tr.tabletit th{ padding: 2px 20px 2px 20px;  }
+.stlnt tr.tabletit td {vertical-align:middle;}
+.stlnt tr.tabledetail { background-color: #4c4c4c; height: 30px; text-align: left; }
+.stlnt tr td { padding-left: 7px; padding-right: 7px; border:1px solid #666666 ; vertical-align:middle;}
+.stlnt tr.tabledetail td {vertical-align:middle; text-align:center;}
+
+.stlnt .sub {font-size:18px; font-weight:bold; color: #ff9200;}
+.stlnt .org {color:#ff9200; border: 1px solid #494949; font-weight:bold; border-left: none; border-right:none}
+.stlnt ul {list-style:disc}
+
+.stlnt tr.tabletit { background-color: #333333; height: 30px; text-align: center; font-weight: bold; }
+.stlnt tr.tabletit:first-child{border: 1px solid #3D3D3D;}
+.stlnt tr.tabletit th{ padding: 2px 20px 2px 20px;  }
+.stlnt tr.tabletit td {vertical-align:middle;}
+.stlnt tr.tabledetail { background-color: #4c4c4c; height: 30px; text-align: left; }
+.stlnt tr td { padding-left: 7px; padding-right: 7px; border:1px solid #666666;vertical-align:middle; }
+.stlnt tr.tabledetail td {vertical-align:middle; text-align:center;}
+.stlnt tr.tabletit { background-color: #333333; height: 30px; text-align: center; font-weight: bold; color:#ffffff; }
+.stlnt tr.tabletit:first-child{border: 1px solid #3D3D3D;}
+.stlnt tr.tabletit th{ padding: 2px 20px 2px 20px;  }
+.stlnt tr.tabletit td {vertical-align:middle;}
+.stlnt tr.tabledetail { background-color: #4c4c4c; height: 30px; text-align: left; color:#ffffff; }
+.stlnt tr td { padding-left: 7px; padding-right: 7px; border:1px solid #666666;vertical-align:middle; }
+.stlnt .sub {font-size:18px; font-weight:bold; color: #ff5400;}
+.stlnt .org {color:#ff5400; border: 1px solid #bebebe; font-weight:bold; border-left: none; border-right:none}
+.stlnt ul {list-style:disc;}
+
+.banner-uk .image-border {background-color: #737069}
+.banner-uk .banner-image {border: 1px solid #000000}
+
+
+.btnStyle
+{
+    line-height: 24px;
+    color: rgb(204, 204, 204);
+}

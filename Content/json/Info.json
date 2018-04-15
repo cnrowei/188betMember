@@ -1,0 +1,51 @@
+{
+    "TotalMember": 20,
+    "CurrMonthImpression": 0,
+    "CurrMonthClick": 2,
+    "CurrMonthNewSignup": 0,
+    "CurrMonthNewSignupDeposit": 0,
+    "CurrMonthActivePlayer": 6,
+    "Currency": "RMB",
+    "CommissionList": [{
+        "Month": " 3月 2018",
+        "Commission": 0.0
+    }, {
+        "Month": " 2月 2018",
+        "Commission": 0.0
+    }, {
+        "Month": " 1月 2018",
+        "Commission": 0.0
+    }, {
+        "Month": " 12月 2017",
+        "Commission": 0.0
+    }],
+    "ProductList": [{
+        "Code": "Asia Gaming",
+        "Name": "Asia Gaming",
+        "Revenue": 0.0,
+        "Turnover": 0.0,
+        "ActivePlayer": 0,
+        "TotalBets": 0
+    }, {
+        "Code": "Binary",
+        "Name": "金融",
+        "Revenue": 0.0,
+        "Turnover": 0.0,
+        "ActivePlayer": 0,
+        "TotalBets": 0
+    }, {
+        "Code": "Lotto",
+        "Name": "彩票",
+        "Revenue": -891.79999277642,
+        "Turnover": 143.9999988336,
+        "ActivePlayer": 1,
+        "TotalBets": 3
+    }],
+    "AffCode": "51741",
+    "FirstName": "昊",
+    "LastLogin": "10-04-2018 21:19:32 (GMT+8)",
+    "LastUpdated": "10-04-2018 21:40:03 (GMT+8) (估计 0 天前)",
+    "Status": 0,
+    "Message": null,
+    "Params": null
+}

@@ -1,0 +1,140 @@
+<div id="creativeView">
+    <div id="content-panel">
+        <div class="content-header">
+            <div>
+            </div>
+            <h3 class="corp-affairs">
+                <span></span><span data-bind="labelTemplate:['creative',commonLabel()]"></span>
+            </h3>
+            <div id="div-controls" class="myp-goi">
+                <ul class="st-user-info">
+                    <li class="st-label" data-bind="labelTemplate:['language',label()]"></li>
+                    <li class="r-field ellipsis">
+                        <div class="dp-wrap">
+                            <select id="creative-language-selection" data-bind="options: viewModel.languages, optionsText: 'descr', optionsValue: 'id' , value:creativeModel.language">
+                            </select>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="st-user-info">
+                    <li class="st-label" data-bind="labelTemplate:['classification',label()]"></li>
+                    <li class="r-field ellipsis">
+                        <select id="creative-classification-selection" data-bind="options: creativeModel.CollateralClassificationList, optionsText: 'Descr', optionsValue: 'Id' , value:creativeModel.classification">
+                        </select>
+                    </li>
+                </ul>
+                <ul class="st-user-info">
+                    <li class="st-label">
+                        <br />
+                        <div id="div-add-marketing-link" class="submit-btn positionRelative">
+                            <a id="add-marketing-link" href="#addMarketingModal" role="button" class="submit" data-toggle="modal" data-bind="labelTemplate:['add',label()]"></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <br />
+        <div class="clear"></div>
+
+        <div id="c" class="content data-grid" >
+            <div class="#">
+                <div class="maindiv">
+                    <div class="data-container">
+                        <div class="data-title">
+                            <a class="coll0"><strong data-bind="labelTemplate:['link',label()]"></strong></a></div>
+                            <table id="creative-link-list" border="0" cellspacing="0" cellpadding="0" class="st">
+                                <colgroup>
+                                    <col width="10px" />
+                                    <col width="20px" />
+                                    <col width="20px" />
+                                    <col width="80px" />
+                                    <col width="50px" />
+                                </colgroup>
+                                <thead>
+                                    <tr class="st-hdr" style="line-height: 100%;">
+                                        <th class="tac" data-bind="labelTemplate:['number',label()]"></th>
+                                        <th class="tac" data-bind="labelTemplate:['code',label()]"></th>
+                                        <th class="tac" data-bind="labelTemplate:['type',label()]"></th>
+                                        <th class="tac" data-bind="labelTemplate:['link',label()]"></th>
+                                        <th class="tac" data-bind="labelTemplate:['get.QR.code',label()]"></th>
+                                    </tr>
+                                </thead>
+                                <tbody data-bind="foreach:creativeModel.creativeLinkList">
+                                    <tr class="l0">
+                                        <td class="tac" data-bind="text:No"></td>
+                                        <td class="tac" data-bind="text:Code"></td>
+                                        <td class="tac" data-bind="text:Type"></td>
+                                        <td class="tac" ><a data-bind="text:LinkUrl"></a></td>
+                                        <td class="tac">
+                                            <div id="div-generate-qr" class="submit-btn positionRelative">
+                                            <a href="#" class="submit" data-bind="labelTemplate:['generate.code',$root.label()],click: generateQRCode.bind(), attr: {id: 'hpl-generate-qr-' + $index()}"></a></div>
+                                    </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="clear"></div>
+
+  
+        
+    </div>
+    <div class="clear">
+    </div>
+    <div class="clear-b">
+    </div>
+
+
+    <!-- Add Creative Modal -->
+    <div id="addMarketingModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true" hidden>
+        <div class="modal-header">
+            <b data-bind="labelTemplate:['marketing.link',label()]">
+            </b>
+        </div>
+        <div class="modal-body form-horizontal">
+            <ul class="r-user-info">
+                <li class="r-label" data-bind="labelTemplate:['code',label()]"></li>
+                <li class="r-fields">
+                    <input type="text" placeholder="" data-bind="value:creativeModel.code" />
+                </li>
+            </ul>
+        </div>
+        <div class="modal-footer">
+          
+            <span class="rc-left pull-right"><span class="rc-right"><a tabindex="-1" href="javascript:void(0);"
+                 id="addLink-cancel-btn" class="btnStyle" data-bind="labelTemplate:['cancel',label()]"></a></span>
+            </span>
+            &nbsp;
+            <span class="rc-left pull-right"><span class="rc-right"><a tabindex="-1" href="javascript:void(0);"
+                id="addLink-btn" class="btnStyle" data-bind="labelTemplate:['add',label()]"></a></span>
+            </span>
+        </div>
+    </div>
+    
+    <label id="QRTranslation" style="visibility:hidden"  data-bind="labelTemplate:['QR.code',label()]"></label>
+    
+    <!-- Get Script Modal -->
+    <div id="getScriptModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true" hidden="hidden">
+        <div class="modal-header">
+            <b data-bind="labelTemplate:['marketing.link',label()]">
+            </b>
+        </div>
+        <div class="modal-body form-horizontal">
+            <p id="generatedScript" class="span12 well" data-bind="text:creativeModel.generatedScript">
+            </p>
+            <p class="span12 text-info" data-bind="labelTemplate:['please.copy.msg',label()]">
+            </p>
+        </div>
+        <div class="modal-footer">
+        </div>
+    </div>
+
+</div>
+<!-- Core Script -->
+<script type="text/javascript" src="/Content/scripts/Member/creative.js?v=10011323"></script>

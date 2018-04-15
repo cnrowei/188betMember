@@ -1,0 +1,77 @@
+{
+    "SummaryList": [{
+        "PaymentFee": 0.0,
+        "PromotionBonus": 0.0,
+        "PlatformFee": 0.0,
+        "TotalAll": {
+            "TotalStake": 143.9999988336,
+            "TotalRev": -891.79999277642
+        },
+        "ProductList": [ {
+            "Product": "彩票",
+            "TotalStake": 143.9999988336,
+            "TotalRev": -891.79999277642
+        }],
+        "SettlementType": " 四月 2018",
+        "AffCode": "51741",
+        "AffStatus": "通过合作申请",
+        "AffType": "Affiliate",
+        "AffCountry": "CN",
+        "AffCurrency": "RMB",
+        "MemId": "14986075",
+        "MemCode": "conku1**",
+        "MemCountry": "CN",
+        "Level": 1
+    }, {
+        "PaymentFee": 198.269998394013,
+        "PromotionBonus": 143.239998839756,
+        "PlatformFee": 0.0,
+        "TotalAll": {
+            "TotalStake": 32217.4997390383,
+            "TotalRev": -683.699994462031
+        },
+        "ProductList": [{
+            "Product": "彩票",
+            "TotalStake": 0.0,
+            "TotalRev": 0.0
+        }],
+        "SettlementType": " 四月 2018",
+        "AffCode": "51741",
+        "AffStatus": "通过合作申请",
+        "AffType": "Affiliate",
+        "AffCountry": "CN",
+        "AffCurrency": "RMB",
+        "MemId": "11109386",
+        "MemCode": "mobao**",
+        "MemCountry": "CN",
+        "Level": 1
+    }],
+    "Summary": {
+        "PaymentFee": 4466.025363825193,
+        "PromotionBonus": 3678.039970207883,
+        "PlatformFee": 0.0,
+        "TotalAll": {
+            "TotalStake": 804868.2434805673,
+            "TotalRev": 40512.689671847169
+        },
+        "ProductList": [{
+            "Product": "彩票",
+            "TotalStake": 143.9999988336,
+            "TotalRev": -891.79999277642
+        }],
+        "SettlementType": "",
+        "AffCode": null,
+        "AffStatus": null,
+        "AffType": null,
+        "AffCountry": null,
+        "AffCurrency": null,
+        "MemId": null,
+        "MemCode": null,
+        "MemCountry": null,
+        "Level": 0
+    },
+    "SettlementType": null,
+    "Status": 0,
+    "Message": null,
+    "Params": null
+}

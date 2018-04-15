@@ -1,0 +1,1803 @@
+body.affiliates #page-holder {background: url("../../../Contents/STAR/images/themes/black/affiliates-bg.png")/*tpa=https://aff.oneeightyeightbet.com/Content/Contents/STAR/images/themes/black/affiliates-bg.png*//*tpa=https://aff.oneeightyeightbet.com/Content/Contents/STAR/images/themes/black/affiliates-bg.png*/;}
+/*body.km-KH #container, body.km-KH #footer {font-family:khmer;}*/
+/* ================== */
+/* HEADER */
+/* ================== */
+.affiliates #header #head-logo {width: 108px;}
+.affiliates.zh-CN #header #head-logo {width: 131px;}
+.affiliates.en #header #head-logo h1 {background: url("../../Images/Affiliates/gb-en/logo-affiliates.png")/*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Affiliates/gb-en/logo-affiliates.png*//*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Affiliates/gb-en/logo-affiliates.png*/;}
+.affiliates.ja-JP #header #head-logo h1 {background: url("../../Images/Affiliates/gb-en/logo-affiliates.png")/*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Affiliates/gb-en/logo-affiliates.png*//*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Affiliates/gb-en/logo-affiliates.png*/;}
+.affiliates.zh-CN #header #head-logo h1 {background: url("../../Images/Affiliates/cn-ch/logo-affiliates.png")/*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Affiliates/cn-ch/logo-affiliates.png*//*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Affiliates/cn-ch/logo-affiliates.png*/;}
+.affiliates.zh-TW #header #head-logo h1 {background: url("../../Images/Affiliates/cn-ch/logo-affiliates.png")/*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Affiliates/cn-ch/logo-affiliates.png*//*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Affiliates/cn-ch/logo-affiliates.png*/;}
+.affiliates.id-ID #header #head-logo h1 {background: url("../../Images/Affiliates/id-id/logo-affiliates.png")/*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Affiliates/id-id/logo-affiliates.png*//*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Affiliates/id-id/logo-affiliates.png*/;}
+.affiliates.km-KH #header #head-logo h1 {background: url("../../Images/Affiliates/kh-KH/logo-affiliates.png")/*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Affiliates/kh-KH/logo-affiliates.png*//*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Affiliates/kh-KH/logo-affiliates.png*/;}
+.affiliates.ko-KR #header #head-logo h1 {background: url("../../Images/Affiliates/kr-ko/logo-affiliates.png")/*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Affiliates/kr-ko/logo-affiliates.png*//*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Affiliates/kr-ko/logo-affiliates.png*/;}
+.affiliates.pt-BR #header #head-logo h1 {background: url("../../Images/Affiliates/pt-br/logo-affiliates.png")/*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Affiliates/pt-br/logo-affiliates.png*//*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Affiliates/pt-br/logo-affiliates.png*/;}
+.affiliates.th-TH #header #head-logo h1 {background: url("../../Images/Affiliates/th-th/logo-affiliates.png")/*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Affiliates/th-th/logo-affiliates.png*//*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Affiliates/th-th/logo-affiliates.png*/;}
+.affiliates.vi-VN #header #head-logo h1 {background: url("../../Images/Affiliates/vn-vi/logo-affiliates.png")/*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Affiliates/vn-vi/logo-affiliates.png*//*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Affiliates/vn-vi/logo-affiliates.png*/;}
+
+/* main nav */
+.affiliates #header .main-nav #main-items li a { background-image: url("../../Images/Affiliates/gb-en/header-main-nav.png")/*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Affiliates/gb-en/header-main-nav.png*//*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Affiliates/gb-en/header-main-nav.png*/;}
+.affiliates.zh-CN #header .main-nav #main-items li a { background-image: url("../../Images/Affiliates/cn-ch/header-main-nav.png")/*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Affiliates/cn-ch/header-main-nav.png*//*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Affiliates/cn-ch/header-main-nav.png*/;}
+.affiliates.zh-TW #header .main-nav #main-items li a { background-image: url("../../Images/Affiliates/cn-ch/header-main-nav.png")/*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Affiliates/cn-ch/header-main-nav.png*//*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Affiliates/cn-ch/header-main-nav.png*/;}
+.affiliates.id-ID #header .main-nav #main-items li a { background-image: url("../../Images/Affiliates/id-id/header-main-nav.png")/*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Affiliates/id-id/header-main-nav.png*//*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Affiliates/id-id/header-main-nav.png*/;}
+.affiliates.km-KH #header .main-nav #main-items li a { background-image: url("../../Images/Affiliates/kh-KH/header-main-nav.png")/*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Affiliates/kh-KH/header-main-nav.png*//*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Affiliates/kh-KH/header-main-nav.png*/;}
+.affiliates.ko-KR #header .main-nav #main-items li a { background-image: url("../../Images/Affiliates/kr-ko/header-main-nav.png")/*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Affiliates/kr-ko/header-main-nav.png*//*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Affiliates/kr-ko/header-main-nav.png*/;}
+.affiliates.pt-BR #header .main-nav #main-items li a { background-image: url("../../Images/Affiliates/pt-br/header-main-nav.png")/*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Affiliates/pt-br/header-main-nav.png*//*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Affiliates/pt-br/header-main-nav.png*/;}
+.affiliates.th-TH #header .main-nav #main-items li a { background-image: url("../../Images/Affiliates/th-th/header-main-nav.png")/*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Affiliates/th-th/header-main-nav.png*//*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Affiliates/th-th/header-main-nav.png*/;}
+.affiliates.vi-VN #header .main-nav #main-items li a { background-image: url("../../Images/Affiliates/vn-vi/header-main-nav.png")/*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Affiliates/vn-vi/header-main-nav.png*//*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Affiliates/vn-vi/header-main-nav.png*/;}
+.affiliates.ja-JP #header .main-nav #main-items li a { background-image: url("../../Images/Affiliates/ja-jp/header-main-nav.png")/*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Affiliates/ja-jp/header-main-nav.png*//*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Affiliates/ja-jp/header-main-nav.png*/;}
+
+#main-items #sign-up {float: right;}
+
+/* en */
+.affiliates #main-items #how a {width: 127px; background-position: 0 0;}
+.affiliates #main-items #plan a {width: 150px; background-position: -127px 0;}
+.affiliates #main-items #promo a {width: 111px; background-position: -277px 0;}
+.affiliates #main-items #sign-up a {width: 76px; background-position: -795px 0; }
+.affiliates #main-items #how a:hover {background-position: 0 -25px;}
+.affiliates #main-items #plan a:hover {background-position:-127px -25px;}
+.affiliates #main-items #promo a:hover {background-position: -277px -25px;}
+.affiliates #main-items #sign-up a:hover {background-position: -795px -25px; }
+.affiliates #main-items #how a.selected {background-position: 0px -50px;}
+.affiliates #main-items #plan a.selected {background-position: -127px -50px;}
+.affiliates #main-items #promo a.selected {background-position: -277px -50px;}
+.affiliates #main-items #sign-up a.selected {background-position: -795px -50px; }
+.affiliates #main-items #how.maintain a {background-position: 0 -75px;}
+.affiliates #main-items #plan.maintain a {background-position: -127px -75px;}
+.affiliates #main-items #promo.maintain a {background-position: -277px -75px;}
+.affiliates #main-items #sign-up.maintain a {background-position: -795px -75px;}
+
+/* ja-JP */
+.affiliates.ja-JP #main-items #how a {width: 127px; background-position: 0 0;}
+.affiliates.ja-JP #main-items #plan a {width: 124px; background-position: -127px 0;}
+.affiliates.ja-JP #main-items #promo a {width: 106px; background-position: -246px 0;}
+.affiliates.ja-JP #main-items #sign-up a {width: 76px; background-position: -784px 0; }
+.affiliates.ja-JP #main-items #how a:hover {background-position: 0 -25px;}
+.affiliates.ja-JP #main-items #plan a:hover {background-position:-127px -25px;}
+.affiliates.ja-JP #main-items #promo a:hover {background-position: -246px -25px;}
+.affiliates.ja-JP #main-items #sign-up a:hover {background-position: -784px -25px; }
+.affiliates.ja-JP #main-items #how a.selected {background-position: 0px -50px;}
+.affiliates.ja-JP #main-items #plan a.selected {background-position: -127px -50px;}
+.affiliates.ja-JP #main-items #promo a.selected {background-position: -246px -50px;}
+.affiliates.ja-JP #main-items #sign-up a.selected {background-position: -784px -50px; }
+.affiliates.ja-JP #main-items #how.maintain a {background-position: 0 -75px;}
+.affiliates.ja-JP #main-items #plan.maintain a {background-position: -127px -75px;}
+.affiliates.ja-JP #main-items #promo.maintain a {background-position: -246px -75px;}
+.affiliates.ja-JP #main-items #sign-up.maintain a {background-position: -784px -75px;}
+
+/* zh-CN */
+.affiliates.zh-CN #main-items #how a {width: 127px; background-position: 0 0;}
+.affiliates.zh-CN #main-items #plan a {width: 150px; background-position: -127px 0;}
+.affiliates.zh-CN #main-items #promo a {width: 111px; background-position: -277px 0;}
+.affiliates.zh-CN #main-items #sign-up a {width: 76px; background-position: -795px 0; }
+.affiliates.zh-CN #main-items #how a:hover {background-position: 0 -25px;}
+.affiliates.zh-CN #main-items #plan a:hover {background-position:-127px -25px;}
+.affiliates.zh-CN #main-items #promo a:hover {background-position: -277px -25px;}
+.affiliates.zh-CN #main-items #sign-up a:hover {background-position: -795px -25px; }
+.affiliates.zh-CN #main-items #how a.selected {background-position: 0px -50px;}
+.affiliates.zh-CN #main-items #plan a.selected {background-position: -127px -50px;}
+.affiliates.zh-CN #main-items #promo a.selected {background-position: -277px -50px;}
+.affiliates.zh-CN #main-items #sign-up a.selected {background-position: -795px -50px; }
+.affiliates.zh-CN #main-items #how.maintain a {background-position: 0 -75px;}
+.affiliates.zh-CN #main-items #plan.maintain a {background-position: -127px -75px;}
+.affiliates.zh-CN #main-items #promo.maintain a {background-position: -277px -75px;}
+.affiliates.zh-CN #main-items #sign-up.maintain a {background-position: -795px -75px;}
+
+/* zh-TW */
+.affiliates.zh-TW #main-items #how a {width: 127px; background-position: 0 0;}
+.affiliates.zh-TW #main-items #plan a {width: 150px; background-position: -127px 0;}
+.affiliates.zh-TW #main-items #promo a {width: 111px; background-position: -277px 0;}
+.affiliates.zh-TW #main-items #sign-up a {width: 76px; background-position: -795px 0; }
+.affiliates.zh-TW #main-items #how a:hover {background-position: 0 -25px;}
+.affiliates.zh-TW #main-items #plan a:hover {background-position:-127px -25px;}
+.affiliates.zh-TW #main-items #promo a:hover {background-position: -277px -25px;}
+.affiliates.zh-TW #main-items #sign-up a:hover {background-position: -795px -25px; }
+.affiliates.zh-TW #main-items #how a.selected {background-position: 0px -50px;}
+.affiliates.zh-TW #main-items #plan a.selected {background-position: -127px -50px;}
+.affiliates.zh-TW #main-items #promo a.selected {background-position: -277px -50px;}
+.affiliates.zh-TW #main-items #sign-up a.selected {background-position: -795px -50px; }
+.affiliates.zh-TW #main-items #how.maintain a {background-position: 0 -75px;}
+.affiliates.zh-TW #main-items #plan.maintain a {background-position: -127px -75px;}
+.affiliates.zh-TW #main-items #promo.maintain a {background-position: -277px -75px;}
+.affiliates.zh-TW #main-items #sign-up.maintain a {background-position: -795px -75px;}
+
+/* id-ID */
+.affiliates.id-ID #main-items #how a {width: 127px; background-position: 0 0;}
+.affiliates.id-ID #main-items #plan a {width: 176px; background-position: -127px 0;}
+.affiliates.id-ID #main-items #promo a {width: 111px; background-position: -303px 0;}
+.affiliates.id-ID #main-items #sign-up a {width: 76px; background-position: -795px 0; }
+.affiliates.id-ID #main-items #how a:hover {background-position: 0 -25px;}
+.affiliates.id-ID #main-items #plan a:hover {background-position:-127px -25px;}
+.affiliates.id-ID #main-items #promo a:hover {background-position: -303px -25px;}
+.affiliates.id-ID #main-items #sign-up a:hover {background-position: -795px -25px; }
+.affiliates.id-ID #main-items #how a.selected {background-position: 0px -50px;}
+.affiliates.id-ID #main-items #plan a.selected {background-position: -127px -50px;}
+.affiliates.id-ID #main-items #promo a.selected {background-position: -303px -50px;}
+.affiliates.id-ID #main-items #sign-up a.selected {background-position: -795px -50px; }
+.affiliates.id-ID #main-items #how.maintain a {background-position: 0 -75px;}
+.affiliates.id-ID #main-items #plan.maintain a {background-position: -127px -75px;}
+.affiliates.id-ID #main-items #promo.maintain a {background-position: -303px -75px;}
+.affiliates.id-ID #main-items #sign-up.maintain a {background-position: -795px -75px;}
+
+/* km-KH */
+.affiliates.km-KH #main-items #how a {width: 161px; background-position: 0 0;}
+.affiliates.km-KH #main-items #plan a {width: 150px; background-position: -161px 0;}
+.affiliates.km-KH #main-items #promo a {width: 124px; background-position: -311px 0;}
+.affiliates.km-KH #main-items #sign-up a {width: 76px; background-position: -795px 0; }
+.affiliates.km-KH #main-items #how a:hover {background-position: 0 -25px;}
+.affiliates.km-KH #main-items #plan a:hover {background-position:-161px -25px;}
+.affiliates.km-KH #main-items #promo a:hover {background-position: -311px -25px;}
+.affiliates.km-KH #main-items #sign-up a:hover {background-position: -795px -25px; }
+.affiliates.km-KH #main-items #how a.selected {background-position: 0px -50px;}
+.affiliates.km-KH #main-items #plan a.selected {background-position: -161px -50px;}
+.affiliates.km-KH #main-items #promo a.selected {background-position: -311px -50px;}
+.affiliates.km-KH #main-items #sign-up a.selected {background-position: -795px -50px; }
+.affiliates.km-KH #main-items #how.maintain a {background-position: 0 -75px;}
+.affiliates.km-KH #main-items #plan.maintain a {background-position: -161px -75px;}
+.affiliates.km-KH #main-items #promo.maintain a {background-position: -311px -75px;}
+.affiliates.km-KH #main-items #sign-up.maintain a {background-position: -795px -75px;}
+
+/* ko-KR */
+.affiliates.ko-KR #main-items #how a {width: 127px; background-position: 0 0;}
+.affiliates.ko-KR #main-items #plan a {width: 150px; background-position: -127px 0;}
+.affiliates.ko-KR #main-items #promo a {width: 111px; background-position: -277px 0;}
+.affiliates.ko-KR #main-items #sign-up a {width: 76px; background-position: -795px 0; }
+.affiliates.ko-KR #main-items #how a:hover {background-position: 0 -25px;}
+.affiliates.ko-KR #main-items #plan a:hover {background-position:-127px -25px;}
+.affiliates.ko-KR #main-items #promo a:hover {background-position: -277px -25px;}
+.affiliates.ko-KR #main-items #sign-up a:hover {background-position: -795px -25px; }
+.affiliates.ko-KR #main-items #how a.selected {background-position: 0px -50px;}
+.affiliates.ko-KR #main-items #plan a.selected {background-position: -127px -50px;}
+.affiliates.ko-KR #main-items #promo a.selected {background-position: -277px -50px;}
+.affiliates.ko-KR #main-items #sign-up a.selected {background-position: -795px -50px; }
+.affiliates.ko-KR #main-items #how.maintain a {background-position: 0 -75px;}
+.affiliates.ko-KR #main-items #plan.maintain a {background-position: -127px -75px;}
+.affiliates.ko-KR #main-items #promo.maintain a {background-position: -277px -75px;}
+.affiliates.ko-KR #main-items #sign-up.maintain a {background-position: -795px -75px;}
+
+/* pt-BR */
+.affiliates.pt-BR #main-items #how a {width: 161px; background-position: 0 0;}
+.affiliates.pt-BR #main-items #plan a {width: 196px; background-position: -161px 0;}
+.affiliates.pt-BR #main-items #promo a {width: 111px; background-position: -357px 0;}
+.affiliates.pt-BR #main-items #sign-up a {width: 104px; background-position: -767px 0; }
+.affiliates.pt-BR #main-items #how a:hover {background-position: 0 -25px;}
+.affiliates.pt-BR #main-items #plan a:hover {background-position:-161px -25px;}
+.affiliates.pt-BR #main-items #promo a:hover {background-position: -357px -25px;}
+.affiliates.pt-BR #main-items #sign-up a:hover {background-position: -767px -25px; }
+.affiliates.pt-BR #main-items #how a.selected {background-position: 0px -50px;}
+.affiliates.pt-BR #main-items #plan a.selected {background-position: -161px -50px;}
+.affiliates.pt-BR #main-items #promo a.selected {background-position: -357px -50px;}
+.affiliates.pt-BR #main-items #sign-up a.selected {background-position: -767px -50px; }
+.affiliates.pt-BR #main-items #how.maintain a {background-position: 0 -75px;}
+.affiliates.pt-BR #main-items #plan.maintain a {background-position: -161px -75px;}
+.affiliates.pt-BR #main-items #promo.maintain a {background-position: -277px -75px;}
+.affiliates.pt-BR #main-items #sign-up.maintain a {background-position: -767px -75px;}
+
+/* th-TH */
+.affiliates.th-TH #main-items #how a {width: 127px; background-position: 0 0;}
+.affiliates.th-TH #main-items #plan a {width: 150px; background-position: -127px 0;}
+.affiliates.th-TH #main-items #promo a {width: 111px; background-position: -277px 0;}
+.affiliates.th-TH #main-items #sign-up a {width: 105px; background-position: -766px 0; }
+.affiliates.th-TH #main-items #how a:hover {background-position: 0 -25px;}
+.affiliates.th-TH #main-items #plan a:hover {background-position:-127px -25px;}
+.affiliates.th-TH #main-items #promo a:hover {background-position: -277px -25px;}
+.affiliates.th-TH #main-items #sign-up a:hover {background-position: -766px -25px; }
+.affiliates.th-TH #main-items #how a.selected {background-position: 0px -50px;}
+.affiliates.th-TH #main-items #plan a.selected {background-position: -127px -50px;}
+.affiliates.th-TH #main-items #promo a.selected {background-position: -277px -50px;}
+.affiliates.th-TH #main-items #sign-up a.selected {background-position: -766px -50px; }
+.affiliates.th-TH #main-items #how.maintain a {background-position: 0 -75px;}
+.affiliates.th-TH #main-items #plan.maintain a {background-position: -127px -75px;}
+.affiliates.th-TH #main-items #promo.maintain a {background-position: -277px -75px;}
+.affiliates.th-TH #main-items #sign-up.maintain a {background-position: -766px -75px;}
+
+/* vi-VN */
+.affiliates.vi-VN #main-items #how a {width: 158px; background-position: 0 0;}
+.affiliates.vi-VN #main-items #plan a {width: 167px; background-position: -158px 0;}
+.affiliates.vi-VN #main-items #promo a {width: 124px; background-position: -325px 0;}
+.affiliates.vi-VN #main-items #sign-up a {width: 104px; background-position: -767px 0; }
+.affiliates.vi-VN #main-items #how a:hover {background-position: 0 -25px;}
+.affiliates.vi-VN #main-items #plan a:hover {background-position:-158px -25px;}
+.affiliates.vi-VN #main-items #promo a:hover {background-position: -325px -25px;}
+.affiliates.vi-VN #main-items #sign-up a:hover {background-position: -767px -25px; }
+.affiliates.vi-VN #main-items #how a.selected {background-position: 0px -50px;}
+.affiliates.vi-VN #main-items #plan a.selected {background-position: -158px -50px;}
+.affiliates.vi-VN #main-items #promo a.selected {background-position: -325px -50px;}
+.affiliates.vi-VN #main-items #sign-up a.selected {background-position: -767px -50px; }
+.affiliates.vi-VN #main-items #how.maintain a {background-position: 0 -75px;}
+.affiliates.vi-VN #main-items #plan.maintain a {background-position: -158px -75px;}
+.affiliates.vi-VN #main-items #promo.maintain a {background-position: -325px -75px;}
+.affiliates.vi-VN #main-items #sign-up.maintain a {background-position: -767px -75px;}
+
+
+/* ================== */
+/* FOOTER */
+/* ================== */
+#footer {padding: 30px 0;}
+#footer p {text-align: center;}
+
+
+
+#container .fixed-location { position:relative; height:399px;}
+#container #tv-screen { position:absolute; right:0px;}
+.main-advert { float:right; height:398px;overflow:hidden; text-align:right; min-width:760px; max-width:1001px;} /*width:760px;*/
+.main-side-advert { float:right; z-index:22; }
+
+.advert-wrapper {
+	border-bottom:1px solid #4d4d4d;
+	height:399px;
+}
+
+.play-now {
+	width: 178px;
+	height: 40px;
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+}
+
+
+
+/* ================== */
+/* STATIC */
+/* ================== */
+body.affiliates.corporate #page-holder {background: none;}
+body.affiliates.corporate #centercontent {position: relative;}
+
+
+
+#left-panel {
+     min-height: 300px;
+     overflow-y: auto;
+     position: absolute;
+     width: 162px;
+}
+
+.panel-top {
+     background: url("../../Images/UserContents/sidebar-bg-sprite.png")/*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/UserContents/sidebar-bg-sprite.png*//*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/UserContents/sidebar-bg-sprite.png*/ repeat-x scroll 0% 0% transparent;
+     position: relative;
+}
+
+.panel-top span {
+     background-position: 0px 0px;
+     left: 0px;
+     top: 0px;
+}
+
+.panel-top div {
+     background-position: -10px 0px;
+     right: 0px;
+     top: 0px;
+}
+
+.panel-top h2 {
+     color: #FFFFFF;
+     font-size: 1em;
+     font-weight: bold;
+     line-height: 25px;
+     margin: 0px 10px;
+     padding: 0px;
+}
+
+#submenu li a {
+     color: #E9E9E9;
+     display: block;
+     line-height: 19px;
+     padding: 0px 0px 0px 19px;
+}
+
+#submenu li a:hover {
+     color: #FF9200;
+     text-decoration: underline;
+}
+
+#submenu li a.selected {
+     color: #FF9200;
+     text-decoration: none;
+}
+
+#submenu li a.collapsible {
+     background-position: 12px -60px;
+}
+
+#submenu li ul {
+     display: none;
+}
+
+#submenu li a.maintain span.wrench {
+     left: 0px;
+     margin: 0px 3px 0px 0px;
+     position: relative;
+     top: 3px;
+}
+
+.rc-left3 {
+     display: inline-block;
+}
+
+#submenu {
+     font-size: 11px;
+}
+
+#submenu > li > a {
+     font-weight: 700;
+}
+
+#submenu li a {
+     -moz-border-bottom-colors: none;
+     -moz-border-left-colors: none;
+     -moz-border-right-colors: none;
+     -moz-border-top-colors: none;
+     background: url("../../Images/UserContents/img_bullets.gif")/*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/UserContents/img_bullets.gif*//*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/UserContents/img_bullets.gif*/ no-repeat scroll 12px 2px transparent;
+     border-color: -moz-use-text-color #333333 #333333;
+     border-image: none;
+     border-right: 1px solid #333333;
+     border-style: none solid solid;
+     border-width: medium 1px 1px;
+     padding-left: 26px;
+	 border: none;
+}
+
+#submenu li a.expandable {
+     background: url("../../Images/UserContents/img_bullets.gif")/*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/UserContents/img_bullets.gif*//*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/UserContents/img_bullets.gif*/ no-repeat scroll 12px -123px transparent;
+}
+
+#submenu li, .data-container > .data-title {
+     background: url("../../Images/UserContents/sidebar-bg-sprite.png")/*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/UserContents/sidebar-bg-sprite.png*//*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/UserContents/sidebar-bg-sprite.png*/ repeat-x scroll 0px -50px #4C4C4C;
+}
+
+#submenu li ul li a {
+     background-color: #4C4C4C ! important;
+     background-position: 17px 2px;
+     padding: 0px 0px 0px 34px;
+}
+
+#submenu li ul li a.expandable {
+     background-color: #4C4C4C ! important;
+     background-position: 17px -123px;
+}
+
+#submenu li ul li a.collapsible {
+     background-color: #4C4C4C ! important;
+     background-position: 17px -61px;
+}
+
+#submenu li ul li ul li a {
+     background-color: #4C4C4C ! important;
+     background-position: 24px 2px;
+     padding: 0px 0px 0px 41px;
+}
+
+#submenu li ul li ul li a.livecsn, #submenu li ul li ul li a.csn {
+     background-position: 17px 2px;
+     padding: 0px 0px 0px 34px;
+}
+
+#submenu li ul li ul li ul li a {
+     background-position: 39px 2px;
+     padding-left: 55px;
+}
+
+.panel-btm {
+     display: none;
+     height: 5px;
+     margin: 0px 5px;
+     position: relative;
+}
+
+.panel-btm span, .panel-btm div {
+     height: 5px;
+     position: absolute;
+     width: 5px;
+}
+
+.panel-btm span {
+     background-position: 0px 0px;
+     left: -5px;
+}
+
+.panel-btm div {
+     background-position: -5px 0px;
+     right: -5px;
+}
+
+.panel-top span, .panel-top div {
+     height: 22px;
+     position: absolute;
+     width: 10px;
+}
+
+#content-panel {
+     line-height: 24px;
+     margin: 0px 0px 0px 170px;
+     min-height: 300px;
+     min-width: 500px;
+     overflow-y: auto;
+     position: relative;
+     width: auto;
+}
+
+#content-panel ol {
+	list-style-type: decimal;
+	margin-left: 10px;
+}
+
+#content-panel ol li {
+	margin-left: 40px;
+}
+
+thead {
+	font-weight: bold;
+}
+
+.myAccount #sbkFrame, .static #sbkFrame, .live-Streaming #liveStreamingFrame {
+     height: 100%;
+     left: 0px;
+     position: absolute;
+     top: 0px;
+     width: 100%;
+     z-index: 11;
+}
+
+.my-account #content-panel {
+     height: 520px;
+}
+
+h3 {
+     color: #FF9200;
+     font-size: 18px;
+     font-weight: 700;
+     padding: 5px 0px;
+}
+
+#container {
+     overflow-y: auto;
+}
+
+#container h4 {
+     border-bottom: 1px solid #494949;
+     border-top: 1px solid #494949;
+     color: #FF9200;
+     font-size: 12px;
+     font-weight: 700;
+     line-height: 21px;
+     padding: 8px 0px;
+}
+
+.static #container h4 {
+     margin: 18px 0px;
+}
+
+#container h4.expandable {
+     background: url("../../Images/UserContents/img_bullets.gif")/*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/UserContents/img_bullets.gif*//*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/UserContents/img_bullets.gif*/ no-repeat scroll 0px -114px transparent;
+     padding-left: 15px;
+}
+
+#container h4.collapsible {
+     background: url("../../Images/UserContents/img_bullets.gif")/*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/UserContents/img_bullets.gif*//*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/UserContents/img_bullets.gif*/ no-repeat scroll 0px -51px transparent;
+     padding-left: 15px;
+}
+
+.main-article, .main-faq {
+     margin-left: 180px;
+}
+
+.main-article h2 {
+     color: #FF9200;
+     font-size: 18px;
+     font-weight: 700;
+     margin: 0px 0px 10px;
+}
+
+.main-article h3 {
+     color: #FFFFFF;
+     font-size: 12px;
+     font-weight: normal;
+}
+
+.maindiv {
+     line-height: 24px;
+     margin-bottom: 20px;
+     margin-right: 10px;
+}
+
+.w-sb {
+     padding-top: 10px;
+}
+
+.o-p p {
+     line-height: 1.5em;
+     margin: 10px 0px;
+}
+
+#geo-promotion {
+     display: none;
+}
+
+.main-article .promo-summary img {
+     float: left;
+     margin-right: 10px;
+}
+
+.main-article .promo-summary {
+     min-width: 360px;
+}
+
+.main-article .summary-text {
+     float: left;
+     line-height: 18px;
+     margin-right: 10px;
+     min-width: 340px;
+}
+
+.main-article h3.nutshell {
+     font-weight: 700;
+}
+
+.main-article .login-req {
+     color: #FF9200;
+     font-size: 11px;
+     font-style: italic;
+}
+
+.t-and-c {
+     -moz-border-bottom-colors: none;
+     -moz-border-left-colors: none;
+     -moz-border-right-colors: none;
+     -moz-border-top-colors: none;
+     border-color: #494949;
+     border-image: none;
+     border-style: solid;
+     border-width: 1px 0px;
+     line-height: 18px;
+     margin: 5px 0px 20px;
+     padding: 5px 0px;
+}
+
+.t-and-c p {
+     margin-bottom: 10px;
+}
+
+.t-and-c li ul {
+     margin: 10px 10px 0px 15px ! important;
+}
+
+.t-and-c a {
+     padding-left: 15px;
+}
+
+.t-and-c a.expandable {
+     background: url("../../Images/UserContents/img_bullets.gif")/*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/UserContents/img_bullets.gif*//*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/UserContents/img_bullets.gif*/ no-repeat scroll 0px -126px transparent;
+}
+
+.t-and-c a.collapsible {
+     background: url("../../Images/UserContents/img_bullets.gif")/*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/UserContents/img_bullets.gif*//*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/UserContents/img_bullets.gif*/ no-repeat scroll 0px -63px transparent;
+     color: #FF9200;
+}
+
+ul.st-user-info li input.txt {
+     border: 0px none;
+     color: #333333;
+     font-weight: normal;
+     height: 17px;
+     line-height: 17px;
+     margin: 0px;
+     padding: 2px 5px;
+}
+
+ul.st-user-info li input.betlimits {
+     background-color: #FAFAF5;
+     border: 1px solid #B8B8B6;
+     font-size: 11px;
+     margin: -1px 0px 0px;
+     padding: 2px 5px 1px;
+     width: 130px;
+}
+
+ul.st-user-info li input[type="text"][disabled] {
+     background-color: #CACAC9;
+     border: 1px solid #B8B8B6;
+     margin: -1px 0px 0px 20px;
+     padding: 0px 5px;
+     width: 130px;
+}
+
+ul.st-user-info li input.contact {
+     width: 55px;
+}
+
+ul.st-user-info li input.amount {
+     width: 55px;
+}
+
+#otherLearn {
+     color: #545454;
+}
+
+.spr-search {
+     border: 1px solid #333333;
+     letter-spacing: -4px;
+     margin: 5px 10px;
+     padding: 10px 5px 10px 20px;
+}
+
+.spr-search div {
+     display: inline-block;
+     letter-spacing: normal;
+     margin-right: 5px;
+     vertical-align: middle;
+}
+
+#txtPromotionCode {
+     color: #333333;
+     font-weight: normal;
+     margin-right: 5px;
+}
+
+.f-p {
+     margin: 10px;
+     max-width: 460px;
+}
+
+.f-p h2 {
+     -moz-border-bottom-colors: none;
+     -moz-border-left-colors: none;
+     -moz-border-right-colors: none;
+     -moz-border-top-colors: none;
+     border-color: #494949;
+     border-image: none;
+     border-style: solid;
+     border-width: 1px 0px;
+     color: #FF9200;
+     font-weight: 700;
+     line-height: 18px;
+     padding: 5px 0px;
+}
+
+.r-forgot-panel .r-label, .r-forgot-panel .r-fields, .r-change-panel .r-label, .r-change-panel .r-fields {
+     display: inline-block;
+     vertical-align: middle;
+}
+
+.r-forgot-panel .r-label, .r-change-panel .r-label {
+     width: 115px;
+}
+
+.r-fields input{
+     height: 22px;
+     width: 170px;
+}
+
+.r-fields select   
+{
+    height: 25px;
+}
+
+.r-captcha-refresh a {
+     background: url("../../Images/Common/icon_refresh.gif")/*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Common/icon_refresh.gif*//*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Common/icon_refresh.gif*/ no-repeat scroll left center transparent;
+     color: #CCCCCC;
+     display: inline-block;
+     height: 20px;
+     line-height: 20px;
+     overflow: hidden;
+     padding-left: 15px;
+     text-decoration: none;
+     width: 49px;
+}
+
+p {
+     margin: 0px 0px 12px;
+}
+
+#c .org {
+     -moz-border-bottom-colors: none;
+     -moz-border-left-colors: none;
+     -moz-border-right-colors: none;
+     -moz-border-top-colors: none;
+     border-color: #494949;
+     border-image: none;
+     border-style: solid;
+     border-width: 1px 0px;
+     color: #FF9200;
+     font-size: 12px;
+     font-weight: 700;
+     line-height: 29px;
+     margin-top: 10px;
+     text-transform: capitalize;
+}
+
+#c .maindiv .sub {
+     color: #FF9200;
+     font-size: 18px;
+     font-weight: 700;
+}
+
+body.contact #content h4 {
+     padding: 3px 0px;
+}
+
+.c-region, .c-lbl, .c-pnum, .c-lbl2, .c-addr, .stf-labels3, .stf-fields {
+     display: inline-block;
+     font-size: 12px;
+     vertical-align: top;
+}
+
+.c-email {
+     display: inline-block;
+     font-size: 12px;
+     font-weight: bold;
+}
+
+.c-region, .c-pnum {
+     font-weight: bold;
+}
+
+.c-region {
+     width: 100px;
+}
+
+.c-lbl {
+     width: 70px;
+}
+
+.c-lbl2 {
+     line-height: 20px;
+     width: 85px;
+}
+
+.c-addr {
+     font-weight: bold;
+     width: 249px;
+}
+
+a.sel {
+     background: url("../../Images/Common/btn_dd_arrow.png")/*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Common/btn_dd_arrow.png*//*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Common/btn_dd_arrow.png*/ no-repeat scroll right 0px #FAFAF5;
+     border: 1px solid #B8B8B6;
+     color: #313131;
+     display: inline-block;
+     height: 17px;
+     line-height: 17px;
+     min-width: 28px;
+     padding: 1px 20px 1px 5px;
+     text-decoration: none;
+}
+
+.st-left .stf-input .stf-fields a.fdbk {
+     height: 18px;
+     line-height: 18px;
+     width: 224px;
+}
+
+.email.tt {
+     border: 1px solid #B8B8B6;
+     color: #000000;
+     font-weight: normal;
+     height: 20px;
+     width: 239px;
+}
+
+.st-left.wide {
+     padding-top: 10px;
+}
+
+.stf-labels3 {
+     width: 100px;
+}
+
+.stf-fields textarea {
+     font-family: Helvetica,Arial,Tahoma,Sans Serif;
+     font-size: 12px;
+     padding: 3px 5px;
+     width: 100%;
+}
+
+.stf-input .submit-btn {
+     width: 354px;
+}
+
+.submit-btn .il-btn .rc-right a {
+     display: block;
+     padding: 0px 5px 0px 10px;
+}
+
+div.credit .c-lbl {
+     width: 147px;
+}
+
+#content .accounts h4 {
+     padding: 3px 0px;
+}
+
+.submit-btn {
+     margin-top: 2px;
+}
+
+.a-lbl {
+     display: inline-block;
+     font-weight: bold;
+     width: 100px;
+}
+
+.val-b {
+     color: #86DC1B;
+     font-weight: bold;
+}
+
+.dotted-line {
+     -moz-border-bottom-colors: none;
+     -moz-border-left-colors: none;
+     -moz-border-right-colors: none;
+     -moz-border-top-colors: none;
+     border-color: #494949 -moz-use-text-color -moz-use-text-color;
+     border-image: none;
+     border-right: medium none;
+     border-style: dashed none none;
+     border-width: 1px medium medium;
+     height: 1px;
+}
+
+.stf-div {
+     width: 242px;
+}
+
+.amount-num .amount {
+     width: 126px;
+}
+
+.r-help-link.hover-tooltip, .popup-new.ichangePassword {
+     color: #FF9200;
+     text-decoration: underline;
+}
+
+#c tr.tabletit {
+     background-color: #333333;
+     font-weight: bold;
+     height: 30px;
+     text-align: center;
+}
+
+#c tr.tabletit:first-child {
+     border: 1px solid #3D3D3D;
+}
+
+#c tr.tabletit th {
+     padding: 2px 20px;
+}
+
+#c tr.tabledetail {
+     background-color: #4C4C4C;
+     height: 30px;
+     text-align: left;
+}
+
+#c tr td {
+     padding-left: 7px;
+     padding-right: 7px;
+}
+
+#c ul {
+     margin-bottom: 10px;
+     margin-left: 10px;
+     padding: 0px;
+}
+
+body.static h3.info-centre {
+     border-bottom: 1px solid #494949;
+     padding-bottom: 10px;
+}
+
+.col-2 {
+     display: inline-block;
+     vertical-align: top;
+     width: 48.3%;
+}
+
+.col-2 + .col-2 {
+     margin-left: 2.9%;
+}
+
+.content .clear-sp {
+     clear: both ! important;
+}
+
+
+#breadCrumb h3.info-centre {
+     border-bottom: 1px solid #494949;
+     padding-bottom: 10px;
+}
+
+body.static #container h4 {
+     padding: 3px 0px;
+}
+
+.main-contents {
+     margin-bottom: 30px;
+}
+
+.main-contents p {
+     line-height: 1.5em;
+     margin: 10px 0px;
+}
+
+.main-contents .btn_submit {
+     border-radius: 2px 2px 2px 2px;
+     border: 1px solid #000000;
+     box-shadow: 0px 1px #4A4841;
+     display: inline;
+     font-weight: bold;
+     letter-spacing: normal;
+     line-height: 22px;
+     margin-left: 5px;
+     padding: 4px 7px 4px 8px;
+}
+
+#text_ddlSubjects {
+     min-width: 224px;
+}
+
+.stf-input {
+     margin-top: 10px;
+}
+
+body.static div.submit {
+     margin-bottom: 10px;
+     text-align: right;
+     width: 516px;
+}
+
+.il-btn {
+     display: inline-block;
+     vertical-align: middle;
+}
+
+.stf-fields.textarea {
+     width: 400px;
+}
+
+.textarea {
+     margin-right: 12px;
+}
+
+#c li {
+     margin-top: 4px;
+}
+
+#c .sub {
+     padding: 8px 0px 0px 2px;
+}
+
+#c .maindiv {
+     margin-top: 7px;
+     min-width: 600px;
+     padding-left: 10px;
+}
+
+#dd-sports-menu {
+     background-color: #FFFFFF;
+     height: 200px;
+     overflow-x: hidden;
+     overflow-y: auto;
+     width: 110px;
+     z-index: 22;
+}
+
+a#dd-sp {
+     min-width: 150px;
+}
+
+ul.sg-dd li a:link, ul.sg-dd li a:visited {
+     color: #2E2E2E;
+     display: block;
+     height: 20px;
+     line-height: 20px;
+     padding: 0px 5px;
+     text-decoration: none;
+     white-space: nowrap;
+}
+
+ul.sg-dd li a:hover, ul.sg-dd li a:active {
+     color: #FF5400;
+}
+
+#container .profile.content h4.sub {
+     line-height: 16px;
+}
+
+#container h4.sub span {
+     font-weight: normal;
+}
+
+#container h4.sub span + span {
+     color: #FF9200;
+}
+
+ul.st-user-address {
+     clear: both;
+     list-style: none outside none;
+     margin: 0px auto 0px 11px;
+     padding: 0px;
+}
+
+ul.st-user-address li.st-user-label {
+     float: left;
+     width: 200px;
+}
+
+ul.st-user-address li.st-user-value {
+     float: left;
+     padding-right: 5px;
+     width: 340px;
+}
+
+ul.st-user-info {
+     clear: both;
+     height: 20px;
+     list-style: none outside none;
+     margin: 0px auto 0px 11px;
+     padding: 0px;
+     width: 540px;
+}
+
+ul.st-user-info li {
+     float: left;
+     height: 22px;
+     line-height: 21px;
+}
+
+ul.st-user-info li.st-howyoulearn {
+     line-height: 1.3;
+     margin-bottom: 3px;
+     margin-top: 10px;
+     width: 200px;
+}
+
+ul.st-user-info li.st-label {
+     width: 200px;
+}
+
+ul.st-user-info li.st-label2 {
+     width: 110px;
+}
+
+ul.st-user-info li .contact-num {
+     margin-left: 5px;
+}
+
+#text_HowDoYouLearnDDL {
+     margin-top: 10px;
+}
+
+.chkNews {
+     margin-top: 12px;
+}
+
+strong {
+     font-weight: bold;
+}
+
+.cb-il {
+     vertical-align: -2px;
+}
+
+.ddl-text {
+     vertical-align: bottom;
+}
+
+.redfont {
+     color: Red;
+}
+
+.maindiv {
+     line-height: 24px;
+     margin-bottom: 20px;
+     margin-right: 10px;
+}
+
+.content.maindiv .stf-fields a.sel, .content.maindiv .stf-fields input[type="text"] {
+     color: #313131;
+     display: inline-block;
+     font-weight: normal;
+     height: 22px;
+     line-height: 21px;
+     min-width: 28px;
+     padding: 0px 20px 1px 5px;
+}
+
+.content.maindiv .stf-fields a.sel {
+     background: url("../../Images/Common/btn_dd_arrow.png")/*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Common/btn_dd_arrow.png*//*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Common/btn_dd_arrow.png*/ no-repeat scroll right center #FAFAF5;
+}
+
+#res-content {
+     border-color: #494949;
+     border-style: solid;
+     border-width: 0px 1px 1px;
+     height: 120px;
+     margin-top: -20px;
+     overflow-y: scroll;
+     padding: 5px;
+     width: 100%;
+}
+
+body.myAccount .processing {
+     width: 100% ! important;
+}
+
+#mainBankingFrame {
+     background: none repeat scroll 0% 0% #FFFFFF;
+}
+
+.maindiv.accounts {
+     position: relative;
+}
+
+p#errorMsg.error-t, p.alert {
+     background: url("../../Images/Common/icon_alert.png-v=129.png")/*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Common/icon_alert.png?v=129*/ no-repeat scroll 0% 0% transparent;
+     margin: 10px 0px;
+     padding-left: 37px;
+}
+
+p.alert {display: block!important; font-size: 10px;}
+
+div.content.data-grid.transfer {
+     padding-right: 50px;
+}
+
+#txtAmount {
+     color: #333333;
+}
+
+#transferBtn {
+     margin-top: 3px;
+}
+
+.search-pad-inner-content {
+     min-width: 495px;
+     position: relative;
+}
+
+.search-labels.dp-blok {
+     margin-bottom: 10px;
+}
+
+.search-labels.dp-blok div {
+     display: inline-block;
+     vertical-align: top;
+}
+
+.search-labels.dp-blok > div > label {
+     display: block;
+     position: relative;
+}
+
+.search-labels.dp-blok > div > label .date {
+     -moz-user-select: none;
+     height: 20px;
+     vertical-align: middle;
+     width: 98px;
+}
+
+.search-labels.dp-blok > div > label img {
+     left: 23px;
+     position: absolute;
+     top: -1px;
+}
+
+.search-labels.dp-blok .submit-btn {
+     position: relative;
+     top: -3px;
+}
+
+.date-range {
+     border-width: 1px 0px;
+     padding: 3px 0px 2px;
+}
+
+.print-link, .submit-btn {
+     display: inline-block;
+     padding-left: 10px;
+     position: absolute;
+     right: 0px;
+     top: -29px;
+}
+
+.content.data-grid {
+     padding-right: 10px;
+}
+
+.dt-pk-bar {
+     position: relative;
+}
+
+.dt-pk-bar ul {
+     letter-spacing: -4px;
+}
+
+.dt-pk-bar ul li {
+     display: inline-block;
+     letter-spacing: normal;
+}
+
+.dt-pk-bar ul li a {
+     display: block;
+     line-height: 28px;
+     padding: 0px 10px;
+}
+
+.dt-pk-bar .search-labels.dp-blok > div > label img {
+     left: 0px;
+     position: absolute;
+     top: 0px;
+}
+
+.myAccount .st-hdr > th:first-child {
+     min-width: 39px;
+}
+
+.myAccount .st-hdr > th + th {
+     text-align: center;
+}
+
+.st-hdr > th {
+     font-size: 95%;
+     font-weight: normal;
+     height: 24px;
+     vertical-align: middle;
+}
+
+table.st tbody td {
+     font-size: 92%;
+     line-height: 1em;
+     padding: 5px;
+}
+
+table.st tbody td.tac {
+     height: 28px;
+     padding: 0px;
+}
+
+.st-tl th:first-child {
+     text-align: right;
+}
+
+.st-tl > th {
+     font-weight: bold;
+     padding: 2px 5px;
+}
+
+table.st tbody td {
+     border-width: 0px 0px 1px 1px;
+     font-size: 92%;
+     line-height: 1em;
+     padding: 5px;
+     vertical-align: middle;
+}
+
+a.confirmCancel {
+     text-decoration: underline;
+}
+
+.maintain .game-table-window, .maintain .game-table-window-uk, .maintain .game-exe-wrapper, .maintain .mobile-ready {
+     display: none;
+}
+
+.maintain .maintain-ol {
+     background-color: #000000;
+     display: block ! important;
+     height: 100%;
+     opacity: 0.7;
+     position: absolute;
+     top: 0px;
+     width: 100%;
+     z-index: 11;
+}
+
+.maintain .banner-image {
+     position: relative;
+}
+
+.maintain .msg-bar {
+     -moz-border-bottom-colors: none;
+     -moz-border-left-colors: none;
+     -moz-border-right-colors: none;
+     -moz-border-top-colors: none;
+     border-color: #363636;
+     border-image: none;
+     border-style: solid;
+     border-width: 1px 0px;
+     bottom: 40px;
+     display: block ! important;
+     line-height: 1.5em;
+     margin: 0px 7px;
+     padding: 7px;
+     z-index: 22;
+}
+
+.maintain .hd-ttl, .maintain .sub-hd {
+     font-weight: bold;
+}
+
+.maintain .time-est {
+     font-weight: bold;
+}
+
+.maintain .icon.wrench {
+     margin-right: 5px;
+}
+
+.maintain .hd-ttl {
+     margin-bottom: 7px;
+     padding-bottom: 5px;
+}
+
+.maintain-col {
+     display: inline-block;
+     vertical-align: top;
+     width: 45%;
+}
+
+.maintain .slit-corner-ul {
+     left: -8px;
+     top: -8px;
+}
+
+.maintain .slit-corner-br {
+     bottom: 0px;
+     display: none;
+     height: 52px;
+     position: absolute;
+     right: -1px;
+     width: 52px;
+     z-index: 22;
+}
+
+.phone-num, .address a {
+     color: inherit;
+     font-weight: bold;
+}
+
+.st-tl th.tar + th + th.tar + th.tar {
+     white-space: nowrap;
+}
+
+.Announcement.content.data-grid {
+     margin-left: 0px;
+     padding-right: 10px;
+}
+
+body.myAccount .announcement-list {
+     margin-top: 10px;
+}
+
+body.myAccount table {
+     line-height: 1.5em;
+}
+
+.announcement-list tr td {
+     padding-left: 7px;
+     padding-right: 7px;
+}
+
+body.myAccount h2.b.sub {
+     font-size: 18px;
+     font-weight: 700;
+}
+
+body.myAccount table {
+     line-height: 1.5em;
+}
+
+body.myAccount .tbl-style-03 .tbl-hdr td {
+     border-style: solid;
+     border-width: 1px;
+     padding: 5px 7px;
+}
+
+body.myAccount .tbl-style-03 .trcontent td {
+     border-style: solid;
+     border-width: 1px;
+     padding: 5px 7px;
+}
+
+body.myAccount .announcement-list {
+     margin-top: 10px;
+}
+
+body.myAccount .announcement-list .tbl-hdr td {
+     font-weight: bold;
+     text-align: center;
+}
+
+body.myAccount .announcement-list tr td {
+     text-align: center;
+     vertical-align: middle;
+}
+
+body.myAccount .announcement-list tr td + td {
+     white-space: nowrap;
+}
+
+body.myAccount .announcement-list tr td + td + td {
+     text-align: left;
+     white-space: normal;
+}
+
+body.forgot-pass input {
+     color: #333333;
+}
+
+body.forgot-pass #header .time-wrapper {
+     display: none;
+}
+
+body.forgot-pass .f-p {
+     margin: 0px;
+     max-width: 680px;
+}
+
+body.forgot-pass .f-p h2, body.changepass .f-p h2 {
+     margin: 10px;
+}
+
+body.forgot-pass .r-forgot-panel, body.changepass .r-change-panel {
+     margin: 0px 0px 5px 10px;
+}
+
+body.zh-cn .panel-top h2, body.ko-kr .panel-top h2 {
+     font-weight: normal;
+}
+
+body.zh-cn .c-region, body.zh-cn .c-pnum, body.ko-kr .c-region, body.ko-kr .c-pnum {
+     font-weight: normal;
+}
+
+body.zh-cn .c-addr, body.ko-kr .c-addr {
+     font-weight: normal;
+}
+
+body.zh-cn .a-lbl, body.ko-kr .a-lbl {
+     font-weight: normal;
+}
+
+body.zh-cn .val-b, body.ko-kr .val-b {
+     font-weight: normal;
+}
+
+body.zh-cn #c tr.tabletit, body.ko-kr #c tr.tabletit {
+     background-color: #333333;
+     font-weight: bold;
+     height: 30px;
+     text-align: center;
+}
+
+body.zh-cn .main-contents .btn_submit, body.ko-kr .main-contents .btn_submit {
+     font-weight: normal;
+}
+
+body.zh-cn strong, body.ko-kr strong {
+     font-weight: normal;
+}
+
+body.zh-cn .dt-pk-bar ul li a, body.ko-kr .dt-pk-bar ul li a {
+     font-weight: normal;
+}
+
+body.zh-cn .st-tl > th, body.ko-kr .st-tl > th {
+     font-weight: normal;
+}
+
+body.zh-cn .maintain .hd-ttl, body.zh-cn .maintain .sub-hd, body.zh-cn .maintain .hd-ttl, body.ko-kr .maintain .sub-hd {
+     font-weight: normal;
+}
+
+body.zh-cn .maintain .time-est, body.ko-kr .maintain .time-est {
+     font-weight: normal;
+}
+
+body.zh-cn .phone-num, body.zh-cn .address a, body.ko-kr .phone-num, body.ko-kr .address a {
+     font-weight: normal;
+}
+
+body.zh-cn.myAccount .announcement-list .tbl-hdr td, body.ko-kr.myAccount .announcement-list .tbl-hdr td {
+     font-weight: normal;
+}
+
+body.zh-cn #submenu > li > a {
+     font-weight: normal;
+}
+
+body.zh-cn #c .maindiv .sub {
+     font-weight: normal;
+}
+
+body.zh-cn .maindiv {
+     letter-spacing: 0.1em;
+}
+
+body.zh-cn #submenu {
+     font-size: 14px;
+}
+
+body.zh-cn .panel-top h2 {
+     font-size: 14px;
+}
+
+body.zh-cn h3 {
+     font-weight: normal;
+}
+
+body.ko-kr #submenu > li > a {
+     font-weight: normal;
+}
+
+body.ko-kr #c .maindiv .sub {
+     font-weight: normal;
+}
+
+body.ko-kr .maindiv {
+     letter-spacing: 0.1em;
+}
+
+body.ko-kr #submenu {
+     font-size: 14px;
+}
+
+body.ko-kr .panel-top h2 {
+     font-size: 14px;
+}
+
+body.ko-kr h3 {
+     font-weight: normal;
+}
+
+
+/* ================== */
+/* REGISTER */
+/* ================== */
+body.register #header .time-wrapper { display: none;}
+.sign-up-form { padding:5px 5px 5px 23px;}
+.sign-up-form input { color:#000000;}
+input[type="checkbox"] {  height: 13px; margin: 0px; padding: 0px; width: 13px;}
+.tooltip-content-c {  background: url("../../Images/themes/black/bnr-button.png")/*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/themes/black/bnr-button.png*//*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/themes/black/bnr-button.png*/ repeat 0 -150px #4f4f4f; border: 1px solid #333333; color: #FFFFFF; left: -0.4em; position: relative; width: 150px; font-size: 11px;}
+.tooltip-content { background: url("../../Images/themes/black/bnr-button.png")/*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/themes/black/bnr-button.png*//*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/themes/black/bnr-button.png*/ repeat-x 0 -50px #4f4f4f; border: 1px solid #333333; color: #FFFFFF; float: left; max-width: 300px; position:relative; font-size:11px; padding:6px;}
+.tooltip-arr { background: url("../../Images/themes/black/speech-arrow.png")/*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/themes/black/speech-arrow.png*//*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/themes/black/speech-arrow.png*/ no-repeat 0 0; width:7px; height:5px; float: left; left: 15px; top: -5px; position:absolute;}
+
+body.forgot-pass.step-2 #container,body.forgot-pass.step-3 #container { overflow-y: hidden;}
+body.changepass .f-p { margin: 0; max-width: 490px;}
+.r-modal-header div { background-position: 0px 0px; left: 0px;}
+.r-modal-header span { background-position: -7px 0px; right: 0px;}
+.r-modal-header-caption { height: 36px;}
+.r-modal-header-caption .left, .r-modal-header-caption .right { float: left; height: 100%; width: 7px;}
+.r-modal-header-caption .left { width: 7px;}
+.r-modal-header-caption .right { width: 7px;}
+.r-modal-header-caption .caption { float: left; height: 100%;}
+.r-modal-header-caption .caption h2 { color: #F79C00; font-size: 1em; margin: 0px; padding-top: 8px;}
+.r-modal-footer { height: 7px; margin: 0px 7px;}
+.r-modal-footer span, .r-modal-footer div {}
+.r-modal-footer div { background-position: 0px -7px; left: 0px;}
+.r-modal-footer span { background-position: -7px -7px; right: 0px;}
+.form-wrapper h2 { color:#ff9200; font-weight:700; border:1px solid #494949; border-width:1px 0 1px 0; line-height:29px; margin:0 0 11px 0; max-width:500px;}
+.r-modal-contents h2.sub { margin-top: 20px;}
+.r-modal-contents p { line-height: 18px; margin: 5px 40px 10px 22px;}
+.r-close { position: absolute; right: 0px; top: 10px;}
+.r-close .i { cursor: pointer; display: block; height: 13px; position: absolute; right: 10px; width: 13px;}
+.r-close a { color: #DDDDDD; float: right; font-size: 0.8em; margin-right: 30px; text-decoration: underline;}
+.r-close a:hover, .r-close a:active { color: #FF9C00; text-decoration: underline;}
+.registration .r-modal-contents { height: 570px;}
+.registration .caption { width: 706px;}
+.registration-success { height: 246px;}
+.fail-login .r-modal-contents { height: 140px;}
+body.forgot-pass .fail-login .r-modal-contents { height: 170px;}
+.change-pass { height: 130px; padding: 10px 0;}
+.r-left-panel { float: left; margin: 7px 20px 0 0; width: 434px;}
+.r-right-panel { float: left; margin-top: 7px; width: 405px;}
+.r-left-panel p, .r-right-panel p { line-height: normal; margin: 0px; clear:right; display:inline;}
+.r-forgot-panel, .r-change-panel { float: left; margin: 5px 0; padding: 0px; width: 290px;}
+body.forgot-pass .r-forgot-panel { width: 350px;}
+.r-forgot-panel { margin: 5px 0 5px 10px;}
+.r-forgot-panel input#txtUserId { margin-right: 0px; }
+.r-forgot-panel2, .r-change-panel2 { float: left; margin-top: 5px; padding: 0px; width: 160px; position:relative;}
+.r-change-panel2 { height:72px;}
+
+.r-forgot-panel2 .r-err-msg, .r-change-panel2 .r-err-msg { padding:0; }
+.r-forgot-panel3 { background:#232323; clear:both; position:relative; padding:11px 11px 22px; }
+.r-change-panel3 { background:#232323; clear:both; position:relative; padding:10px; }
+.r-forgot-panel3 .r-submit1, .r-change-panel3 .r-submit1 { margin-top:0; }
+
+.r-forgot-panel3 .r-captcha-refresh, .r-change-panel3 .r-captcha-refresh { width:120px; }	
+.forgot-pass .r-forgot-panel3 .r-captcha-refresh { width: auto;}
+.r-forgot-panel3 .r-captcha-refresh .fl, .r-change-panel3 .r-captcha-refresh .fl { top:55px; /*left:0;*/}
+.r-forgot-panel3 .captcha-mw, .r-change-panel3 .captcha-mw { position:relative; width:344px; margin-left:200px; }
+body.forgot-pass .r-forgot-panel3 .captcha-mw { margin-left:296px; }
+.r-forgot-panel3 .r-captcha-refresh .b-vld.fl, .r-change-panel3 .r-captcha-refresh .b-vld.fl { margin-left:0; }
+.r-forgot-panel3 .r-captcha-refresh .fl + .fl, .r-change-panel3 .r-captcha-refresh .fl + .fl { width:58px; }
+
+body.forgot-pass .cap-vld #i_txtCaptcha { margin: 0;}
+body.forgot-pass #txtCaptcha { vertical-align: middle; margin-right: 5px; }
+body.forgot-pass #LBD_CaptchaImage img { height: 24px;}
+body.forgot-pass .b-vld { display: inline-block; vertical-align: middle;}
+
+.mail-upt { line-height: 9px;}
+h2.r-success-header { color: #F47721;}
+p.d-info { margin-top: 0px;}
+ul.r-user-info { clear: both; height: 24px; padding-bottom: 2px;}
+ul.r-user-info li { float: left; line-height: 20px;}
+ul.r-user-info .rc-left{ margin-left: 7px;}
+ul.r-user-info .selector .rc-right .shade { line-height: 24px; color:#ffffff; padding-left:5px;}
+ul.r-user-info .selector .rc-right .white-theme span { background: url("../../Images/Common/theme-box.gif")/*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Common/theme-box.gif*//*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Common/theme-box.gif*/ no-repeat scroll right 0transparent; padding-right: 26px;}
+ul.r-user-info .selector .rc-right .black-theme span { background: url("../../Images/Common/theme-box.gif")/*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Common/theme-box.gif*//*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Common/theme-box.gif*/ no-repeat scroll right -16px transparent; padding-right: 26px;}
+li.r-label { width: 146px;}
+body.zh-cn li.r-label { width: 100px;}
+body.vi-vn li.r-label { width: 117px;}
+.no-captcha li.r-label { width: 145px;}
+.change-pass li.r-label { width: 115px;}
+.r-right-panel li.r-label,body.forgot-pass.step-3 .no-captcha li.r-label { width: 150px;}
+.r-right-panel div.submit-panel { width: 395px; margin-top: 5px;}
+.r-right-panel div.submit-panel h2.box-header { background:url("../../Images/Themes/Black/plus-head-bg.png")/*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Themes/Black/plus-head-bg.png*//*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Themes/Black/plus-head-bg.png*/ repeat-x; margin:0; line-height: 25px; color:#ffffff; padding:0 7px; font-weight:900; border:1px solid #333333; border-bottom:none; font-size:14px;}
+ul.r-address { height: 76px;}
+ul.r-address #txtAddress { margin-top:0; }
+ul.r-tc { clear: both; height: 25px; margin: -5px auto 0px 45px;}
+ul.r-captcha-submit { clear: both; background-color:#2b2b2b; padding:0 13px 15px; position:relative; margin-bottom: 20px;}
+ul.r-tc li { float: left; height: 18px; line-height: 18px;}
+li.r-fields3 { min-width: 47px;}
+li.r-fields3>label>input { border:none;}
+input.txt, textarea { background-color: #FAFAF5; border: 1px solid #B8B8B6; font: 11px Tahoma, Arial, Helvetica, sans-serif; height: 14px; padding: 3px 5px; width: 188px;}
+input.txt.invalid, textarea.invalid, a.ddl-text.invalid, body.user input.txt.invalid { background-color: #ffd4a5;}
+.r-right-panel p.invalid, .r-right-panel p.invalid a { color: #ffd4a5;}
+textarea { height: 66px; max-height: 66px; max-width: 188px;}
+li.r-fields4 input.txt { width: 68px;}
+input.zip-code { width: 48px;}
+.r-change-panel input.txt { width: 128px;}
+.b-vld { overflow: hidden; width: 30px;}
+.b-vld .i-e { margin: 2px 7px;}
+.cap-vld { width: 18px;}
+#LBD_CaptchaImage img { height: 26px; width: 124px; margin-top:1px;}
+.r-captcha-refresh { clear: both;}
+.r-captcha-refresh .fl { position:absolute; top:27px; left:14px;}
+.r-captcha-refresh+.r-captcha-text { display:inline-block; vertical-align:middle;}
+.r-captcha-refresh a { background: url("../../Images/common/btn_refresh.png")/*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/common/btn_refresh.png*//*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/common/btn_refresh.png*/ 0 -67px no-repeat;  width:26px; height:24px; display:inline-block; padding-left: 0;}
+#txtCaptcha { height:16px; line-height:16px;}
+.r-submit, .r-captcha { white-space:nowrap; display:inline-block; /* vertical-align:top; */ *display:inline; *zoom:1;}
+.r-captcha { width:245px;}
+.r-captcha+.r-captcha { margin-top:3px;}
+.r-submit1 { float: right; margin-right: 36px; margin-top: 15px;}
+.r-submit2 { float: left; margin-left: 310px; margin-top: -5px;}
+.r-submit4 { margin: 5px 0px auto 285px; }
+body.forgot-pass .r-submit4 { display: inline; vertical-align: middle; margin: 0;}
+body.changepass .r-submit4 { margin-left: 0px;}
+a.btn_submit { background: url("../../Images/themes/black/bnr-button.png")/*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/themes/black/bnr-button.png*//*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/themes/black/bnr-button.png*/ repeat-x 0 0px #4f4f4f; border: 1px solid #000; border-radius: 2px; min-width: 40px; text-align: center; color:#ffffff;font-weight:700; line-height:28px; padding:0 22px; display:inline-block; height: 28px; *display:inline;  *zoom:1;}
+body.forgot-pass a.btn_submit { background: url("../../Images/Themes/Black/button-bg.png")/*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Themes/Black/button-bg.png*//*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Themes/Black/button-bg.png*/ repeat-x; border-color: #161616; color: #ffffff;}
+body.forgot-pass a.btn_submit:hover { background-position: 0 -400px;}
+.add-info {margin-bottom: 20px; width:470px}
+.add-info, p.r-promo-link { background-color:#2b2b2b; border-left:1px solid #333333; border-right:1px solid #333333; padding:7px 13px 15px;}
+.add-info .c-l, .add-info .c-r { margin: 3px 0px;}
+.add-info .c-l { display:inline-block; *display:inline; *zoom:1; vertical-align:top;}
+.add-info .c-r { display:inline-block; *display:inline; *zoom:1; padding-left: 5px; width:345px; vertical-align:top;}
+.add-info .rg-link, p.r-promo-link { line-height: 25px;}
+.add-info .b-vld { margin-top: -3px;}
+.add-info .b-vld .i-e { margin: 0px 7px;}
+#btnCheckUserCode, .add-info a { color: #CCCCCC;} 
+.add-info a { font-weight: bold; text-decoration: underline;} 
+#btnCheckUserCode { line-height:24px;}
+a.r-help-link { background: url("../../Images/Common/question-box.gif")/*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Common/question-box.gif*//*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Common/question-box.gif*/ no-repeat scroll 0 0 transparent; vertical-align:middle; height: 15px; overflow: hidden; display:inline-block;  *display:inline;zoom:1; width: 0px; padding-left:15px;}
+a.r-tc-link { color: #FFFFFF; font-weight: bold; text-decoration: underline;}
+.r-err-msg { line-height: 17px; min-height: 30px; width: 380px; margin-top: 5px;}
+.err-icon { color: red;font-weight: bold;}
+.err-msg-font {	/*color: #FF0000;*/}
+#err-box.small { margin-top: 5px;width: 280px;}
+#passReq { margin-top: 19px; width: 160px; }
+.r-err-msg2 { bottom: 20px; color: #DDDDDD; height: 30px; position: absolute; top: 0px; width: 245px; left: 10px;}
+a.ddl-text { background:url("../../Images/Common/btn_dd_arrow.png")/*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Common/btn_dd_arrow.png*//*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Common/btn_dd_arrow.png*/ no-repeat top right #ffffff; line-height: 14px; border:1px solid #d2d2d2; font-weight:100;}
+a.ddl-text:hover { color: #333333;}
+a.sec-qns, a.ctry { width: 173px;}
+body.forgot-pass.step-2 .r-forgot-panel input.txt { width: 158px;}
+a.seleillpsis { overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+a.odds { width: 93px;}
+a.dm { width: 31px;}
+a.yr { width: 51px;}
+a.tz { width: 173px;}
+a.tel { width: 28px;}
+#list_fgSecQ ul { height: 80px;}
+#list_timezoneDDL ul { height: 150px;}
+#list_bday ul, #list_bmon ul, #list_byear ul { height: 150px;}
+#text_oddsViewId { margin-right: 10px;}
+#text_bday, #text_bmon, #text_phoneExt { 	margin-right: 3px;}
+#secQ, #countryId, #nationalityId, #placeofbirthId { width: 170px;}
+#err-msg { padding-right: 10px; width: 100%;}
+#err-box td { padding: 0px; vertical-align:middle;}
+#LBD_CaptchaDiv #LBD_CaptchaIcons { display: none;}
+#LBD_CaptchaDiv, #LBD_CaptchaImage, .r-captcha-refresh, .r-captcha-refresh .fl { display:inline-block; vertical-align:middle; *zoom:1; *display:inline; width:auto;white-space:nowrap;}
+body.forgot-pass #LBD_CaptchaDiv,body.forgot-pass #LBD_CaptchaImage,body.forgot-pass .r-captcha-refresh {  height: 24px;}
+body.zh-cn .r-close a, body.zh-tw .r-close a, body.ko-kr .r-close a, body.zh-cn a.r-help-link, body.zh-tw a.r-help-link, body.ko-kr a.r-help-link { font-size: 0.9em; margin-top: 2px;
+}
+body.zh-cn ul.r-tc, body.zh-tw ul.r-tc, body.ko-kr ul.r-tc { margin-top: 0px;}
+body.en-gb .r-modal-header-caption .caption h2 { font-size: 1.1em;}
+input [name="radio"] { border:none;}
+
+#txtUserId { margin-right:2px; }
+#txtUserId, #txtPasswd, #txtPasswdConfirm, .r-forgot-panel input.txt { width: 158px;} 
+/* For forget password background */
+body.changepass {  background:url("../../Images/Themes/Black/page-bg.png")/*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Themes/Black/page-bg.png*//*tpa=https://aff.oneeightyeightbet.com/Content/Public/Images/Themes/Black/page-bg.png*/; border-bottom:1px solid #4e4c4d;}
+/*Localizations for zh-cn and ko-kr 
+body.zh-cn a.r-tc-link , body.ko-kr a.r-tc-link {font-weight:normal;}
+
+/* Tooltips */
+.err-icon.tt-err { display:inline-block;}
+div.tooltip { z-index: 1001;}
+.ddl-list { min-width: 198px; z-index: 1002;}
+.ddl-list#list_phoneExt { min-width: 53px; }
+.ddl-list#list_currencyId, .ddl-list#list_oddsViewId { min-width: 118px;}
+.ddl-list#list_bday, .ddl-list#list_bmon { min-width: 57px;}
+.ddl-list#list_byear { min-width: 76px;}
+
+
+/*Extra CSS*/
+
+ #processingDiv
+{
+    background: url("../../../imgs/gif-load.gif")/*tpa=https://aff.oneeightyeightbet.com/Content/imgs/gif-load.gif*//*tpa=https://aff.oneeightyeightbet.com/Content/imgs/gif-load.gif*/ no-repeat scroll center #000;
+}
+
+.mask
+{
+    position: fixed;
+    z-index: 21;
+    background-color: #000;
+    display: none;
+    height:100%;
+    width:100%
+}
+
+.windowdial {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    display: none;
+    z-index: 22;
+    padding: 20px;
+}
+    
+input[disabled], select[disabled], textarea[disabled], input[readonly], select[readonly], textarea[readonly] {
+        cursor: not-allowed;
+        background-color: rgb(238, 238, 238);
+}
+    
+.validationMessage
+{           
+    background: none repeat scroll 0 0 transparent;
+    color: #E86149;
+    display: block;
+    float: none;
+    margin: 0;
+    padding: 0 0 5px 0;
+    width: auto;
+}
+    
+.pull-left
+{
+    float:left;    
+}
+    
+.pull-right
+{
+    float:right;    
+}
+    
+p.register_error {
+    line-height: 13px;
+    margin-top: 10px;
+    display: block;
+    width: 410px;
+    padding: 0px 11px 0px 35px;
+}
+    
+input[disabled], select[disabled], textarea[disabled], input[readonly], select[readonly], textarea[readonly] {
+    cursor: not-allowed;
+    background-color: #cccccc;
+    color: Black;
+}
+
+#username-input+span {
+    width: 182px;
+    white-space: nowrap;
+}

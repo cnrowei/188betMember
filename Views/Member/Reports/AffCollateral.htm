@@ -1,0 +1,122 @@
+<div id="affiliateCollateralView">
+
+    <div id="left-panel">
+        <div class="panel-top">
+            <span></span>
+            <div>
+            </div>
+            <h2 data-bind="labelTemplate:['report',commonLabel()]"></h2>
+        </div>
+        <div class="panel-content">
+            <ul id="submenu">
+                <li><a class="m" id="hpl-ref-listing" href="#!/RefListing" data-bind="labelTemplate:['referral.listing',label()]"></a></li>
+                <li><a class="m" id="hpl-win-loss-product" href="#!/WinLossProduct" style="letter-spacing: -1px;" data-bind="labelTemplate:['summary.of.win.loss.based.on.product',label()]"></a></li>
+                <li><a class="m" id="hpl-aff-commission-by-period" href="#!/AffCommissionByPeriod" data-bind="labelTemplate:['affiliate.commission.reports.by.period',label()]"></a></li>
+                <li><a class="m selected" id="hpl-aff-collateral" href="#!/AffCollateral" data-bind="labelTemplate:['affiliate.collateral.performance.by.report',label()]"></a></li>
+                <li><a class="m" id="hpl-aff-commission-payment" href="#!/AffCommissionPayment" data-bind="labelTemplate:['commission.payment.report',label()]"></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="content-panel">
+        <div id="c" class="content data-grid">
+            <div class="#">
+                <h3 class="account-settings" data-bind="labelTemplate:['affiliate.collateral.performance.by.report',label()]"></h3>
+                <div class="search-pad-content">
+                    <div class="search-pad-inner-content">
+                        <div id="div-print-link" class="print-link">
+                            <a href="javascript:void(0)" id="affCollateral-download-excel" class="print" data-bind="labelTemplate:['print',commonLabel()]"></a></div>
+                        <div id="div-search-panel" class="search-panel">
+                            <div>
+                                <div class="search-labels dp-blok">
+                                    <div class="dp-wrap">
+                                        <label>
+                                            <input name="ctl00$Content$inputFromDatePicker" type="text" id="affiliateCollateralView-date-from"
+                                                class="date calender FromDateValidate" data-bind="value:affCollateral.DateFrom" />
+                                        </label>
+                                    </div>
+                                    <div class="dp-wrap">
+                                        <label>
+                                            <input name="ctl00$Content$inputToDatePicker" type="text" id="affiliateCollateralView-date-to"
+                                                class="date calender ToDateValidate" data-bind="value:affCollateral.DateTo" />
+                                        </label>
+                                    </div>
+                                    <div class="submit-btn">
+                                        <a id="affiliateCollateralView-date-submit" class="submit" href="javascript:void(0)" data-bind="labelTemplate:['show',label()], click:loadAffCollateral"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="div-main-div" class="maindiv">
+                    <div class="data-container">
+                        <div id="div-data-title" class="data-title">
+                            <a class="coll0"><strong data-bind="labelTemplate:['affiliate.collateral.performance.by.report',label()]"></strong> : <span
+                                class="Standard-Orange"><span class="disp-date-range-txt"><span id="Content_DisplayFromDate" data-bind="text:affCollateral.DateFrom"></span><span data-bind="visible:affCollateral.DateTo && affCollateral.DateFrom"> - </span><span id="Content_DisplayToDate" data-bind="text:affCollateral.DateTo"></span></span></span></a>
+                        </div>
+                        <table border="0" cellspacing="0" cellpadding="0" class="st">
+                            <colgroup>
+                                <col width="40px" />
+                                <col width="100px" />
+                                <col />
+                                <col width="70px" />
+                                <col />
+                                <col width="70px" />
+                                <col width="70px" />
+                                <col width="70px" />
+                                <col width="70px" />
+                                <col width="70px" />
+                                <col width="70px" />
+                            </colgroup>
+                            <thead>
+                                <tr class="st-hdr" style="line-height: 100%;">
+                                    <th class="tac" data-bind="labelTemplate:['s.no',label()]"></th>
+                                    <th class="tac" data-bind="labelTemplate:['creative.id',label()]"></th>
+                                    <th class="tac" data-bind="labelTemplate:['banner.name',label()]"></th>
+                                    <th class="tac" data-bind="labelTemplate:['banner.size',label()]"></th>
+                                    <th class="tac" data-bind="labelTemplate:['media.source',label()]"></th>
+                                    <th class="tac" data-bind="labelTemplate:['no.of.impressions',label()]"></th>
+                                    <th class="tac" data-bind="labelTemplate:['no.of.clicks',label()]"></th>
+                                    <th class="tac" data-bind="labelTemplate:['no.new.sign.up',label()]"></th>
+                                    <th class="tac" data-bind="labelTemplate:['no.sign.up.deposit',label()]"></th>
+                                    <th class="tac" data-bind="labelTemplate:['percent.click.sign.up',label()]"></th>
+                                    <th class="tac" data-bind="labelTemplate:['percent.click.sign.up.deposit',label()]"></th>
+                                </tr>
+                            </thead>
+                            <tbody data-bind="foreach:affCollateral.promotingList">
+                                <tr id="Content_trNoAnnG" class="l0">
+                                    <td class="tac" data-bind="text:Index"></td>
+                                    <td class="tac" data-bind="text:Id"></td>
+                                    <td class="tac" data-bind="text:BannerName"></td>
+                                    <td class="tac" data-bind="text:BannerSize"></td>
+                                    <td class="tac" data-bind="text:MediaSource"></td>
+                                    <td class="tac" data-bind="text:ImpressionCount"></td>
+                                    <td class="tac" data-bind="text:ClickCount"></td>
+                                    <td class="tac" data-bind="text:NewSignUp"></td>
+                                    <td class="tac" data-bind="text:NewSignUpDeposit"></td>
+                                    <td class="tac" data-bind="percentText:NewSignUpRate"></td>
+                                    <td class="tac" data-bind="percentText:NewSignUpDepositRate"></td>
+                                </tr>
+                            </tbody>
+                            <tfoot data-bind="with:affCollateral.summary">
+                                <tr class="st-tl" id="ctl00_Content_tr_Settled_Total">
+                                    <th class="tar" colspan="5" data-bind="labelTemplate:['subtotal',$root.label()]"></th>
+                                    <th class="tar" data-bind="text:ImpressionCount"></th>
+                                    <th class="tar" data-bind="text:ClickCount"></th>
+                                    <th class="tar" data-bind="text:NewSignUp"></th>
+                                    <th class="tar" data-bind="text:NewSignUpDeposit"></th>
+                                    <th class="tar" data-bind="percentText:NewSignUpRate"></th>
+                                    <th class="tar" data-bind="percentText:NewSignUpDepositRate"></th>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!--Core JS-->
+<script type="text/javascript" src="/Content/scripts/Member/reports/affCollateral.js?v=10011323"></script>

@@ -1,0 +1,244 @@
+<div id="myAccountView">
+    <div id="left-panel">
+        <div class="panel-top">
+            <span></span>
+            <div>
+            </div>
+            <h2 data-bind="labelTemplate:['my.account',commonLabel()]"></h2>
+        </div>
+        <div id="div-panel-content" class="panel-content">
+            <ul id="submenu">
+                <li><a id="hpl-my-account" href="#!/myAccount" class="m selected" data-bind="labelTemplate:['profile',commonLabel()]"></a></li>
+                <li><a id="hpl-change-password" href="#!/ChangePassword" class="m" data-bind="labelTemplate:['change.password',commonLabel()]"></a></li>
+            </ul>
+        </div>
+        <div id="div-panel-bottom" class="panel-btm">
+            <span></span>
+            <div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="content-panel">
+        <div class="sign-up-form form-wrapper">
+
+            <p class="validationMessage" data-bind="labelTemplate:['update.transaction.detail.info',myAccountViewModel.label()] , visible:accountModel.commrcvopt()==null"></p>
+            <p class="validationMessage" data-bind="labelTemplate:['update.security.question.info',myAccountViewModel.label()], visible:accountModel.securityquestion() ==''"></p>
+
+            <form id="update-form" action="" novalidate="novalidate">
+            <div class="r-window registration">
+                <div class="r-modal-contents">
+                    <div id="div-account-info" class="r-left-panel">
+                        <!-- Login Credentials start -->
+                        <h2 data-bind="labelTemplate:['affliate.account.information',myAccountViewModel.label()]"></h2>
+                        <ul class="r-user-info">
+                            <li class="r-label" data-bind="labelTemplate:['username',myAccountViewModel.label()]"></li>
+                            <li class="r-fields">
+                                <input type="text" id="username" class="txt" placeholder="" data-bind="value:username" disabled/>
+                            </li>
+                        </ul>
+                        <ul class="r-user-info">
+                            <li class="r-label" data-bind="labelTemplate:['lastname',myAccountViewModel.label()]"></li>
+                            <li class="r-fields">
+                                <input type="text" id="lastname" class="txt" placeholder="" data-bind="value:lastname" disabled/>
+                            </li>
+                        </ul>
+                        <ul class="r-user-info">
+                            <li class="r-label" data-bind="labelTemplate:['first.name',myAccountViewModel.label()]"></li>
+                            <li class="r-fields">
+                                <input type="text" id="firstname" class="txt" placeholder="" data-bind="value:firstname" disabled/>
+                            </li>
+                        </ul>
+                        <ul class="r-user-info">
+                            <li class="r-label" data-bind="labelTemplate:['email',myAccountViewModel.label()]"></li>
+                            <li class="r-fields">
+                                <input type="text" id="email" class="txt" placeholder="" data-bind="value:email" disabled/>
+                            </li>
+                        </ul>
+                        <ul class="r-user-info r-address">
+                            <li class="r-label" data-bind="labelTemplate:['address',myAccountViewModel.label()]"></li>
+                            <li class="r-fields">
+                                <textarea id="address" rows="3" class="txt" data-bind="text:address , value:address"></textarea>
+                            </li>
+                        </ul>
+                        <ul class="r-user-info">
+                            <li class="r-label" data-bind="labelTemplate:['city',myAccountViewModel.label()]"></li>
+                            <li class="r-fields">
+                                <input type="text" id="city" class="txt" data-bind="value:city" />
+                            </li>
+                        </ul>
+                        <ul class="r-user-info">
+                            <li class="r-label" data-bind="labelTemplate:['postal.code.zip',myAccountViewModel.label()]"></li>
+                            <li class="r-fields4">
+                                <input type="number" id="postcode" class="txt" data-bind="value:postal" />
+                            </li>
+                        </ul>
+                        <ul class="r-user-info">
+                            <li class="r-label" data-bind="labelTemplate:['massenger',myAccountViewModel.label()]"></li>
+                            <li class="r-fields">
+                                <select style="width:100px;" data-bind="options: viewModel.chattools, optionsText: 'descr', optionsValue: 'code'" ></select>
+                                <input type="text" id="massenger" class="txt" data-bind="value:chataddress" style="width:100px"/>
+                            </li>
+                        </ul>
+                        <ul class="r-user-info">
+                            <li class="r-label" data-bind="labelTemplate:['country',myAccountViewModel.label()]"></li>
+                            <li class="r-fields">
+                                <select id="country" class="txt" data-bind="options: viewModel.countries, optionsText: 'descr', optionsValue: 'code' , value:country">
+                                    </select>
+                            </li>
+                        </ul>
+                        <ul class="r-user-info">
+                            <li class="r-label" data-bind="labelTemplate:['contact.number',myAccountViewModel.label()]"></li>
+                            <li class="r-fields-tel">
+                                <select id="dialcodes" data-bind="options: viewModel.dialcodes, optionsText: 'descr', optionsValue: 'code' , value:dialcode">
+                                    </select>
+                            </li>
+                            <li class="r-fields4">
+                                <input type="text" id="contactNumber" class="txt" data-bind="value:contactno"/>
+                            </li>
+                        </ul>
+                        <ul class="r-user-info">
+                            <li class="r-label" data-bind="labelTemplate:['preferred.language',myAccountViewModel.label()]"></li>
+                            <li class="r-fields">
+                                <select id="prefer-language" class="txt" data-bind="options: viewModel.languages, optionsText: 'descr', optionsValue: 'code' , value:language">
+                                    </select>
+                            </li>
+                            <li class="r-validator"></li>
+                        </ul>
+                        <ul class="r-user-info">
+                            <li class="r-label" data-bind="labelTemplate:['preferred.currency',myAccountViewModel.label()]"></li>
+                            <li class="r-fields">
+                                <select id="prefer-currency" class="txt" data-bind="options: viewModel.currencies, optionsText: 'descr', optionsValue: 'code' , value:currency" disabled>
+                                </select>
+                            </li>
+                        </ul>
+                        <ul class="r-user-info">
+                            <li class="r-label" data-bind="labelTemplate:['security.question',myAccountViewModel.label()]"></li>
+                            <li class="r-fields">
+                                <select id="security-question" class="txt" data-bind="options: securityquestions, optionsText:'descr', optionsValue:'code', value:securityquestion"></select>
+                            </li>
+                        </ul>
+                        <ul class="r-user-info">
+                            <li class="r-label" data-bind="labelTemplate:['security.answer',myAccountViewModel.label()]"></li>
+                            <li class="r-fields">
+                                <input type="text" id="security-answer" class="txt" data-bind="value:securityanswer" />
+                            </li>
+                        </ul>
+
+                        <h2 class="sub" data-bind="labelTemplate:['additional.information',myAccountViewModel.label()]"></h2>
+                        <div id="div-add-info" class="add-info">
+                            <div data-bind="foreach:profilelist">
+                                <ul class="r-user-info">
+                                    <li class="r-label" style="margin-left: 30px;"  data-bind="text: description"></li>
+                                    <li class="r-fields">
+                                        <input type="text" class="txt" autocomplete="off" data-bind="value: fieldvalue, attr: {id: 'txt-add-info-' + $index()}" />
+                                    </li>
+                                </ul>
+                            </div>
+                            <br />
+                        </div>
+
+                        <h2 class="sub" data-bind="labelTemplate:['website.information',myAccountViewModel.label()]"></h2>
+                        <div id="div-web-info" class="add-info">
+                            <div class="c-l">
+                                <input type="radio" name="promote-options" id="with-website" value="1" data-bind="checked: ownwebsite"/>
+                            </div>
+                            <div class="c-r">
+                                <p data-bind="labelTemplate:['i.have.website',myAccountViewModel.label()]"></p>
+                            </div>
+                            <br />
+                            <ul class="r-user-info">
+                                <li class="r-label" style="margin-left: 30px;" data-bind="labelTemplate:['web.address',myAccountViewModel.label()]"></li>
+                                <li class="r-fields">
+                                    <input type="text" id="web-address" class="txt" data-bind="value:weburl" style="width:150px;"/>
+                                </li>
+                                <li> <span class="rc-left"> <span class="rc-right"> <a tabindex="-1" href="javascript:void(0);" id="add-web-address" data-bind="labelTemplate:['add',myAccountViewModel.label()] , click: addWebURL"></a> </span> </span> </li>
+                            </ul>
+                            <br />
+                            <table class="st">
+                                <thead>
+                                    <tr class="st-hdr" style="line-height: 100%;">
+                                        <th data-bind="labelTemplate:['web.address',myAccountViewModel.label()]"></th>
+                                        <th data-bind="labelTemplate:['action',myAccountViewModel.label()]"></th>
+                                    </tr>
+                                </thead>
+                                <tbody data-bind="foreach:websitelist">
+                                    <tr>
+                                        <td class="tac"><input type="text" data-bind="value:url, attr: {id: 'txt-web-url-' + $index()}"/></td>
+                                        <td class="tac">
+                                            <a href="#" data-bind="click:$root.deleteWebURL , labelTemplate:['delete',myAccountViewModel.label()], attr: {id: 'hpl-delete-url-' + $index()}">Delete</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <br />
+                            <div class="c-l">
+                                <input type="radio" id="without-website" name="promote-options" title="" style="margin-top: 0;" />
+                            </div>
+                            <div class="c-r">
+                                <p data-bind="labelTemplate:['i.dont.have.website',myAccountViewModel.label()]"></p>
+                            </div>
+                            <ul class="r-user-info r-address">
+                                <li class="r-label" style="margin-left: 30px;"><span  data-bind="labelTemplate:['promotion.method.without.website',myAccountViewModel.label()]"></span></li>
+                                <li class="r-fields">
+                                    <textarea id="promote-reason" rows="10" cols="45" data-bind="value:describe" disabled></textarea>
+                                </li>
+                            </ul>
+                        </div>
+                        <h2 class="sub" data-bind="labelTemplate:['transaction.details',myAccountViewModel.label()]"></h2>
+                        <div id="div-transaction-details" class="add-info">
+                            <p data-bind="labelTemplate:['transaction.descr',myAccountViewModel.label()]"></p>
+                            <div class="clear">
+                            </div>
+
+                            <div data-bind="foreach: commrcvlist">
+                                <div class="c-l" data-bind="visible:support">
+                                    <input type="radio" name="commrcv" data-bind="value: fieldname, checked: $parent.commrcvopt, disable: $parent.updatedPaymentMethod, attr: {id: 'rbt-comm-rcv-' + $index()}" style="margin-top: 0;"/>
+                                </div>
+                                <div class="c-r">
+                                    <p data-bind="text: description, visible:support"></p>
+                                </div>
+                                <div class="clear">
+                                </div>
+                            </div>
+
+                            
+                            <br />
+                            <br />
+                            <p data-bind="labelTemplate:['payment.msg',myAccountViewModel.label()]"></p>
+                            <br />                                
+                            <br />                                
+
+                            <div data-bind="foreach: commrcvlist">
+                                <div data-bind="foreach: data , visible: ($parent.commrcvopt() == fieldname)">
+                                    <ul class="r-user-info">
+                                        <li class="r-label" data-bind="text: description"></li>
+                                        <li class="r-fields">
+                                            <input type="text" autocomplete="off" data-bind="value: fieldvalue, disable : $root.updatedPaymentMethod, attr: {id: 'txt-payment-method-' + $index()}"/>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <br />
+                        </div>
+
+                        <div id="div-submit-panel" class="submit-panel">
+                            <ul class="r-captcha-submit" style="background-color: transparent; margin: 20px 0 0 130px;">
+                                <li class="r-submit"><a href="javascript:void(0);" class="btn3 btn_submit" id="myAccount-btn-update" data-bind="labelTemplate:['update',myAccountViewModel.label()]">
+                                    </a> </li>
+                                <li class="r-submit"><a href="javascript:void(0);" class="btn3 btn_submit" id="myAccount-btn-cancel" data-bind="labelTemplate:['cancel',myAccountViewModel.label()]"
+                                    style="background-position: 0 -99px;"></a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </form>
+        </div>
+    </div>
+
+</div>
+<!--Core JS-->
+<script type="text/javascript" src="/Content/scripts/Member/myAccount.js?v=10011325"></script>

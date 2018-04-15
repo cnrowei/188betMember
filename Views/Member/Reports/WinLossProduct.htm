@@ -1,0 +1,112 @@
+<div id="winLossProductView">
+    <div id="left-panel">
+        <div class="panel-top">
+            <span></span>
+            <div>
+            </div>
+            <h2 data-bind="labelTemplate:['report',commonLabel()]"></h2>
+        </div>
+        <div class="panel-content">
+            <ul id="submenu">
+                <li><a class="m" id="hpl-ref-listing" href="#!/RefListing" data-bind="labelTemplate:['referral.listing',label()]"></a></li>
+                <li><a class="m selected" id="hpl-win-loss-product" href="#!/WinLossProduct" style="letter-spacing: -1px;" data-bind="labelTemplate:['summary.of.gross.revenue.based.on.product',label()]"></a></li>
+                <li><a class="m" id="hpl-aff-commission-by-period" href="#!/AffCommissionByPeriod" data-bind="labelTemplate:['affiliate.commission.reports.by.period',label()]"></a></li>
+                <li><a class="m" id="hpl-aff-collateral" href="#!/AffCollateral" data-bind="labelTemplate:['affiliate.collateral.performance.by.report',label()]"></a></li>
+                <li><a class="m" id="hpl-aff-commission-payment" href="#!/AffCommissionPayment" data-bind="labelTemplate:['commission.payment.report',label()]"></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="content-panel">
+        <div id="c" class="content data-grid">
+            <div class="#">
+                <h3 class="account-settings" data-bind="labelTemplate:['summary.of.gross.revenue.based.on.product',label()]"></h3>
+                <div class="search-pad-content">
+                    <div class="search-pad-inner-content">
+                        <div id="div-print-link" class="print-link">
+                            <a href="javascript:void(0)" id="winLossProduct-download-excel" class="print" data-bind="labelTemplate:['print',commonLabel()]"></a></div>
+                        <div id="div-search-panel" class="search-panel">
+                            <div>
+                                <div class="search-labels dp-blok">
+                                    <div class="dp-wrap">
+                                        <select id="winLossProduct-month" class="sel w120" data-bind="options: winLossModel.monthList, optionsText: 'Display', optionsValue: 'Value', value: winLossModel.DateFrom, event:{change:loadWinLossReport}"></select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="div-main-div" class="maindiv">
+                    <div class="data-container">
+                        <div id="div-data-title" class="data-title">
+                            <a class="coll0"><strong data-bind="labelTemplate:['summary.of.gross.revenue.based.on.product',label()]"></strong> <small data-bind="text:winLossModel.DateFrom"></small></a>
+                        </div>
+                        <table border="0" cellspacing="0" cellpadding="0" class="st">
+                            <thead>
+                            <tr class="st-hdr" style="line-height: 100%;">
+                                <th data-bind="labelTemplate:['month',label()]" rowspan="2"></th>
+                                <th data-bind="labelTemplate:['member.code',label()]"rowspan="2"></th>
+                                <th data-bind="labelTemplate:['currency',label()]"rowspan="2"></th>
+                                <th colspan="2" data-bind="labelTemplate:['total',label()]"></th>
+                                <!-- ko foreach: winLossModel.productList -->
+                                <th colspan="2" data-bind="text:Name"></th>
+                                <!-- /ko -->
+                                <th colspan="2" data-bind="labelTemplate:['expenses',label()]"></th>
+                            </tr>
+                                <tr class="st-hdr" style="line-height: 100%;">
+                                    <th data-bind="labelTemplate:['stake',label()]"></th>
+                                    <th data-bind="labelTemplate:['gross.revenue',label()]"></th>
+                                    <!-- ko foreach: winLossModel.productList -->
+                                    <th data-bind="labelTemplate:['stake',$root.label()]"></th>
+                                    <th data-bind="visible:!isRake(Name), labelTemplate:['gross.revenue',$root.label()]"></th>
+                                    <th data-bind="visible:isRake(Name), labelTemplate:['rake.amount',$root.label()]"></th>
+                                    <!-- /ko -->
+                                    <th data-bind="labelTemplate:['payment.fee',label()]"></th>
+                                    <th data-bind="labelTemplate:['promotion.bonus',label()]"></th>
+                                    <!--<th data-bind="labelTemplate:['platform.fee',label()]"></th>-->
+                                </tr>
+                            </thead>
+                            <tbody data-bind="foreach: winLossModel.summaryList">
+                            <tr>
+                                <td data-bind="text:SettlementType"></td>
+                                <td data-bind="text:MemCode"></td>
+                                <td data-bind="text:AffCurrency"></td>
+                                <td style="text-align: right" data-bind="moneyText:TotalAll.TotalStake"></td>
+                                <td style="text-align: right" data-bind="moneyText:TotalAll.TotalRev"></td>
+                                <!-- ko foreach: ProductList -->
+                                <td style="text-align: right" data-bind="moneyText:TotalStake"></td>
+                                <td style="text-align: right" data-bind="moneyText:TotalRev"></td>
+                                <!-- /ko -->
+                                <td style="text-align: right" data-bind="moneyText:PaymentFee"></td>
+                                <td style="text-align: right" data-bind="moneyText:PromotionBonus"></td>
+                                <!--<td style="text-align: right" data-bind="moneyText:PlatformFee"></td>-->
+                            </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr class="st-tl" data-bind="with:winLossModel.summary">
+                                    <th class="tar"><b data-bind="labelTemplate:['sum',$root.label()]"></b></th>
+                                    <th class="tar"></th>
+                                    <th class="tar" data-bind="text:AffCurrency"></th>
+                                    <th class="tar" data-bind="moneyText:TotalAll.TotalStake"></th>
+                                    <th class="tar" data-bind="moneyText:TotalAll.TotalRev"></th>
+                                    <!-- ko foreach: ProductList -->
+                                    <th class="tar" data-bind="moneyText:TotalStake"></th>
+                                    <th class="tar" data-bind="moneyText:TotalRev"></th>
+                                    <!-- /ko -->
+                                    <th class="tar" class="text-right" data-bind="moneyText:PaymentFee"></th>
+                                    <th class="tar" class="text-right" data-bind="moneyText:PromotionBonus"></th>
+                                    <!--<th class="tar" data-bind="moneyText:PlatformFee"></th>-->
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                    <em data-bind="labelTemplate:['company.loss.message',label()]"></em>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--Core JS-->
+<script type="text/javascript" src="/Content/scripts/Member/reports/winLossProduct.js?v=10011324"></script>

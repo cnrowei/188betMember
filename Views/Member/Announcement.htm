@@ -1,0 +1,44 @@
+<div id="announcementView">
+    <div id="content-panel">
+        <div class="content-header">
+            <div>
+            </div>
+            <h3 class="corp-affairs">
+                <span></span><span data-bind="labelTemplate:['announcement',commonLabel()]"></span></h3>
+        </div>
+        <div id="c" class="content data-grid">
+            <div class="#">
+                <div class="maindiv">
+                    <div id="div-data-container" class="data-container">
+                        <div class="data-title">
+                            <a class="coll0"><strong data-bind="labelTemplate:['announcement',commonLabel()]"></strong></a></div>
+                        <table border="0" cellspacing="0" cellpadding="0" class="st">
+                            <colgroup>
+                                <col width="100px" />
+                                <col width="100px" />
+                                <col />
+                            </colgroup>
+                            <thead>
+                                <tr class="st-hdr" style="line-height: 100%;">
+                                    <th data-bind="labelTemplate:['number',label()]"></th>
+                                    <th data-bind="labelTemplate:['date.time',label()]"></th>
+                                    <th data-bind="labelTemplate:['announcement',commonLabel()]"></th> 
+                                </tr>
+                            </thead>
+                            <tbody data-bind="foreach: announcementModel.announcementList">
+                                <tr id="Content_trNoAnnG" class="announcement-list-table-rowNum 10">
+                                    <td class="tac" data-bind="text: no"></td>
+                                    <td class="tac" data-bind="text: effectiveDate"></td>
+                                    <td class="tac" data-bind="text: text"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Core JS-->
+<script type="text/javascript" src="/Content/scripts/Member/announcement.js?v=10011323"></script>

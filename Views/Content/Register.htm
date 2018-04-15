@@ -1,0 +1,259 @@
+<div id="left-panel">
+    <div id="div-panel-top" class="panel-top">
+        <span></span>
+        <div>
+        </div>
+        <h2 data-bind="labelTemplate:['how.it.works',commonLabel()]"></h2>
+    </div>
+    <div id="div-panel-menu" class="panel-content">
+        <ul id="submenu">
+            <li><a href="#!/Register" id="hpl-register" class="m selected" data-bind="labelTemplate:['register',commonLabel()]"></a></li>
+            <li><a href="#!/AboutUs" id="hpl-about-us" class="m" data-bind="labelTemplate:['general.information',commonLabel()]"></a></li>
+            <li><a href="#!/FAQ" id="hpl-faq" class="m" data-bind="labelTemplate:['faq',commonLabel()]"></a></li>
+            <li><a href="#!/TermsAndConditions" id="hpl-terms-and-conditions" class="m" data-bind="labelTemplate:['term.and.condition',commonLabel()]"></a></li>
+        </ul>
+    </div>
+    <div id="div-panel-bottom" class="panel-btm">
+        <span></span>
+        <div>
+        </div>
+    </div>
+</div>
+
+<div id="content-panel">
+    <div id="register-form" class="sign-up-form form-wrapper">
+
+        <!--Login Information Section-->
+        <h2 class="sub" data-bind="labelTemplate:['login.information',registerViewModel.label()]"></h2>
+
+        <ul class="r-user-info">
+            <li class="r-label" data-bind="labelTemplate:['username',registerViewModel.label()]"></li>
+            <li class="r-fields">
+                <input type="text" id="username-input" data-bind="value:username" />
+            </li>
+            <li>
+                <span class="rc-left pull-left"><span class="rc-right">
+                    <a tabindex="-1" href="javascript:void(0);"
+                        id="validate-username" class="btnStyle" data-bind="labelTemplate:['check.avaibility',registerViewModel.label()]"></a> 
+                </span></span>
+                <input type="hidden" id="username-avaibility" />&nbsp;
+                <span id="validate-username-response" class="pull-right"></span>
+            </li>
+            
+        </ul>
+
+        <ul class="r-user-info">
+            <li class="r-label" data-bind="labelTemplate:['password',registerViewModel.label()]"></li>
+            <li class="r-fields">
+                <input type="password" id="password" data-bind="value:password" />
+            </li>
+        </ul>
+
+        <ul class="r-user-info">
+            <li class="r-label" for="confirmpassword" data-bind="labelTemplate:['confirm.password',registerViewModel.label()]"></li>
+            <li class="r-fields">
+                <input type="password" id="confirmpassword" data-bind="value:confirm" />
+            </li>
+        </ul>
+
+        <br />
+        <br />
+        <!--General Account Information Section-->
+        <h2 class="sub" data-bind="labelTemplate:['general.account.information',registerViewModel.label()]"></h2>
+            
+            <ul class="r-user-info">
+                <li class="r-label" data-bind="labelTemplate:['email',registerViewModel.label()]"></li>
+                <li class="r-fields">
+                    <input type="text" id="email" data-bind=" value:email" 
+                </li>
+                <li>
+                    <span class="rc-left pull-left"><span class="rc-right">
+                        <a tabindex="-1" href="javascript:void(0);"
+                            id="validate-email" class="btnStyle" data-bind="labelTemplate:['check.avaibility',registerViewModel.label()]"></a> 
+                    </span></span>
+                    <input type="hidden" id="email-avaibility" />&nbsp;
+                    <span id="validate-email-response" class="pull-right"></span>
+                </li>
+            </ul>
+            
+            <ul class="r-user-info">
+                <li class="r-label" data-bind="labelTemplate:['lastname',registerViewModel.label()]"></li>
+                <li class="r-fields">
+                    <input type="text" id="lastname" data-bind="value:lastname" />
+                </li>
+            </ul>
+
+            <ul class="r-user-info">
+                <li class="r-label" data-bind="labelTemplate:['first.name',registerViewModel.label()]"></li>
+                <li class="r-fields">
+                    <input type="text" id="firstname" data-bind="value:firstname" />
+                </li>
+            </ul>
+
+            <ul class="r-user-info">
+                <li class="r-label" data-bind="labelTemplate:['country',registerViewModel.label()]"></li>
+                <li class="r-fields">
+                    <select id="country" data-bind="options: viewModel.countries, optionsText: 'descr', optionsValue: 'code' , value:country">
+                    </select>
+                </li>
+            </ul>
+
+            <ul class="r-user-info">
+                <li class="r-label" data-bind="labelTemplate:['contact.number',registerViewModel.label()]"></li>
+                <li class="r-fields">
+                    <select id="dialcodes" data-bind="options: viewModel.dialcodes, optionsText: 'descr', optionsValue: 'code' , value:dialcode">
+                    </select>
+                    <input type="number" id="contactnumber" class="txt"  data-bind="value:contactno" />
+                </li>
+            </ul>
+
+            <ul class="r-user-info">
+                <li class="r-label" data-bind="labelTemplate:['address',registerViewModel.label()]"></li>
+                <li class="r-fields">
+                    <textarea rows="3" id="address" data-bind="value:address"></textarea>
+                </li>
+            </ul>
+
+            <ul class="r-user-info">
+                <li class="r-label" data-bind="labelTemplate:['city',registerViewModel.label()]"></li>
+                <li class="r-fields">
+                    <input type="text" id="city" data-bind="value:city" />
+                </li>
+            </ul>
+
+            <ul class="r-user-info">
+                <li class="r-label" data-bind="labelTemplate:['postal.code.zip',registerViewModel.label()]"></li>
+                <li class="r-fields">
+                    <input type="text" id="postal" data-bind="value:postal" />
+                </li>
+            </ul>
+
+            <ul class="r-user-info">
+                <li class="r-label" data-bind="labelTemplate:['massenger',registerViewModel.label()]"></li>
+                <li class="r-fields">
+                    <select id="ddl-chat-tools" data-bind="options: viewModel.chattools, optionsText: 'descr', optionsValue: 'code' , value:chattool">
+                    </select>
+                    <input type="text" id="chataddress" data-bind="value:chataddress" />
+                </li>
+            </ul>
+
+            <ul class="r-user-info">
+                <li class="r-label" data-bind="labelTemplate:['preferred.language',registerViewModel.label()]"></li>
+                <li class="r-fields">
+                    <select id="ddl-languages" data-bind="options: viewModel.languages, optionsText: 'descr', optionsValue: 'code' , value:language">
+                    </select>
+                </li>
+            </ul>
+
+            <ul class="r-user-info">
+                <li class="r-label" data-bind="labelTemplate:['preferred.currency',registerViewModel.label()]"></li>
+                <li class="r-fields">
+                    <select id="prefer-currency" data-bind="options: viewModel.currencies, optionsText: 'descr', optionsValue: 'code' , value:currency">
+                    </select>
+                </li>
+            </ul>
+            <br />
+         
+            <p class="register_error alert" data-bind="labelTemplate:['mandatory.prefered.currency.info',registerViewModel.label()]">
+            </p>
+            <br />
+            
+            <!--Additional Information Section-->
+            <h2 class="sub" data-bind="labelTemplate:['additional.information',registerViewModel.label()]">
+            </h2>
+            <div data-bind="foreach:profilelist">
+                <ul class="r-user-info">
+                    <li class="r-label" data-bind="text: description"></li>
+                    <li class="r-fields">
+                        <input type="text" autocomplete="off" data-bind="value: fieldvalue, attr: {id: 'txt-add-info-' + $index()}" />
+                    </li>
+                </ul>
+            </div>
+            <br />
+            <br />
+
+        <!--Website Information Section-->
+        <h2 class="sub" data-bind="labelTemplate:['website.information',registerViewModel.label()]">
+            </h2>
+
+        <div class="add-info">
+            <p>
+                <b data-bind="labelTemplate:['promotion.method',registerViewModel.label()]"></b>
+            </p>
+
+            <div class="c-l">
+                <input type="radio" name="promoteOptions" id="with-website" value="1" data-bind="checked: ownwebsite">
+            </div>
+            <div class="c-r">
+                <p data-bind="labelTemplate:['i.have.website',registerViewModel.label()]"></p>
+            </div>
+            <br />
+            <ul class="r-user-info">
+                <li class="r-label" style="margin-left: 30px;" data-bind="labelTemplate:['web.address',registerViewModel.label()]"></li>
+                <li class="r-fields">
+                        <input type="text" id="web-address" data-bind="value:weburl" />
+                </li>
+            </ul>
+            <br />
+            <div class="c-l">
+                <input type="radio" name="promoteOptions" id="without-website" value="0" data-bind="checked: ownwebsite">
+            </div>
+            <div class="c-r">
+                <p data-bind="labelTemplate:['i.dont.have.website',registerViewModel.label()]"></p>
+            </div>
+            <ul class="r-user-info r-address">
+                <li class="r-label" style="margin-left: 30px;" data-bind="labelTemplate:['promotion.method.without.website',registerViewModel.label()]">
+                </li>
+                <li class="r-fields">
+                    <textarea rows="6" id="promote-reason" data-bind="value:describe"></textarea>
+                </li>
+            </ul>
+            <br />
+            <br />
+        </div>
+        <br />
+
+        <div class="submit-panel">
+            <h2 class="box-header" data-bind="labelTemplate:['submit.registration',registerViewModel.label()]"></h2>
+            <div class="add-info">
+                <div class="c-l">
+                    <input type="checkbox" value="" id="agree">
+                </div>
+                <div class="c-r">
+                    <p class="fl" data-bind="labelTemplate:['term.and.conditions.content',registerViewModel.label()]">
+                    </p>
+                </div>
+            </div>
+
+            <div class="add-info">
+                <ul class="r-captcha-submit">
+                    <li class="r-captcha" data-bind="labelTemplate:['pls.type.captcha',registerViewModel.label()]"></li>
+                    <li class="r-captcha">
+                        <div id="LBD_CaptchaDiv">
+                            <div id="LBD_CaptchaImage">
+                                <img class="captcha" src="/Captcha.ashx" /></label>
+                            </div>
+                            <div id="LBD_CaptchaIcons">
+                            </div>
+                        </div>
+                        <div class="r-captcha-refresh">
+                            <a tabindex="-1" href="javascript:reloadCaptcha();" id="btnCaptchaRefresh"></a>
+                        </div>
+                        <div class="r-captcha-text">
+                            <input type="text" id="captcha-input" class="zip-code" data-bind="value:captcha" maxlength="4" />
+                        </div>
+                        <br />
+                        <br />
+                        <div class="r_submit">
+                            <button id="form-register-submit" type="button" class="btn btn-success disabled" disabled data-bind="labelTemplate:['submit',registerViewModel.label()]"></button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        </div>
+  </div>
+
+<!-- Core Script -->
+<script type="text/javascript" src="/Content/scripts/public/register.js?v=10011324"></script>

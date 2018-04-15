@@ -1,0 +1,174 @@
+<div id="dashboardView">
+    <div id="content-panel">
+        <div class="content-header">
+            <div>
+            </div>
+            <h3 class="corp-affairs" data-bind="labelTemplate:['home',commonLabel()]"></h3>
+        </div>
+        <div id="c" class="content data-grid">
+            <div class="#">
+                <h4 class="sub">
+                    <span data-bind="labelTemplate:['welcome',commonLabel()]"></span> (<b data-bind="text : FirstName"></b>)
+                    <br />
+                    <span data-bind="labelTemplate:['your.last.login.on',label()]"></span> : <span data-bind="text : LastLogin">
+                    </span>
+                </h4>
+                <div class="clear-sp">
+                </div>
+                
+                <!--Profile Start-->
+                <span class="how-hi"></span>
+                <div class="myp-goi">
+                    <ul class="st-user-info">
+                        <li class="st-label" data-bind="labelTemplate:['your.affiliate.id',label()]"></li>
+                        <li class="r-field ellipsis" data-bind="text : AffCode"></li>
+                    </ul>
+                    <p style="margin-left: 210px;" data-bind="html:CreativeLink()"></p>
+                </div>
+                <div class="maindiv">
+                    <p class="org b">
+                        <strong data-bind="labelTemplate:['last.updated',label()]"></strong> : <span data-bind="text : LastUpdated"></span></p>
+                    <div id="div-summary" class="data-container summary">
+                        <table border="0" cellspacing="0" cellpadding="0" class="st">
+                            <colgroup>
+                                <col width="225px" />
+                                <col width="100px" />
+                            </colgroup>
+                            <tbody>
+                                <tr class="st-hdr">
+                                    <th class="tac" colspan="2" data-bind="labelTemplate:['summary',label()]"></th>
+                                </tr>
+                                <tr id="" class="l0">
+                                    <td data-bind="labelTemplate:['total.referrals',label()]"></td>
+                                    <td data-bind="text : TotalMember"></td>
+                                </tr>
+                                <tr class="st-hdr">
+                                    <th class="tac" colspan="2" data-bind="labelTemplate:['quick.summary.of.the.current.month',label()]"></th>
+                                </tr>
+                                <tr id="" class="l0">
+                                    <td data-bind="labelTemplate:['no.of.clicks',label()]"></td>
+                                    <td data-bind="text : CurrMonthClick"></td>
+                                </tr>
+                                <tr id="" class="l0">
+                                    <td data-bind="labelTemplate:['no.of.impressions',label()]"></td>
+                                    <td data-bind="text : CurrMonthImpression"></td>
+                                </tr>
+                                <tr id="" class="l0">
+                                    <td data-bind="labelTemplate:['new.sign.up',label()]"></td>
+                                    <td data-bind="text : CurrMonthNewSignup"></td>
+                                </tr>
+                                <tr id="" class="l0">
+                                    <td data-bind="labelTemplate:['new.sign.up.with.deposit',label()]"></td>
+                                    <td data-bind="text : CurrMonthNewSignupDeposit"></td>
+                                </tr>
+                                <tr id="" class="l0">
+                                    <td data-bind="labelTemplate:['active.referrals',label()]"></td>
+                                    <td data-bind="text : CurrMonthActivePlayer"></td>
+                                </tr>
+                                <tr class="st-hdr">
+                                    <th class="tac" colspan="2" data-bind="labelTemplate:['commission',label()]"></th>
+                                </tr>
+                            </tbody>
+                            <tbody data-bind="foreach: dashboardViewModel.commissionModel.commissionList">
+                                <tr id="" class="l0">
+                                    <td data-bind="text: (month == null) ? '-' : month">
+                                    </td>
+                                    <td>
+                                        <span data-bind="text: $root.Currency"></span>
+                                        <span data-bind="moneyTextCustom: commission"></span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div id="div-product-list-1" class="data-container summary" data-bind="foreach:productModel.productList">
+                        <table border="0" cellspacing="0" cellpadding="0" class="st">
+                            <colgroup>
+                                <col width="225px" />
+                                <col width="100px" />
+                            </colgroup>
+                            <tbody data-bind="if:$index() % 2 == 0">
+                                <tr class="st-hdr">
+                                    <th class="tac" colspan="2">
+                                        <span data-bind="text:currentMonthProduct(Name)"></span>
+                                    </th>
+                                </tr>
+                                <tr id="" class="l0">
+                                    <td data-bind="labelTemplate:['total.active.referrals',$root.label()]"></td>
+                                    <td data-bind="text:ActivePlayer"></td>
+                                </tr>
+                                <tr id="" class="l0">
+                                    <td data-bind="labelTemplate:['number.of.bets',$root.label()]"></td>
+                                    <td data-bind="text:TotalBets"></td>
+                                </tr>
+                                <tr id="" class="l0">
+                                    <td data-bind="labelTemplate:['total.stake',$root.label()]"></td>
+                                    <td>
+                                        <span data-bind="text: $root.Currency"></span>
+                                        <span data-bind="moneyText:Turnover"></span>
+                                    </td>
+                                </tr>
+                                <tr id="" class="l0">
+                                    <td data-bind="visible:!isRake(Name), labelTemplate:['gross.revenue',$root.label()]"></td>
+                                    <td data-bind="visible:isRake(Name), labelTemplate:['rake.amount',$root.label()]"></td>
+                                    <td>
+                                        <span data-bind="text: $root.Currency" style="text-align:right;"></span>
+                                        <span data-bind="moneyText:Revenue" style="text-align:right;"></span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div id="div-product-list-2" class="data-container summary" data-bind="foreach:productModel.productList">
+                        <table border="0" cellspacing="0" cellpadding="0" class="st">
+                            <colgroup>
+                                <col width="225px" />
+                                <col width="100px" />
+                            </colgroup>
+                            <tbody data-bind="if:$index() % 2 == 1">
+                                <tr class="st-hdr">
+                                    <th class="tac" colspan="2">
+                                        <span data-bind="text:currentMonthProduct(Name)"></span>
+                                    </th>
+                                </tr>
+                                <tr id="Tr1" class="l0">
+                                    <td data-bind="labelTemplate:['total.active.referrals',$root.label()]"></td>
+                                    <td data-bind="text:ActivePlayer"></td>
+                                </tr>
+                                <tr id="Tr2" class="l0">
+                                    <td data-bind="labelTemplate:['number.of.bets',$root.label()]"></td>
+                                    <td data-bind="text:TotalBets"></td>
+                                </tr>
+                                <tr id="Tr3" class="l0">
+                                    <td data-bind="labelTemplate:['total.stake',$root.label()]"></td>
+                                    <td>
+                                        <span data-bind="text: $root.Currency"></span>
+                                        <span data-bind="moneyText:Turnover"></span>
+                                    </td>
+                                </tr>
+                                <tr id="Tr4" class="l0">
+                                    <td data-bind="visible:!isRake(Name), labelTemplate:['gross.revenue',$root.label()]"></td>
+                                    <td data-bind="visible:isRake(Name), labelTemplate:['rake.amount',$root.label()]"></td>
+                                    <td>
+                                        <span data-bind="text: $root.Currency" style="text-align:right;"></span>
+                                        <span data-bind="moneyText:Revenue" style="text-align:right;"></span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <div class="clear">
+                    </div>
+                    <em data-bind="labelTemplate:['company.loss.message',label()]"></em>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="clear">
+</div>
+<div class="clear-b">
+</div>
+<!--Core JS-->
+<script type="text/javascript" src="/Content/scripts/Member/dashboard.js?v=10011324"></script>

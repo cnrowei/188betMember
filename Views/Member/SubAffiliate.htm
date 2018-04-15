@@ -1,0 +1,88 @@
+<div id="subAffiliateView">
+
+    <div id="content-panel">
+        <h3 class="account-settings" data-bind="labelTemplate:['subaffiliate.invite',label()]"></h3>
+        <div class="sign-up-form form-wrapper">
+            <form id="MainForm" action="" novalidate="novalidate">
+            <div id="div-sub-aff-inv" class="r-window registration">
+                <ul class="r-user-info">
+                    <li class="r-label" data-bind="labelTemplate:['language',label()]"></li>
+                    <li class="r-fields2">
+                        <select id="prefer-language" data-bind="options: viewModel.languages, optionsText: 'descr', optionsValue: 'code' , value:$root.subAffiliateModel.language"></select>
+                    </li>
+                    <li class="r-validator"></li>
+                </ul>
+                <ul class="r-user-info r-address">
+                    <li class="r-label" data-bind="labelTemplate:['email',label()]"></li>
+                    <li class="r-fields">
+                        <textarea id="email-input" class="span9" data-bind="value:$root.subAffiliateModel.email" style="width: 400px; max-width: none;" rows="10" cols="45"></textarea>
+                    </li>
+                </ul>
+                <ul class="r-user-info">
+                    <li class="r-label">&nbsp;</li>
+                    <li class="r-fields2">
+                        <br />
+                        <p data-bind="labelTemplate:['subaffiliate.invite.msg',label()]"></p>
+                    </li>
+                    <li class="r-validator"></li>
+                </ul>
+                <div class="clear">
+                </div>
+                <div id="div-submit-panel" class="submit-panel">
+                    <ul class="r-captcha-submit" style="background-color: transparent; margin: 20px 0 0 130px;">
+                        <li class="r-submit"><a href="javascript:void(0);" class="btn3 btn_submit" id="subaffiliate-invite" data-bind="labelTemplate:['invite',label()]">
+                            </a> </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="r-modal-footer">
+                <span></span>
+                <div>
+                </div>
+            </div>
+            <div id="vld-title">
+            </div>
+            </form>
+        </div>
+        <div class="divider-dashed">
+        </div>
+        <div id="c" class="content data-grid">
+            <div class="#">
+                <div class="maindiv">
+                    <div class="data-container">
+                        <table border="0" cellspacing="0" cellpadding="0" class="st">
+                            <colgroup>
+                                <col />
+                                <col />
+                                <col width="100px" />
+                                <col width="100px" />
+                            </colgroup>
+                            <thead>
+                                <tr class="st-hdr" style="line-height: 100%;">
+                                    <th class="tac" data-bind="labelTemplate:['email',label()]"></th>
+                                    <th class="tac" data-bind="labelTemplate:['name',label()]"></th>
+                                    <th class="tac" data-bind="labelTemplate:['status',label()]"></th>
+                                    <th class="tac" data-bind="labelTemplate:['affiliate.id',label()]"></th>                         
+                                </tr>
+                            </thead>
+                            <tbody data-bind="foreach:subAffiliateModel.subAffiliateList">
+                                <tr class="l0">
+                                    <td class="tac" data-bind="text:Email"></td>
+                                    <td class="tac" data-bind="text:Name"></td>
+                                    <td class="tac" data-bind="text:Status"></td>
+                                    <td class="tac" data-bind="text:Code"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+<!--Core JS-->
+<script type="text/javascript" src="/Content/scripts/Member/subAffiliate.js?v=10011323"></script>

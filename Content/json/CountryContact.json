@@ -1,0 +1,1171 @@
+[{
+    "DialCode": 93,
+    "Id": "8cb5173c-da47-4d4c-be8c-227827f6640c",
+    "Code": "AF",
+    "Description": "Afghanistan"
+}, {
+    "DialCode": 355,
+    "Id": "bfa6f147-aec5-43a4-8be8-a809c7994a85",
+    "Code": "AL",
+    "Description": "Albania"
+}, {
+    "DialCode": 213,
+    "Id": "8556ef02-c319-4a06-966b-32545ea0a979",
+    "Code": "DZ",
+    "Description": "Algeria"
+}, {
+    "DialCode": 1684,
+    "Id": "94681646-352c-4c1c-8df9-fafc21e9507c",
+    "Code": "AS",
+    "Description": "American Samoa"
+}, {
+    "DialCode": 376,
+    "Id": "9b901828-71a2-4617-a5cc-25ccb521a606",
+    "Code": "AD",
+    "Description": "Andorra"
+}, {
+    "DialCode": 244,
+    "Id": "3dbded94-4bdb-4836-b08b-7aa8d8a75d88",
+    "Code": "AO",
+    "Description": "Angola"
+}, {
+    "DialCode": 1264,
+    "Id": "b3e73fe9-a0ca-4c57-ba81-152774026e1d",
+    "Code": "AI",
+    "Description": "Anguilla"
+}, {
+    "DialCode": 672,
+    "Id": "13331b28-b636-4bd1-992c-2fce49a2118d",
+    "Code": "AQ",
+    "Description": "Antarctica"
+}, {
+    "DialCode": 1268,
+    "Id": "bc0730cc-0b4e-48a9-a6be-e2e7193f5617",
+    "Code": "AG",
+    "Description": "Antigua and Barbuda"
+}, {
+    "DialCode": 54,
+    "Id": "753c6e33-15a8-403a-9d05-5590f2488cae",
+    "Code": "AR",
+    "Description": "Argentina"
+}, {
+    "DialCode": 374,
+    "Id": "fe197519-5548-4c17-a18d-1ac255e7ad63",
+    "Code": "AM",
+    "Description": "Armenia"
+}, {
+    "DialCode": 297,
+    "Id": "e7186a7f-531b-4e38-968d-97ef186c2c8d",
+    "Code": "AW",
+    "Description": "Aruba"
+}, {
+    "DialCode": 61,
+    "Id": "1a617825-42b0-41ec-9d64-81005be73cc7",
+    "Code": "AU",
+    "Description": "Australia"
+}, {
+    "DialCode": 43,
+    "Id": "f0e0888e-8aa0-4893-9239-f3676ec78aba",
+    "Code": "AT",
+    "Description": "Austria"
+}, {
+    "DialCode": 994,
+    "Id": "a29692ae-b206-4ba3-9be4-891b485f91b2",
+    "Code": "AZ",
+    "Description": "Azerbaijan"
+}, {
+    "DialCode": 1242,
+    "Id": "03d43a9a-806b-4251-b4a1-c996f8e4f08d",
+    "Code": "BS",
+    "Description": "Bahamas"
+}, {
+    "DialCode": 973,
+    "Id": "023ed210-8012-4418-80f1-b91471d3ec38",
+    "Code": "BH",
+    "Description": "Bahrain"
+}, {
+    "DialCode": 880,
+    "Id": "3ae12262-b7b1-492c-83f4-a63fb052e23d",
+    "Code": "BD",
+    "Description": "Bangladesh"
+}, {
+    "DialCode": 1246,
+    "Id": "fb4d879e-fded-47e7-bead-ecc92c027cd0",
+    "Code": "BB",
+    "Description": "Barbados"
+}, {
+    "DialCode": 375,
+    "Id": "0be71dd7-5163-4411-8344-d56beb9ecb4c",
+    "Code": "BY",
+    "Description": "Belarus"
+}, {
+    "DialCode": 32,
+    "Id": "632a3f09-a613-41a4-b7a8-6f144439a93d",
+    "Code": "BE",
+    "Description": "Belgium"
+}, {
+    "DialCode": 501,
+    "Id": "d3f92128-efef-476e-b5f0-b0e9b7de1346",
+    "Code": "BZ",
+    "Description": "Belize"
+}, {
+    "DialCode": 229,
+    "Id": "5a7a6f33-1540-4ce1-9456-19c73ed42c1b",
+    "Code": "BJ",
+    "Description": "Benin"
+}, {
+    "DialCode": 1441,
+    "Id": "5cde0fd6-85ff-4740-ba95-86c05294d4f0",
+    "Code": "BM",
+    "Description": "Bermuda"
+}, {
+    "DialCode": 975,
+    "Id": "9ed9385b-e155-4c42-88fd-cd823a1ff402",
+    "Code": "BT",
+    "Description": "Bhutan"
+}, {
+    "DialCode": 591,
+    "Id": "12df3dfa-a6e0-4918-b6b6-d5b01031603e",
+    "Code": "BO",
+    "Description": "Bolivia"
+}, {
+    "DialCode": 0,
+    "Id": "dcbb8d47-45f7-4035-a3fb-19fba82cde77",
+    "Code": "BA",
+    "Description": "Bosnia and Herzegovina"
+}, {
+    "DialCode": 267,
+    "Id": "e3ec070d-072e-489a-a76d-0936ac263612",
+    "Code": "BW",
+    "Description": "Botswana"
+}, {
+    "DialCode": 0,
+    "Id": "993eeb43-7a96-42a7-983e-6ee4e3e8c133",
+    "Code": "BV",
+    "Description": "Bouvet Island"
+}, {
+    "DialCode": 55,
+    "Id": "b39f0832-984b-4cb6-ba02-6f20fa4688a5",
+    "Code": "BR",
+    "Description": "Brazil"
+}, {
+    "DialCode": 246,
+    "Id": "29319819-fa85-4a66-88e2-6276ae3065ab",
+    "Code": "IO",
+    "Description": "British Indian Ocean Territory"
+}, {
+    "DialCode": 673,
+    "Id": "00c509db-865c-42aa-a4c1-18e8d1eac2f7",
+    "Code": "BN",
+    "Description": "Brunei Darussalam"
+}, {
+    "DialCode": 359,
+    "Id": "38f9e3df-9b62-435e-8b8e-0ca5e8802c0f",
+    "Code": "BG",
+    "Description": "Bulgaria"
+}, {
+    "DialCode": 226,
+    "Id": "5b4222f5-6477-47e3-8d22-c3741ba4faa2",
+    "Code": "BF",
+    "Description": "Burkina Faso"
+}, {
+    "DialCode": 257,
+    "Id": "4fddec96-1718-405e-937e-34ce6502e8d9",
+    "Code": "BI",
+    "Description": "Burundi"
+}, {
+    "DialCode": 855,
+    "Id": "afdc71b1-fa72-4187-ad80-c4575d8edbbc",
+    "Code": "KH",
+    "Description": "Cambodia"
+}, {
+    "DialCode": 237,
+    "Id": "4fb56d19-9b9c-4d8d-85e5-6f7ea913dc24",
+    "Code": "CM",
+    "Description": "Cameroon"
+}, {
+    "DialCode": 1,
+    "Id": "f0608583-b753-4a8d-a7a7-2efe2614d953",
+    "Code": "CA",
+    "Description": "Canada"
+}, {
+    "DialCode": 238,
+    "Id": "0d7eb7a1-e293-442c-bb64-93d60b1f4ba2",
+    "Code": "CV",
+    "Description": "Cape Verde"
+}, {
+    "DialCode": 1345,
+    "Id": "8d59bd01-917a-4983-84c2-e17a4b1db4d8",
+    "Code": "KY",
+    "Description": "Cayman Islands"
+}, {
+    "DialCode": 236,
+    "Id": "dee245b8-2dc4-4921-bd03-303534ec0a16",
+    "Code": "CF",
+    "Description": "Central African Republic"
+}, {
+    "DialCode": 235,
+    "Id": "daea44ad-63b0-4010-8f14-0a222d6128d7",
+    "Code": "TD",
+    "Description": "Chad"
+}, {
+    "DialCode": 56,
+    "Id": "2d0f4108-ddc0-4ba9-9f98-49af0d3f7086",
+    "Code": "CL",
+    "Description": "Chile"
+}, {
+    "DialCode": 86,
+    "Id": "6ddcb99d-90e9-41cf-babc-d6a17fc65e6d",
+    "Code": "CN",
+    "Description": "China"
+}, {
+    "DialCode": 61,
+    "Id": "c1408481-abd6-4252-a27f-4c4b59bdc281",
+    "Code": "CX",
+    "Description": "Christmas Island"
+}, {
+    "DialCode": 61,
+    "Id": "544fa8ba-3355-4cfa-9719-956950af8084",
+    "Code": "CC",
+    "Description": "Cocos (Keeling) Islands"
+}, {
+    "DialCode": 57,
+    "Id": "a422f09a-5106-4948-a730-a1ea3c5570fc",
+    "Code": "CO",
+    "Description": "Colombia"
+}, {
+    "DialCode": 269,
+    "Id": "8b0c3ad1-e5c4-492f-89a2-c8db5ea0a05e",
+    "Code": "KM",
+    "Description": "Comoros"
+}, {
+    "DialCode": 242,
+    "Id": "cb33dfd0-92ca-4261-908f-0da23fd98f42",
+    "Code": "CG",
+    "Description": "Congo"
+}, {
+    "DialCode": 682,
+    "Id": "c50be370-10c9-405e-a124-4960d065c221",
+    "Code": "CK",
+    "Description": "Cook Islands"
+}, {
+    "DialCode": 506,
+    "Id": "c27c0b63-0683-4f43-9c69-837bc3c077f4",
+    "Code": "CR",
+    "Description": "Costa Rica"
+}, {
+    "DialCode": 385,
+    "Id": "2bb2e2c0-9034-41be-a522-06e747bd37d0",
+    "Code": "HR",
+    "Description": "Croatia"
+}, {
+    "DialCode": 53,
+    "Id": "cf64a745-3baa-421f-96c2-b11abed14bb8",
+    "Code": "CU",
+    "Description": "Cuba"
+}, {
+    "DialCode": 357,
+    "Id": "3a9a2a1b-2508-49ff-8036-adbb46c7e7b2",
+    "Code": "CY",
+    "Description": "Cyprus"
+}, {
+    "DialCode": 420,
+    "Id": "cf688a8c-eb6f-44cd-a5a2-31fd487d134d",
+    "Code": "CZ",
+    "Description": "Czech Republic"
+}, {
+    "DialCode": 45,
+    "Id": "66c71dbe-47f3-4fdc-835a-33f4ee10196f",
+    "Code": "DK",
+    "Description": "Denmark"
+}, {
+    "DialCode": 253,
+    "Id": "7212badf-13e4-480c-962d-16437e5afeb9",
+    "Code": "DJ",
+    "Description": "Djibouti"
+}, {
+    "DialCode": 1767,
+    "Id": "fb172252-a07e-42f9-aced-eca5c3505a78",
+    "Code": "DM",
+    "Description": "Dominica"
+}, {
+    "DialCode": 1809,
+    "Id": "05851480-2542-4542-a8e6-63ff5f59f188",
+    "Code": "DO",
+    "Description": "Dominican Republic"
+}, {
+    "DialCode": 670,
+    "Id": "0d1dc0cf-85ee-4e4c-bab8-86748252f5ce",
+    "Code": "TL",
+    "Description": "Timor-Leste"
+}, {
+    "DialCode": 593,
+    "Id": "f526f814-f9ad-4626-b466-9bda45a3333e",
+    "Code": "EC",
+    "Description": "Ecuador"
+}, {
+    "DialCode": 20,
+    "Id": "0eabb185-b3ed-4ff3-aa23-811f72688456",
+    "Code": "EG",
+    "Description": "Egypt"
+}, {
+    "DialCode": 503,
+    "Id": "4bb85440-d12e-4716-89c7-599b76231a33",
+    "Code": "SV",
+    "Description": "El Salvador"
+}, {
+    "DialCode": 240,
+    "Id": "6101e1ea-edfc-4ae1-ab7a-20ff37659553",
+    "Code": "GQ",
+    "Description": "Equatorial Guinea"
+}, {
+    "DialCode": 291,
+    "Id": "63c2b041-51f7-41ee-8266-a27ada5d0d32",
+    "Code": "ER",
+    "Description": "Eritrea"
+}, {
+    "DialCode": 372,
+    "Id": "dc6b5944-1e04-4400-8531-309c042dbba0",
+    "Code": "EE",
+    "Description": "Estonia"
+}, {
+    "DialCode": 251,
+    "Id": "f69c9bd9-4f4a-4f53-ad68-069f3f535a35",
+    "Code": "ET",
+    "Description": "Ethiopia"
+}, {
+    "DialCode": 500,
+    "Id": "decd5d35-d9ef-4ac3-8d9c-6c0a75b95da3",
+    "Code": "FK",
+    "Description": "Falkland Islands"
+}, {
+    "DialCode": 298,
+    "Id": "f23d8a53-7ee5-4a78-b9df-122f6fa57c3b",
+    "Code": "FO",
+    "Description": "Faroe Islands"
+}, {
+    "DialCode": 679,
+    "Id": "1243cdb9-7d0a-4c81-9929-e355e991a6db",
+    "Code": "FJ",
+    "Description": "Fiji"
+}, {
+    "DialCode": 358,
+    "Id": "d2bcb533-f7d8-4cb7-9f3a-706e72b2ed03",
+    "Code": "FI",
+    "Description": "Finland"
+}, {
+    "DialCode": 33,
+    "Id": "702cc774-72fe-4e17-94cb-9915dc8c1202",
+    "Code": "FR",
+    "Description": "France"
+}, {
+    "DialCode": 596,
+    "Id": "0656bf8c-75fd-40db-8716-6beff97783f0",
+    "Code": "TF",
+    "Description": "French Southern Territories"
+}, {
+    "DialCode": 594,
+    "Id": "49b0f0eb-ea44-402a-b515-f74e9055bc07",
+    "Code": "GF",
+    "Description": "French Guiana"
+}, {
+    "DialCode": 689,
+    "Id": "1567da34-aaac-4012-b3f2-311dc071d793",
+    "Code": "PF",
+    "Description": "French Polynesia"
+}, {
+    "DialCode": 241,
+    "Id": "c11a5471-08a3-49a8-97f8-e8fbbb2af751",
+    "Code": "GA",
+    "Description": "Gabon"
+}, {
+    "DialCode": 220,
+    "Id": "9f0b4880-f36c-42da-820a-4cfe773ae605",
+    "Code": "GM",
+    "Description": "Gambia"
+}, {
+    "DialCode": 995,
+    "Id": "e16ca813-0a91-4972-a25a-e95f0684831c",
+    "Code": "GE",
+    "Description": "Georgia"
+}, {
+    "DialCode": 49,
+    "Id": "03bec506-91af-4c89-95f6-1b730299c37b",
+    "Code": "DE",
+    "Description": "Germany"
+}, {
+    "DialCode": 233,
+    "Id": "f15aef0e-b44f-434f-8bff-ae94ffd8db87",
+    "Code": "GH",
+    "Description": "Ghana"
+}, {
+    "DialCode": 350,
+    "Id": "f379faa1-86e2-4a80-bcf4-cb6dc09cb4bf",
+    "Code": "GI",
+    "Description": "Gibraltar"
+}, {
+    "DialCode": 30,
+    "Id": "95c711df-d9c8-4bc5-89e2-41d82c7cfcbf",
+    "Code": "GR",
+    "Description": "Greece"
+}, {
+    "DialCode": 299,
+    "Id": "f37e4e26-cf5d-4933-b816-342cdf3bf27f",
+    "Code": "GL",
+    "Description": "Greenland"
+}, {
+    "DialCode": 1473,
+    "Id": "8a0a446d-9e21-486d-972a-d186c17ec59c",
+    "Code": "GD",
+    "Description": "Grenada"
+}, {
+    "DialCode": 590,
+    "Id": "7ef2d6d5-7e2b-4abc-8f82-35fd6dd77277",
+    "Code": "GP",
+    "Description": "Guadeloupe"
+}, {
+    "DialCode": 1671,
+    "Id": "37895f65-d509-4c24-9b72-ab11169ca7e4",
+    "Code": "GU",
+    "Description": "Guam"
+}, {
+    "DialCode": 502,
+    "Id": "5048ba90-23d5-46fb-8d4b-ae00dd73fec2",
+    "Code": "GT",
+    "Description": "Guatemala"
+}, {
+    "DialCode": 44,
+    "Id": "4f02295b-250b-4321-be06-748e4842036f",
+    "Code": "GG",
+    "Description": "Guernsey"
+}, {
+    "DialCode": 224,
+    "Id": "b9dca374-8ffb-4d17-8b79-9b1371fc10ff",
+    "Code": "GN",
+    "Description": "Guinea"
+}, {
+    "DialCode": 245,
+    "Id": "4f4e2443-2577-4c2f-9a31-26a76bfdbb6d",
+    "Code": "GW",
+    "Description": "Guinea-Bissau"
+}, {
+    "DialCode": 592,
+    "Id": "6d013304-6e13-4891-b51c-1baf13b9a6d4",
+    "Code": "GY",
+    "Description": "Guyana"
+}, {
+    "DialCode": 509,
+    "Id": "b9579df3-0dc1-4c71-a1dd-f5edcc070ec4",
+    "Code": "HT",
+    "Description": "Haiti"
+}, {
+    "DialCode": 0,
+    "Id": "7d36dcd4-52e3-4d6f-a350-74642407089e",
+    "Code": "HM",
+    "Description": "Heard Island & McDonald Islands"
+}, {
+    "DialCode": 504,
+    "Id": "57bcea9b-ce2d-49dc-84e0-aa1f1bea4ec5",
+    "Code": "HN",
+    "Description": "Honduras"
+}, {
+    "DialCode": 852,
+    "Id": "912f2963-a5a6-440e-b40b-4b580e07630c",
+    "Code": "HK",
+    "Description": "Hong Kong"
+}, {
+    "DialCode": 36,
+    "Id": "dca68aa3-3684-47ed-8154-5b1144d91325",
+    "Code": "HU",
+    "Description": "Hungary"
+}, {
+    "DialCode": 354,
+    "Id": "b94ee86a-735e-4af9-b930-17d2ec9d35a6",
+    "Code": "IS",
+    "Description": "Iceland"
+}, {
+    "DialCode": 91,
+    "Id": "10a17f23-b93d-40ed-b84c-a236f62e9b04",
+    "Code": "IN",
+    "Description": "India"
+}, {
+    "DialCode": 62,
+    "Id": "ac9df193-ea27-4955-8b14-e8cfe43a6335",
+    "Code": "ID",
+    "Description": "Indonesia"
+}, {
+    "DialCode": 98,
+    "Id": "c82546c9-69df-4aad-8e42-2486f2138a02",
+    "Code": "IR",
+    "Description": "Iran"
+}, {
+    "DialCode": 964,
+    "Id": "57fef2a3-e73c-4365-ab32-d8ee0e274d9a",
+    "Code": "IQ",
+    "Description": "Iraq"
+}, {
+    "DialCode": 353,
+    "Id": "2540acb9-7307-4b6d-804e-260d708cfb6a",
+    "Code": "IE",
+    "Description": "Ireland"
+}, {
+    "DialCode": 972,
+    "Id": "80f78a55-cac7-412b-b0f1-3a999655069c",
+    "Code": "IL",
+    "Description": "Israel"
+}, {
+    "DialCode": 39,
+    "Id": "ef4d5618-865a-40de-8c46-62d4007e4aa5",
+    "Code": "IT",
+    "Description": "Italy"
+}, {
+    "DialCode": 225,
+    "Id": "0fd8542c-3715-4b04-9f65-c798f5d7f480",
+    "Code": "CI",
+    "Description": "Côte d'Ivoire"
+}, {
+    "DialCode": 1876,
+    "Id": "cb88b376-4ba2-488d-94e2-3eb3803c7406",
+    "Code": "JM",
+    "Description": "Jamaica"
+}, {
+    "DialCode": 81,
+    "Id": "a70ef929-2b1e-4910-ad26-1457bb7ae658",
+    "Code": "JP",
+    "Description": "Japan"
+}, {
+    "DialCode": 44,
+    "Id": "f3778777-7377-40c7-a0dc-797a4af5b790",
+    "Code": "JE",
+    "Description": "Jersey"
+}, {
+    "DialCode": 962,
+    "Id": "67d60d8e-34f9-4f96-bef7-ed863786b491",
+    "Code": "JO",
+    "Description": "Jordan"
+}, {
+    "DialCode": 7,
+    "Id": "f7663c49-d71e-4f58-898b-0f40b0e7feb6",
+    "Code": "KZ",
+    "Description": "Kazakhstan"
+}, {
+    "DialCode": 254,
+    "Id": "e9709aaa-fe24-4876-9e25-747945a70890",
+    "Code": "KE",
+    "Description": "Kenya"
+}, {
+    "DialCode": 686,
+    "Id": "2f2275e1-978c-4bbc-8913-c9bd9ec33394",
+    "Code": "KI",
+    "Description": "Kiribati"
+}, {
+    "DialCode": 82,
+    "Id": "13c44fe9-494b-49c6-8a46-0e31fb4316a3",
+    "Code": "KR",
+    "Description": "Korea, South"
+}, {
+    "DialCode": 965,
+    "Id": "d026c538-6bdb-4b62-b889-c65db84b229d",
+    "Code": "KW",
+    "Description": "Kuwait"
+}, {
+    "DialCode": 996,
+    "Id": "892fee5a-4578-4fd7-88d6-60cfd7eaa696",
+    "Code": "KG",
+    "Description": "Kyrgyzstan"
+}, {
+    "DialCode": 856,
+    "Id": "5e6ccd6e-6cab-4a59-8a95-dc6d86e26a90",
+    "Code": "LA",
+    "Description": "Laos"
+}, {
+    "DialCode": 371,
+    "Id": "4b471683-ac34-4787-ad5d-da74ef3c97d8",
+    "Code": "LV",
+    "Description": "Latvia"
+}, {
+    "DialCode": 961,
+    "Id": "6b6b513a-1f54-4476-be7e-96660eb013c7",
+    "Code": "LB",
+    "Description": "Lebanon"
+}, {
+    "DialCode": 266,
+    "Id": "c08b8e30-d56a-4c2e-bf9a-9bf549f3dbc7",
+    "Code": "LS",
+    "Description": "Lesotho"
+}, {
+    "DialCode": 231,
+    "Id": "aac1027d-0443-4c2d-9b3b-87483a7fec1b",
+    "Code": "LR",
+    "Description": "Liberia"
+}, {
+    "DialCode": 218,
+    "Id": "82ab5eaf-5443-4881-bbc5-4612c88b30a8",
+    "Code": "LY",
+    "Description": "Libya"
+}, {
+    "DialCode": 423,
+    "Id": "ad710fa9-1b2a-4732-b595-b96b98a4723c",
+    "Code": "LI",
+    "Description": "Liechtenstein"
+}, {
+    "DialCode": 370,
+    "Id": "d19736e2-81ca-4f7e-b4f1-6acad93c6aa6",
+    "Code": "LT",
+    "Description": "Lithuania"
+}, {
+    "DialCode": 352,
+    "Id": "5e7bc8d1-fcca-4b3a-98f3-2fb51be22080",
+    "Code": "LU",
+    "Description": "Luxembourg"
+}, {
+    "DialCode": 853,
+    "Id": "eeaa142f-488e-4974-90c5-52968698fd4a",
+    "Code": "MO",
+    "Description": "Macau"
+}, {
+    "DialCode": 389,
+    "Id": "37cd8a87-2196-475d-a298-4714eeafdaed",
+    "Code": "MK",
+    "Description": "Macedonia"
+}, {
+    "DialCode": 261,
+    "Id": "90d2364c-a22c-4ed4-aadf-25051b8a7bed",
+    "Code": "MG",
+    "Description": "Madagascar"
+}, {
+    "DialCode": 265,
+    "Id": "36cf98d3-df2b-4fb1-914c-98394a050961",
+    "Code": "MW",
+    "Description": "Malawi"
+}, {
+    "DialCode": 60,
+    "Id": "a7f4f7b6-9468-459a-bd3d-2b5db708501a",
+    "Code": "MY",
+    "Description": "Malaysia"
+}, {
+    "DialCode": 960,
+    "Id": "82dffa27-74fd-42b1-8da7-a4b224394c96",
+    "Code": "MV",
+    "Description": "Maldives"
+}, {
+    "DialCode": 223,
+    "Id": "502a5f4c-da26-41cc-9140-317e7214ebd6",
+    "Code": "ML",
+    "Description": "Mali"
+}, {
+    "DialCode": 356,
+    "Id": "1f7da013-bce1-42a2-be3e-f94f35545c0c",
+    "Code": "MT",
+    "Description": "Malta"
+}, {
+    "DialCode": 692,
+    "Id": "5cd3b29f-4ee3-43c5-968a-3ae4974adea0",
+    "Code": "MH",
+    "Description": "Marshall Islands"
+}, {
+    "DialCode": 596,
+    "Id": "217792ec-b840-4666-9830-deb6643ef3ab",
+    "Code": "MQ",
+    "Description": "Martinique"
+}, {
+    "DialCode": 222,
+    "Id": "f28c6ba6-9170-4541-806f-42635cbd622e",
+    "Code": "MR",
+    "Description": "Mauritania"
+}, {
+    "DialCode": 230,
+    "Id": "d5c982a4-3dbc-4e76-b907-37f1700e0ad3",
+    "Code": "MU",
+    "Description": "Mauritius"
+}, {
+    "DialCode": 262,
+    "Id": "9627f376-8d69-41e0-ac2e-de772365eeb5",
+    "Code": "YT",
+    "Description": "Mayotte"
+}, {
+    "DialCode": 52,
+    "Id": "9a21c702-6691-435a-9f94-ab284a41ca46",
+    "Code": "MX",
+    "Description": "Mexico"
+}, {
+    "DialCode": 691,
+    "Id": "4b18172b-a0c6-4d2e-8d60-ece0bfa1feb1",
+    "Code": "FM",
+    "Description": "Moldova"
+}, {
+    "DialCode": 373,
+    "Id": "28fbd674-a880-48bf-9678-8680f52d60bb",
+    "Code": "MD",
+    "Description": "Moldova, Republic Of"
+}, {
+    "DialCode": 377,
+    "Id": "e8b34221-2e21-40ac-a6f9-c8325a5fc895",
+    "Code": "MC",
+    "Description": "Monaco"
+}, {
+    "DialCode": 976,
+    "Id": "30ee2de6-8737-4791-ba42-c581c2110f36",
+    "Code": "MN",
+    "Description": "Mongolia"
+}, {
+    "DialCode": 1664,
+    "Id": "be2dbfcd-d2ae-4015-b62f-18a1359a9eca",
+    "Code": "MS",
+    "Description": "Montserrat"
+}, {
+    "DialCode": 212,
+    "Id": "8ce85642-2867-4824-a65e-4d90b262395e",
+    "Code": "MA",
+    "Description": "Morocco"
+}, {
+    "DialCode": 258,
+    "Id": "09b8e967-8ea5-49ae-91e3-3e2ea20083e9",
+    "Code": "MZ",
+    "Description": "Mozambique"
+}, {
+    "DialCode": 95,
+    "Id": "186d69f6-9e79-4b09-8a44-3b4982f781f0",
+    "Code": "MM",
+    "Description": "Myanmar"
+}, {
+    "DialCode": 264,
+    "Id": "3f7f9374-1821-4e4b-9131-c16756e5f186",
+    "Code": "NA",
+    "Description": "Namibia"
+}, {
+    "DialCode": 674,
+    "Id": "b991dc93-f28e-4384-9999-f90b20fd0af6",
+    "Code": "NR",
+    "Description": "Nauru"
+}, {
+    "DialCode": 977,
+    "Id": "11e45801-de1a-468f-b146-6b97b609a68b",
+    "Code": "NP",
+    "Description": "Nepal"
+}, {
+    "DialCode": 31,
+    "Id": "a19e3740-d03b-40f0-a7e7-9aac5f4ad59b",
+    "Code": "NL",
+    "Description": "Netherlands"
+}, {
+    "DialCode": 599,
+    "Id": "aa98a836-12f1-4854-afd0-59c422b7b347",
+    "Code": "AN",
+    "Description": "Netherlands Antilles"
+}, {
+    "DialCode": 687,
+    "Id": "59ea8338-6623-4a42-b6d1-25dbe9d776c5",
+    "Code": "NC",
+    "Description": "New Caledonia"
+}, {
+    "DialCode": 64,
+    "Id": "33f89d38-7bb3-4601-92f5-98ea02de33a4",
+    "Code": "NZ",
+    "Description": "New Zealand"
+}, {
+    "DialCode": 505,
+    "Id": "f111956f-50e6-471c-b93f-a3e0f9a456d8",
+    "Code": "NI",
+    "Description": "Nicaragua"
+}, {
+    "DialCode": 227,
+    "Id": "f92e04c7-865a-4ce6-8f03-124f69de0bcd",
+    "Code": "NE",
+    "Description": "Niger"
+}, {
+    "DialCode": 234,
+    "Id": "44815fa1-6a31-41be-b33e-90812ff20301",
+    "Code": "NG",
+    "Description": "Nigeria"
+}, {
+    "DialCode": 683,
+    "Id": "5e6c6449-2c56-4b03-bbf6-b673f93fd42a",
+    "Code": "NU",
+    "Description": "Niue"
+}, {
+    "DialCode": 672,
+    "Id": "75768865-55f0-4878-b810-23ad9b85eac7",
+    "Code": "NF",
+    "Description": "Norfolk Island"
+}, {
+    "DialCode": 1670,
+    "Id": "1990461f-c4b8-43f4-a21a-d128b860c86f",
+    "Code": "MP",
+    "Description": "Northern Mariana Islands"
+}, {
+    "DialCode": 47,
+    "Id": "111b8cc3-c43d-49f1-a952-01cf3f7db895",
+    "Code": "NO",
+    "Description": "Norway"
+}, {
+    "DialCode": 968,
+    "Id": "5faebd04-7917-4685-a61c-ab6f9af50c0a",
+    "Code": "OM",
+    "Description": "Oman"
+}, {
+    "DialCode": 92,
+    "Id": "7bec5e00-e848-44e9-98da-44025d5ef1cf",
+    "Code": "PK",
+    "Description": "Pakistan"
+}, {
+    "DialCode": 680,
+    "Id": "0214baa8-b6c1-49dd-8a5d-ad7f70600348",
+    "Code": "PW",
+    "Description": "Palau"
+}, {
+    "DialCode": 507,
+    "Id": "29027336-08a7-4f9b-943b-a8280f0a54d9",
+    "Code": "PA",
+    "Description": "Panama"
+}, {
+    "DialCode": 675,
+    "Id": "eda0f9b8-3d89-466e-bf78-41f7e6ab6606",
+    "Code": "PG",
+    "Description": "Papua New Guinea"
+}, {
+    "DialCode": 595,
+    "Id": "ac040ff5-7a2b-41b9-b52e-3a5d12641189",
+    "Code": "PY",
+    "Description": "Paraguay"
+}, {
+    "DialCode": 51,
+    "Id": "0a6a82f0-b591-45de-be90-db4822a55ae5",
+    "Code": "PE",
+    "Description": "Peru"
+}, {
+    "DialCode": 870,
+    "Id": "f58e834b-b31f-4643-bf9b-3a98cccdc7f7",
+    "Code": "PN",
+    "Description": "Pitcairn"
+}, {
+    "DialCode": 48,
+    "Id": "971de6c2-8c5d-48af-8908-ebb7ea11de08",
+    "Code": "PL",
+    "Description": "Poland"
+}, {
+    "DialCode": 351,
+    "Id": "41460df0-0ce8-440c-bd69-18f9e0b1056d",
+    "Code": "PT",
+    "Description": "Portugal"
+}, {
+    "DialCode": 1,
+    "Id": "b4d44a79-1c3a-40bd-94bb-cc54fe91dc52",
+    "Code": "PR",
+    "Description": "Puerto Rico"
+}, {
+    "DialCode": 974,
+    "Id": "b00e6a8a-fec9-4623-966f-7fe104cbf00c",
+    "Code": "QA",
+    "Description": "Qatar"
+}, {
+    "DialCode": 262,
+    "Id": "41704b3d-20b4-4a51-9635-62d1339951b6",
+    "Code": "RE",
+    "Description": "Reunion"
+}, {
+    "DialCode": 40,
+    "Id": "5d36234c-f0be-4093-b635-83f888d435cd",
+    "Code": "RO",
+    "Description": "Romania"
+}, {
+    "DialCode": 7,
+    "Id": "f5007d68-8abd-4c61-989e-dddb0b0b4fa3",
+    "Code": "RU",
+    "Description": "Russian Federation"
+}, {
+    "DialCode": 250,
+    "Id": "1f31cc90-3dac-478b-95fd-ed4a0c0d8756",
+    "Code": "RW",
+    "Description": "Rwanda"
+}, {
+    "DialCode": 1869,
+    "Id": "c103ab8b-0ba4-411e-b13d-5797e2f10105",
+    "Code": "KN",
+    "Description": "Saint Kitts and Nevis"
+}, {
+    "DialCode": 1758,
+    "Id": "47b17e58-e788-463a-9933-1787be555827",
+    "Code": "LC",
+    "Description": "Saint Lucia"
+}, {
+    "DialCode": 1784,
+    "Id": "0d9b75eb-8e25-4bb8-b22a-1c72b2ba36d8",
+    "Code": "VC",
+    "Description": "Saint Vincent and the Grenadines"
+}, {
+    "DialCode": 685,
+    "Id": "822aa61f-6769-4907-a81b-b661d1449cd8",
+    "Code": "WS",
+    "Description": "Samoa"
+}, {
+    "DialCode": 378,
+    "Id": "a950fa0b-3f06-45fc-8eb9-8ea7b2df6405",
+    "Code": "SM",
+    "Description": "San Marino"
+}, {
+    "DialCode": 0,
+    "Id": "5125399a-0531-4034-8667-1681d9a1dc33",
+    "Code": "GS",
+    "Description": "South Georgia & Sandwich Islands"
+}, {
+    "DialCode": 239,
+    "Id": "0a4a9b55-4c77-483d-8f54-ac0d7d0e390c",
+    "Code": "ST",
+    "Description": "Sao Tome and Principe"
+}, {
+    "DialCode": 966,
+    "Id": "f01c208a-90c3-48b1-8cd5-f0ebe33e757f",
+    "Code": "SA",
+    "Description": "Saudi Arabia"
+}, {
+    "DialCode": 221,
+    "Id": "41731b50-3f62-491b-96e7-485ab2bcf09c",
+    "Code": "SN",
+    "Description": "Senegal"
+}, {
+    "DialCode": 381,
+    "Id": "7f7af985-4096-41b0-ae56-290e32a07810",
+    "Code": "RS",
+    "Description": "Serbia"
+}, {
+    "DialCode": 248,
+    "Id": "c17a093f-1b72-44ec-8dc3-b7399e872f67",
+    "Code": "SC",
+    "Description": "Seychelles"
+}, {
+    "DialCode": 232,
+    "Id": "387a7cd2-067e-4054-ba63-c00b8bb216d9",
+    "Code": "SL",
+    "Description": "Sierra Leone"
+}, {
+    "DialCode": 65,
+    "Id": "510f7de9-c7be-4452-85a0-7369b45808e4",
+    "Code": "SG",
+    "Description": "Singapore"
+}, {
+    "DialCode": 421,
+    "Id": "57701fbe-7ee8-4fc1-86d3-cbefdc61b200",
+    "Code": "SK",
+    "Description": "Slovakia"
+}, {
+    "DialCode": 386,
+    "Id": "9a8fcf90-bd23-486f-8d4f-91dc6f89a10f",
+    "Code": "SI",
+    "Description": "Slovenia"
+}, {
+    "DialCode": 677,
+    "Id": "139c3c73-eb8c-4967-a52b-c7802febfe6f",
+    "Code": "SB",
+    "Description": "Solomon Islands"
+}, {
+    "DialCode": 252,
+    "Id": "ac5650ce-d5d4-4575-a651-53e712b42df4",
+    "Code": "SO",
+    "Description": "Somalia"
+}, {
+    "DialCode": 27,
+    "Id": "a2e16b7b-fa12-463f-a8bb-c1df9af1ac4f",
+    "Code": "ZA",
+    "Description": "South Africa"
+}, {
+    "DialCode": 34,
+    "Id": "61795b29-783c-4d17-b0d0-ee9b5a9d8f99",
+    "Code": "ES",
+    "Description": "Spain"
+}, {
+    "DialCode": 94,
+    "Id": "95002ab3-2131-4b2b-8bc2-095a66e02da1",
+    "Code": "LK",
+    "Description": "Sri Lanka"
+}, {
+    "DialCode": 290,
+    "Id": "de3cb702-2f08-4a9f-86a6-c807277c331b",
+    "Code": "SH",
+    "Description": "Saint Helena"
+}, {
+    "DialCode": 508,
+    "Id": "155bfff1-95aa-473c-a58f-cbf90136b4d7",
+    "Code": "PM",
+    "Description": "St. Pierre & Miquelon"
+}, {
+    "DialCode": 249,
+    "Id": "2c32e157-e997-4a9d-9b30-8fa70c1ebb58",
+    "Code": "SD",
+    "Description": "Sudan"
+}, {
+    "DialCode": 597,
+    "Id": "7feecdf1-d2f6-418e-b723-e2d2eafff10e",
+    "Code": "SR",
+    "Description": "Suriname"
+}, {
+    "DialCode": 47,
+    "Id": "cec47d1b-37c0-4768-b9e8-1b42560c6b4e",
+    "Code": "SJ",
+    "Description": "Svalbard and Jan Mayen"
+}, {
+    "DialCode": 268,
+    "Id": "6453ae6b-9181-4232-8c2f-b75fd2107f69",
+    "Code": "SZ",
+    "Description": "Swaziland"
+}, {
+    "DialCode": 46,
+    "Id": "38308a67-3c64-4239-9ef0-1edda8d00a6d",
+    "Code": "SE",
+    "Description": "Sweden"
+}, {
+    "DialCode": 41,
+    "Id": "d9f1dfed-f9bd-499a-be00-0110aefbf5d7",
+    "Code": "CH",
+    "Description": "Switzerland"
+}, {
+    "DialCode": 963,
+    "Id": "fe1d119f-1e96-47a5-9761-7b8e3fa12345",
+    "Code": "SY",
+    "Description": "Syria"
+}, {
+    "DialCode": 992,
+    "Id": "bcb6d724-74f1-42a9-bd1e-bceab3fe35c9",
+    "Code": "TJ",
+    "Description": "Tajikistan"
+}, {
+    "DialCode": 255,
+    "Id": "b9142a42-bae9-4a69-924e-e5cc9c76c05c",
+    "Code": "TZ",
+    "Description": "Tanzania"
+}, {
+    "DialCode": 66,
+    "Id": "2cb5aa78-1fb2-4bd7-a346-feb1ff43e561",
+    "Code": "TH",
+    "Description": "Thailand"
+}, {
+    "DialCode": 228,
+    "Id": "0e5eea12-dbd0-422b-818f-a0af07708ce5",
+    "Code": "TG",
+    "Description": "Togo"
+}, {
+    "DialCode": 690,
+    "Id": "1e226365-ea85-4f70-b639-0016c7843083",
+    "Code": "TK",
+    "Description": "Tokelau"
+}, {
+    "DialCode": 676,
+    "Id": "b15873f0-5c7e-4115-8c70-0070f1c07b57",
+    "Code": "TO",
+    "Description": "Tonga"
+}, {
+    "DialCode": 1868,
+    "Id": "c637259f-a727-4223-9c72-c1fdeb5f1e6a",
+    "Code": "TT",
+    "Description": "Trinidad and Tobago"
+}, {
+    "DialCode": 216,
+    "Id": "5c9f8d94-0535-4040-80e4-df7ddbb38fc1",
+    "Code": "TN",
+    "Description": "Tunisia"
+}, {
+    "DialCode": 90,
+    "Id": "b9c40b63-5d63-4ff7-a70c-f598ebbcb9fa",
+    "Code": "TR",
+    "Description": "Turkey"
+}, {
+    "DialCode": 993,
+    "Id": "a6c02ac6-91c4-416f-8f1f-8d84364b67fc",
+    "Code": "TM",
+    "Description": "Turkmenistan"
+}, {
+    "DialCode": 1649,
+    "Id": "7f5b350c-b116-445a-90b1-9379c73d4717",
+    "Code": "TC",
+    "Description": "Turks and Caicos Islands"
+}, {
+    "DialCode": 688,
+    "Id": "64cbe029-5612-4dfe-a9e8-aa6335251918",
+    "Code": "TV",
+    "Description": "Tuvalu"
+}, {
+    "DialCode": 256,
+    "Id": "5368a9d2-723d-4830-92c6-b95459ecca3e",
+    "Code": "UG",
+    "Description": "Uganda"
+}, {
+    "DialCode": 380,
+    "Id": "1146b21d-4574-419f-888a-646b1d569726",
+    "Code": "UA",
+    "Description": "Ukraine"
+}, {
+    "DialCode": 971,
+    "Id": "29821a8c-7d56-4919-ac7a-47720a443032",
+    "Code": "AE",
+    "Description": "United Arab Emirates"
+}, {
+    "DialCode": 44,
+    "Id": "7add3074-027e-4316-b93a-5ff53cb40423",
+    "Code": "GB",
+    "Description": "United Kingdom"
+}, {
+    "DialCode": 1,
+    "Id": "8dc8b73a-bb2c-4526-8abd-2e88a5435e2f",
+    "Code": "US",
+    "Description": "United States"
+}, {
+    "DialCode": 598,
+    "Id": "7d56a091-f329-4ac1-8d48-334ecbebbc42",
+    "Code": "UY",
+    "Description": "Uruguay"
+}, {
+    "DialCode": 998,
+    "Id": "86cfe78f-5309-4da8-a132-867effe8e982",
+    "Code": "UZ",
+    "Description": "Uzbekistan"
+}, {
+    "DialCode": 678,
+    "Id": "afbc300b-b081-421e-82bf-a462d254902b",
+    "Code": "VU",
+    "Description": "Vanuatu"
+}, {
+    "DialCode": 58,
+    "Id": "6661f858-c486-4530-a2e3-a8720d3d7935",
+    "Code": "VE",
+    "Description": "Venezuela"
+}, {
+    "DialCode": 84,
+    "Id": "9b31f0e2-d263-4dcd-a081-e51a21b9ad85",
+    "Code": "VN",
+    "Description": "Vietnam"
+}, {
+    "DialCode": 681,
+    "Id": "f0385f4b-4ea2-45bb-9bee-bda093edd73a",
+    "Code": "WF",
+    "Description": "Wallis & Futuna"
+}, {
+    "DialCode": 212,
+    "Id": "b9dfa9c2-4c58-4b93-b8b1-8d5ef459b66f",
+    "Code": "EH",
+    "Description": "Western Sahara"
+}, {
+    "DialCode": 967,
+    "Id": "d12c81d6-30e1-4b5b-bff9-114885e19da2",
+    "Code": "YE",
+    "Description": "Yemen"
+}, {
+    "DialCode": 381,
+    "Id": "13825f58-aa05-48ae-9b8e-d55866a689d7",
+    "Code": "YU",
+    "Description": "Yugoslavia"
+}, {
+    "DialCode": 243,
+    "Id": "cecac675-90eb-4038-a272-ccc71962093e",
+    "Code": "ZR",
+    "Description": "Zaire"
+}, {
+    "DialCode": 260,
+    "Id": "21e5c496-6d75-4468-a861-46878e816748",
+    "Code": "ZM",
+    "Description": "Zambia"
+}, {
+    "DialCode": 263,
+    "Id": "808eba62-09d9-4b23-bf80-36b95ebd7cbe",
+    "Code": "ZW",
+    "Description": "Zimbabwe"
+}]
