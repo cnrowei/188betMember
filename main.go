@@ -10,6 +10,7 @@ import (
 	"strings"
 
 	"./helper"
+	"./logics"
 	"./models"
 	"github.com/gin-gonic/gin"
 )
@@ -30,7 +31,7 @@ func Middleware(c *gin.Context) {
 			sessionUser = userInfo.(models.Users)
 
 			// if value, ok := userInfo.(models.Users); ok {
-			fmt.Println(sessionUser.Id)
+			fmt.Println("sessionUser.Username", sessionUser.Username)
 			// }
 		}
 	}
@@ -101,6 +102,9 @@ func main() {
 			"Params":  nil,
 		})
 	})
+	//
+
+	router.POST("/Api/Member/Add", logics.AddMember)
 
 	//公告
 	router.POST("/Api/Web/Message", func(c *gin.Context) {
@@ -381,7 +385,7 @@ func readFile1(path string) string {
 }
 
 func postLabel(path string) {
-	var lan []models.Language
+	var lan []models.Languages
 
 	fi, err := os.Open(path)
 	if err != nil {

@@ -1176,8 +1176,15 @@ var HomeJS = { // this is a Utility of Login
         if (currTheme)
             uv.pd = currTheme;
 
+            if (uv.pd.theme==null){
+                uv.pd.theme = "black"
+            }
+
         utility.cookie.write('prefer', JSON.stringify(uv.pd), { expires: 0, path: '/' });
-        
+
+      //if undefined
+
+        console.log(uv.pd.theme)
         $('head').append('<link id="themestyle" href="/Content/Public/CSS/Themes/' + uv.pd.theme + '-theme.css?v=' + global.rv + '" rel="stylesheet" type="text/css" />');
     },
     //#endregion

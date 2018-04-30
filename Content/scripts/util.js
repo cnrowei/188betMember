@@ -158,6 +158,12 @@ var StaticContent = function(lang, resname) {
     this.resourceName = resname;
 }
 
+var MemberRole = function (code, descr) {
+    this.code = code;
+    this.descr = descr;
+}
+
+
 function showClock(){
     $('.clock .time').jclock({
         format: '%H:%M:%S'
@@ -242,6 +248,16 @@ function loadSecurityQuestion(model) {
                 model.securityquestions.push(new SecurityQuestion(item.Code, item.Descr));
             });
         }
+    });
+}
+
+function loadMemberRole(model) {
+
+    var data = JSON && JSON.parse('[{"Code":0,"Descr":"会员"},{"Code":1,"Descr":"代理"}]');
+
+    $.each(data, function (index, item) {
+        //console.log(item.Code)
+        model.memberroles.push(new MemberRole(item.Code, item.Descr));
     });
 }
 

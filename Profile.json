@@ -1,0 +1,99 @@
+{
+    "Password": null,
+    "Language": "zh-CN",
+    "City": "株洲/湖南",
+    "Address": "湖南省株洲市芦淞区车站路23号11栋702",
+    "Postal": "412000",
+    "DialCode": "86",
+    "ContactNo": "13117335410",
+    "Email": "8202433@163.com",
+    "ChatTool": "",
+    "ChatAddress": "138734506",
+    "Describe": "我没有网站，但是我会在一些赌博网站或者电影网站都会投入贵网站的广告，身边很多朋友都是BET365的客户，我可以叫他们到贵网站投注。另外我也会在一些论坛投放广告，我已经申请多次，很有诚意，请贵网站批准我加入，谢谢。",
+    "OwnWebsite": 1,
+    "CommRcvOpt": "comm.rcv.field.bank.transfer",
+    "SecurityQuestion": "SecretCode",
+    "SecurityAnswer": null,
+    "IovationBlackbox": null,
+    "ProfileList": [{
+        "FieldName": "aff.profile.field.company.name",
+        "FieldValue": null,
+        "Description": "公司名称（如果有的话）"
+    }, {
+        "FieldName": "aff.profile.field.188.account.username",
+        "FieldValue": null,
+        "Description": "188金宝博帐号（如果有的话）"
+    }],
+    "CommRcvList": [{
+        "FieldName": "comm.rcv.field.bank.transfer",
+        "Description": "银行汇款",
+        "Support": true,
+        "Data": [{
+            "FieldName": "comm.rcv.data.field.bt.acc.name",
+            "FieldValue": "吴昊",
+            "Description": "账户姓名"
+        }, {
+            "FieldName": "comm.rcv.data.field.bt.acc.no",
+            "FieldValue": "6217857500013809873",
+            "Description": "账户号码"
+        }, {
+            "FieldName": "comm.rcv.data.field.bt.swift.code",
+            "FieldValue": "0",
+            "Description": "SWIFT Code"
+        }, {
+            "FieldName": "comm.rcv.data.field.bt.bank.name",
+            "FieldValue": "中国银行",
+            "Description": "银行名称"
+        }, {
+            "FieldName": "comm.rcv.data.field.bt.branch.name",
+            "FieldValue": "湖南省株洲市贺嘉土支行",
+            "Description": "分/支行名称"
+        }, {
+            "FieldName": "comm.rcv.data.field.bt.bank.country",
+            "FieldValue": "中国",
+            "Description": "银行所在国家"
+        }, {
+            "FieldName": "comm.rcv.data.field.bt.sort.code",
+            "FieldValue": "0",
+            "Description": "Sort Code"
+        }, {
+            "FieldName": "comm.rcv.data.field.bt.iban",
+            "FieldValue": "RMB",
+            "Description": "IBAN"
+        }]
+    }, {
+        "FieldName": "comm.rcv.field.moneybookers",
+        "Description": "Skrill (Moneybookers)",
+        "Support": true,
+        "Data": [{
+            "FieldName": "comm.rcv.data.field.moneybookers",
+            "FieldValue": null,
+            "Description": "Skrill (Moneybookers) 邮件地址"
+        }]
+    }, {
+        "FieldName": "comm.rcv.field.188.account",
+        "Description": "188BET 投注账户",
+        "Support": true,
+        "Data": [{
+            "FieldName": "comm.rcv.data.field.188.account",
+            "FieldValue": null,
+            "Description": "188BET 投注账户"
+        }]
+    }],
+    "WebsiteList": [{
+        "Id": "041d3aec-6891-452b-835e-c2ea1009c6a6",
+        "Url": "",
+        "Descr": ""
+    }],
+    "Id": "eba62769-2e36-4a83-a87e-94530bb2a918",
+    "ParentId": null,
+    "Code": "51741",
+    "Username": "wuhao410",
+    "FirstName": "昊",
+    "LastName": "吴",
+    "RegDate": "18 4月 2014",
+    "WebUrl": null,
+    "Country": "CN",
+    "Currency": "RMB",
+    "Captcha": null
+}

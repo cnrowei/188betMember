@@ -11,6 +11,7 @@ var ViewModel = function () {
     this.dialcodes = ko.observableArray();
     this.countrycontacts = ko.observableArray();
     this.chattools = ko.observableArray();
+    this.memberroles = ko.observableArray();
 }
 
 var processing = new ProcessLoader();
@@ -111,7 +112,7 @@ function localeBasedLoader() {
 function preLoader() {
     // Wait for all dropdowns datasource are loaded before doing binding
     $.when(loadLanguage(viewModel), loadMessage(),
-        loadCountry(viewModel), loadCurrency(viewModel), loadDialCode(viewModel),loadChatTool(viewModel)).then(bindPage);
+        loadCountry(viewModel), loadCurrency(viewModel), loadDialCode(viewModel),loadMemberRole(viewModel),loadChatTool(viewModel)).then(bindPage);
 }
 
 function col10Collapse() {

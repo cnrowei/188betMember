@@ -45,7 +45,7 @@
     "MsgVal": "Please fix this field"
 }, {
     "MsgKey": "jquery.validator.required",
-    "MsgVal": "This field is required"
+    "MsgVal": "*"
 }, {
     "MsgKey": "jquery.validator.url",
     "MsgVal": "Please enter a valid URL"

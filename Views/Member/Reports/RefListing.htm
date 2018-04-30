@@ -1,4 +1,4 @@
-<div id="referralListingView" >
+<div id="referralListingView">
     <div id="left-panel">
         <div class="panel-top">
             <span></span>
@@ -8,75 +8,178 @@
         </div>
         <div class="panel-content">
             <ul id="submenu">
-                <li><a class="m selected" id="hpl-ref-listing" href="#!/RefListing" data-bind="labelTemplate:['referral.listing',label()]"></a></li>
-                <li><a class="m" id="hpl-win-loss-product" href="#!/WinLossProduct" style="letter-spacing: -1px;" data-bind="labelTemplate:['summary.of.win.loss.based.on.product',label()]"></a></li>
-                <li><a class="m" id="hpl-aff-commission-by-period" href="#!/AffCommissionByPeriod" data-bind="labelTemplate:['affiliate.commission.reports.by.period',label()]"></a></li>
-                <li><a class="m" id="hpl-aff-collateral" href="#!/AffCollateral" data-bind="labelTemplate:['affiliate.collateral.performance.by.report',label()]"></a></li>
-                <li><a class="m" id="hpl-aff-commission-payment" href="#!/AffCommissionPayment" data-bind="labelTemplate:['commission.payment.report',label()]"></a></li>
+                <li>
+                    <a class="m selected" id="hpl-ref-listing" href="#!/RefListing" data-bind="labelTemplate:['referral.listing',label()]"></a>
+                </li>
+                <li>
+                    <a class="m" id="hpl-win-loss-product" href="#!/WinLossProduct" style="letter-spacing: -1px;" data-bind="labelTemplate:['summary.of.win.loss.based.on.product',label()]"></a>
+                </li>
+                <li>
+                    <a class="m" id="hpl-aff-commission-by-period" href="#!/AffCommissionByPeriod" data-bind="labelTemplate:['affiliate.commission.reports.by.period',label()]"></a>
+                </li>
+                <li>
+                    <a class="m" id="hpl-aff-collateral" href="#!/AffCollateral" data-bind="labelTemplate:['affiliate.collateral.performance.by.report',label()]"></a>
+                </li>
+                <li>
+                    <a class="m" id="hpl-aff-commission-payment" href="#!/AffCommissionPayment" data-bind="labelTemplate:['commission.payment.report',label()]"></a>
+                </li>
             </ul>
         </div>
     </div>
 
     <div id="content-panel">
-                <div id="c" class="content data-grid">    
-                    <div class="#"> 
-                    	<h3 class="account-settings" data-bind="labelTemplate:['referral.listing',label()]"></h3>
-                        <div class="search-pad-content">
-                            <div class="search-pad-inner-content">
-                                <div id="div-print-link" class="print-link">
-                                    <a href="javascript:void(0)" id="referralListing-download-excel" class="print" data-bind="labelTemplate:['print',commonLabel()]"></a></div>
-                            </div>
+        <div id="c" class="content data-grid">
+            <div class="#">
+                <h3 class="account-settings" data-bind="labelTemplate:['referral.listing',label()]"></h3>
+                <div class="search-pad-content">
+                    <div class="search-pad-inner-content">
+                        <div id="div-print-link" class="print-link">
+                            <a href="#addMemberModal" data-toggle="modal" id="addMemberModal-link" class="print" data-bind="labelTemplate:['add',label()]"></a>
                         </div>
-                        
-                        <div id="div-main-div" class="maindiv">
-                            <div class="data-container">
-        
-            					<div id="div-data-title" class="data-title"> <a class="coll0"><strong data-bind="labelTemplate:['referral.listing',label()]"></strong></a></div>
-                                <table border="0" cellspacing="0" cellpadding="0" class="st">
-                                    <colgroup>
-                                        <col width="100px" />
-                                        <col width="100px" />
-                                        <col width="100px" />
-                                        <col width="70px" />
-                                        <col width="70px" />
-                                        <col width="70px" />
-                                        <col />
-                                    </colgroup>
-                                    <thead>
-                                        <tr class="st-hdr" style="line-height: 100%;">
-                                            <th class="tac" data-bind="labelTemplate:['online',label()]"></th>
-                                            <th class="tac" data-bind="labelTemplate:['member.code',label()]"></th>
-                                            <th class="tac" data-bind="labelTemplate:['registration.date',label()]"></th>
-                                            <th class="tac" data-bind="labelTemplate:['balance',label()]"></th>
-                                            <th class="tac" data-bind="labelTemplate:['member.credit',label()]"></th>
-                                            <th class="tac" data-bind="labelTemplate:['member.status',label()]"></th>
-                                            <th class="tac" data-bind="labelTemplate:['administration',label()]"></th>
-                                        </tr>
-                                    </thead>
-                                    <tbody data-bind="foreach:memberModal.memberList">
-                                            <tr>
-                                                <td class="tac" data-bind="text:online"></td>
-                                                <td class="tac" data-bind="text:username"></td>
-                                                <td class="tac" data-bind="text:created"></td>
-                                                <td class="tac" data-bind="text:balance"></td>
-                                                <td class="tac" data-bind="text:credit"></td>
-                                                <td class="tac" data-bind="text:status"></td>
-                                                <td class="tac" >
-                                                        <a href="#" class="submit" data-bind="labelTemplate:['edit',$root.label()],click: manageMember.bind(), attr: {id: 'hpl-generate-qr-' + $index()}"></a> , 
-                                                        <a href="#" class="submit" data-bind="labelTemplate:['stop.betting',$root.label()],click: manageMember.bind(), attr: {id: 'hpl-generate-qr-' + $index()}"></a> , 
-                                                        <a href="#" class="submit" data-bind="labelTemplate:['frozen.account',$root.label()],click: manageMember.bind(), attr: {id: 'hpl-generate-qr-' + $index()}"></a>
-                                                </td>
-                                            </tr>
-                                    </tbody>
-                                </table>
-            				</div>
-                        </div>
-                        
                     </div>
                 </div>
-            
+
+                <div id="div-main-div" class="maindiv">
+                    <div class="data-container">
+
+                        <div id="div-data-title" class="data-title">
+                            <a class="coll0">
+                                <strong data-bind="labelTemplate:['referral.listing',label()]"></strong>
+                            </a>
+                        </div>
+                        <table border="0" cellspacing="0" cellpadding="0" class="st">
+                            <colgroup>
+                                <col width="100px" />
+                                <col width="100px" />
+                                <col width="100px" />
+                                <col width="70px" />
+                                <col width="70px" />
+                                <col width="70px" />
+                                <col />
+                            </colgroup>
+                            <thead>
+                                <tr class="st-hdr" style="line-height: 100%;">
+                                    <th class="tac" data-bind="labelTemplate:['online',label()]"></th>
+                                    <th class="tac" data-bind="labelTemplate:['member.code',label()]"></th>
+                                    <th class="tac" data-bind="labelTemplate:['registration.date',label()]"></th>
+                                    <th class="tac" data-bind="labelTemplate:['balance',label()]"></th>
+                                    <th class="tac" data-bind="labelTemplate:['member.credit',label()]"></th>
+                                    <th class="tac" data-bind="labelTemplate:['member.status',label()]"></th>
+                                    <th class="tac" data-bind="labelTemplate:['administration',label()]"></th>
+                                </tr>
+                            </thead>
+                            <tbody data-bind="foreach:memberModal.memberList">
+                                <tr>
+                                    <td class="tac" data-bind="text:online"></td>
+                                    <td class="tac" data-bind="text:username"></td>
+                                    <td class="tac" data-bind="text:created"></td>
+                                    <td class="tac" data-bind="text:balance"></td>
+                                    <td class="tac" data-bind="text:credit"></td>
+                                    <td class="tac" data-bind="text:status"></td>
+                                    <td class="tac">
+
+                                        <a href="#addBalanceModal" class="submit" data-bind="labelTemplate:['edit',$root.label()],click: manageMember.bind(), attr: {id: 'hpl-generate-qr-' + $index()}"></a> ,
+                                        <a href="#" class="submit" data-bind="labelTemplate:['stop.betting',$root.label()],click: manageMember.bind(), attr: {id: 'hpl-generate-qr-' + $index()}"></a> ,
+                                        <a href="#" class="submit" data-bind="labelTemplate:['frozen.account',$root.label()],click: manageMember.bind(), attr: {id: 'hpl-generate-qr-' + $index()}"></a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
             </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- Add Creative Modal -->
+    <div id="addBalanceModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"
+        hidden>
+        <div class="modal-header">
+            <b data-bind="labelTemplate:['setting.balance',label()]">
+            </b>
+        </div>
+        <div class="modal-body form-horizontal">
+            <ul class="r-user-info">
+                <li class="r-label" data-bind="labelTemplate:['balance',label()]"></li>
+                <li class="r-fields">
+                    <input type="text" placeholder="" data-bind="value:memberModal.balance" />
+                </li>
+            </ul>
+        </div>
+        <div class="modal-footer">
+
+            <span class="rc-left pull-right">
+                <span class="rc-right">
+                    <a tabindex="-1" href="javascript:void(0);" id="addBalance-cancel-btn" class="btnStyle" data-bind="labelTemplate:['cancel',label()]"></a>
+                </span>
+            </span>
+            &nbsp;
+            <span class="rc-left pull-right">
+                <span class="rc-right">
+                    <a tabindex="-1" href="javascript:void(0);" id="addBalance-btn" class="btnStyle" data-bind="labelTemplate:['add',label()]"></a>
+                </span>
+            </span>
+        </div>
+    </div>
+
+    <!-- Add Creative Modal -->
+    <div id="addMemberModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myMemberModalLabel" aria-hidden="true"
+        hidden>
+        <div class="modal-header">
+            <b data-bind="labelTemplate:['update.editmember.info',referralListingViewModel.label()]"></b>
+        </div>
+        <div class="modal-body form-horizontal">
+            <ul class="r-user-info">
+                <li class="r-label" data-bind="labelTemplate:['member.code',referralListingViewModel.label()]"></li>
+                <li class="r-fields">
+                    <input type="text" id="username"  placeholder="" data-bind="value:username" />
+                </li>
+            </ul>
+            <ul class="r-user-info">
+                <li class="r-label" data-bind="labelTemplate:['password',referralListingViewModel.label()]"></li>
+                <li class="r-fields">
+                    <input type="password" id="password"  placeholder="" data-bind="value:password" />
+                </li>
+            </ul>
+            
+            <ul class="r-user-info">
+                <li class="r-label" data-bind="labelTemplate:['balance',referralListingViewModel.label()]"></li>
+                <li class="r-fields">
+                    <input type="text" name="balance" id="balance"  placeholder="" data-bind="value:balance" />
+                </li>
+            </ul>
+           
+            <ul class="r-user-info">
+                <li class="r-label" data-bind="labelTemplate:['member.role',referralListingViewModel.label()]"></li>
+                <li class="r-fields">
+                    <select id="memberrole" class="txt" data-bind="options:viewModel.memberroles, optionsText:'descr', optionsValue:'code', value:memberrole"></select>
+                </li>
+            </ul>
+        </div>
+        <div class="modal-footer">
+
+            <span class="rc-left pull-right">
+                <span class="rc-right">
+                    <a tabindex="-1" href="javascript:void(0);" id="addMember-cancel-btn" class="btnStyle" data-bind="labelTemplate:['cancel',referralListingViewModel.label()]"></a>
+                </span>
+            </span>
+            &nbsp;
+            <span class="rc-left pull-right">
+                <span class="rc-right">
+                    <a tabindex="-1" href="javascript:void(0);" id="addMember-btn" class="btnStyle" data-bind="labelTemplate:['add',referralListingViewModel.label()]"></a>
+                </span>
+            </span>
+        </div>
+    </div>
+
 
 </div>
+
+
+
 <!--Core JS-->
-<script type="text/javascript" src="/Content/scripts/Member/reports/refListing.js?v=100113231111"></script>
+<script type="text/javascript" src="/Content/scripts/Member/reports/refListing.js"></script>

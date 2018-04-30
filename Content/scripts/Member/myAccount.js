@@ -71,6 +71,8 @@ var AffCommMode = function (id, type) {
 var AccountModel = function () {
     var self = this;
 
+    //preferred.currency
+    
     this.id = ko.observable();
     this.username = ko.observable().extend({ required: true });
     this.lastname = ko.observable().extend({ required: true });

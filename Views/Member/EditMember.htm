@@ -1,0 +1,89 @@
+<div id="editMemberView">
+    <div id="left-panel">
+        <div class="panel-top">
+            <span></span>
+            <div>
+            </div>
+            <h2 data-bind="labelTemplate:['my.account',commonLabel()]"></h2>
+        </div>
+        <div id="div-panel-content" class="panel-content">
+            <ul id="submenu">
+            </ul>
+        </div>
+        <div id="div-panel-bottom" class="panel-btm">
+            <span></span>
+            <div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="content-panel">
+        <div class="sign-up-form form-wrapper">
+
+            <p class="validationMessage" data-bind="labelTemplate:['update.editmember.info',editMemberViewModel.label()] , visible:accountModel.commrcvopt()==null"></p>
+
+            <form id="update-form" action="" novalidate="novalidate">
+            <div class="r-window registration">
+                <div class="r-modal-contents">
+                    <div id="div-account-info" class="r-left-panel">
+                        <!-- Login Credentials start -->
+                        <h2 data-bind="labelTemplate:['edit',editMemberViewModel.label()]"></h2>
+                        <ul class="r-user-info">
+                            <li class="r-label" data-bind="labelTemplate:['username',editMemberViewModel.label()]"></li>
+                            <li class="r-fields">
+                                <input type="text" id="username" class="txt" placeholder="" data-bind="value:username" />
+                            </li>
+                        </ul>
+
+                        <ul class="r-user-info">
+                                <li class="r-label" data-bind="labelTemplate:['nickname',editMemberViewModel.label()]"></li>
+                                <li class="r-fields">
+                                    <input type="text" id="nickname" class="txt" placeholder="" data-bind="value:nickname"/>
+                                </li>
+                            </ul>
+                        
+                        <ul class="r-user-info">
+                            <li class="r-label" data-bind="labelTemplate:['password',editMemberViewModel.label()]"></li>
+                            <li class="r-fields">
+                                <input type="text" id="password" class="txt" placeholder="" data-bind="value:password" />
+                            </li>
+                        </ul>
+
+                        <ul class="r-user-info">
+                            <li class="r-label" data-bind="labelTemplate:['preferred.currency',editMemberViewModel.label()]"></li>
+                            <li class="r-fields">
+                                <select id="prefer-currency" class="txt" data-bind="options: viewModel.currencies, optionsText: 'descr', optionsValue: 'code' , value:currency" disabled>
+                                </select>
+                            </li>
+                        </ul>
+ 
+
+
+                        <h2 class="sub" data-bind="labelTemplate:['balance',editMemberViewModel.label()]"></h2>
+                        <div id="div-add-info" class="add-info">
+
+                                <input type="text" id="balance" class="txt" placeholder="" data-bind="value:balance" />
+
+                        </div>
+
+                     
+
+                        <div id="div-submit-panel" class="submit-panel">
+                            <ul class="r-captcha-submit" style="background-color: transparent; margin: 20px 0 0 130px;">
+                                <li class="r-submit"><a href="javascript:void(0);" class="btn3 btn_submit" id="myAccount-btn-update" data-bind="labelTemplate:['update',editMemberViewModel.label()]">
+                                    </a> </li>
+                                <li class="r-submit"><a href="javascript:void(0);" class="btn3 btn_submit" id="myAccount-btn-cancel" data-bind="labelTemplate:['cancel',editMemberViewModel.label()]"
+                                    style="background-position: 0 -99px;"></a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </form>
+        </div>
+    </div>
+
+</div>
+<!--Core JS-->
+<script type="text/javascript" src="/Content/scripts/Member/editMember.js?v=10011325"></script>
