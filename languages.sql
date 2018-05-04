@@ -19,15 +19,15 @@
 -- ----------------------------
 -- Table structure for languages
 -- ----------------------------
-DROP TABLE IF EXISTS "public"."languages";
-CREATE TABLE "public"."languages" (
-  "id" int4 NOT NULL DEFAULT nextval('language_id_seq'::regclass),
-  "code" varchar(50) COLLATE "pg_catalog"."default",
-  "descr" varchar(255) COLLATE "pg_catalog"."default",
-  "lang" varchar(50) COLLATE "pg_catalog"."default"
-)
-;
-ALTER TABLE "public"."languages" OWNER TO "root";
+-- DROP TABLE IF EXISTS "public"."languages";
+-- CREATE TABLE "public"."languages" (
+--   "id" int4 NOT NULL DEFAULT nextval('language_id_seq'::regclass),
+--   "code" varchar(50) COLLATE "pg_catalog"."default",
+--   "descr" varchar(255) COLLATE "pg_catalog"."default",
+--   "lang" varchar(50) COLLATE "pg_catalog"."default"
+-- )
+-- ;
+-- ALTER TABLE "public"."languages" OWNER TO "root";
 
 -- ----------------------------
 -- Records of languages
@@ -259,7 +259,7 @@ INSERT INTO "public"."languages" VALUES (223, 'setting.balance', '设置账号�
 INSERT INTO "public"."languages" VALUES (224, 'member.role', '会员级别', 'zh-CN');
 COMMIT;
 
--- ----------------------------
--- Primary Key structure for table languages
--- ----------------------------
-ALTER TABLE "public"."languages" ADD CONSTRAINT "language_pkey" PRIMARY KEY ("id");
+-- -- ----------------------------
+-- -- Primary Key structure for table languages
+-- -- ----------------------------
+-- ALTER TABLE "public"."languages" ADD CONSTRAINT "language_pkey" PRIMARY KEY ("id");

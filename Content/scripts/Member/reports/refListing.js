@@ -19,10 +19,18 @@
 
 var AccountModel = function () {
     var self = this;
-    this.username = ko.observable().extend({ required: true });
-    this.password = ko.observable().extend({ required: true });
-    this.balance = ko.observable().extend({ required: true });
-    this.memberrole = ko.observable().extend({ required: true });
+    this.username = ko.observable().extend({
+        required: true
+    });
+    this.password = ko.observable().extend({
+        required: true
+    });
+    this.balance = ko.observable().extend({
+        required: true
+    });
+    this.memberrole = ko.observable().extend({
+        required: true
+    });
     //this.memberroles = ko.observableArray();
 }
 
@@ -34,8 +42,7 @@ var MemberModal = function () {
     this.memberList = ko.observableArray();
 }
 
-var Member = function (Index, userid, username,created,balance, credit, online, status) 
-{
+var Member = function (Index, userid, username, created, balance, credit, online, status,login) {
     this.Index = Index;
     this.userid = userid;
     this.username = username;
@@ -44,14 +51,15 @@ var Member = function (Index, userid, username,created,balance, credit, online, 
     this.credit = credit;
     this.online = online;
     this.status = status;
+    this.login = login;
 
 
 }
 
 var labelParam = {
-    keys: "referral.listing,summary.of.win.loss.based.on.product,affiliate.commission.reports.by.period,affiliate.collateral.performance.by.report,edit,"
-        + "commission.payment.report,refferal.id,registration.date,website,country,currency,deposit,excel,sum,member.code,balance,online,currency,member.credit,administration,member.status,"
-        + "stop.betting,frozen.account,setting.balance,cancel,add,update.editmember.info,password,member.role"
+    keys: "referral.listing,summary.of.win.loss.based.on.product,affiliate.commission.reports.by.period,affiliate.collateral.performance.by.report,edit," +
+        "commission.payment.report,refferal.id,registration.date,website,country,currency,deposit,excel,sum,member.code,balance,online,currency,member.credit,administration,member.status," +
+        "stop.betting,frozen.account,setting.balance,cancel,add,update.editmember.info,password,member.role,login.status"
 };
 var referralListingViewModel = new ViewModel();
 var accountModel = new AccountModel();
@@ -62,13 +70,13 @@ function loadReferralListing() {
 
     $.get(url, function (data) {
 
-        $.each(data, function (index, item) {
-            referralListingViewModel.memberModal.memberList.push(new Member(item.index + 1, item.id,item.username,item.created,item.balance,item.credit,item.online,item.status));
-       });
-    })
-    .fail(function (error) {
-        Control.Dialog.showAlert("",error);
-    });
+            $.each(data, function (index, item) {
+                referralListingViewModel.memberModal.memberList.push(new Member(item.index + 1, item.id, item.username, item.created, item.balance, item.credit, item.online, item.status,item.login));
+            });
+        })
+        .fail(function (error) {
+            Control.Dialog.showAlert("", error);
+        });
 }
 
 // function manageMember(data, event) {
@@ -96,7 +104,7 @@ function loadReferralListing() {
 
 
 function manageMember(data, event) {
-    $("#addBalanceModal").modal('show'); 
+    $("#addBalanceModal").modal('show');
 
     var url = "/Api/Report/Member";
 
@@ -120,6 +128,66 @@ function manageMember(data, event) {
     // });
 }
 
+function stopMember(data, event) {
+    var url = "/Api/Member/Status";
+    var ustatus = true
+    Control.Dialog.showConfirm("", "你确定吗？", function () {
+        if (data.status == true) {
+            ustatus = false
+        } 
+        var param = JSON.parse('{"status":'+ustatus+',"userid":'+data.userid+'}');
+        $.ajax({
+            url: url,
+            type: "POST",
+            contentType: "application/json; charset=UTF-8",
+            dataType: "json",
+            data: JSON.stringify(param),
+            success: function (data) {
+                Control.Dialog.showAlert("OK", data.Message);
+            },
+            error: function (xhr, status, error) {
+                Control.Dialog.showAlert("", error);
+            },
+            complete: function () {
+                //Re-enable button
+                $('#affCollateral-download-excel').removeClass('disabled').prop('disabled', false);
+            }
+        });
+
+    });
+}
+
+function loginMember(data,event){
+    var url = "/Api/Member/LoginStatus";
+    var ustatus = true
+    Control.Dialog.showConfirm("", "你确定吗？", function () {
+        if (data.login == true) {
+            ustatus = false
+        } 
+        var param = JSON.parse('{"status":'+ustatus+',"userid":'+data.userid+'}');
+        $.ajax({
+            url: url,
+            type: "POST",
+            contentType: "application/json; charset=UTF-8",
+            dataType: "json",
+            data: JSON.stringify(param),
+            success: function (data) {
+                Control.Dialog.showAlert("OK", data.Message);
+                //Control.Dialog.showAlert("OK", "OK");
+                //$.fileDownload(url, { httpMethod: "POST", data: param });
+            },
+            error: function (xhr, status, error) {
+                Control.Dialog.showAlert("", error);
+            },
+            complete: function () {
+                //Re-enable button
+                $('#affCollateral-download-excel').removeClass('disabled').prop('disabled', false);
+            }
+        });
+
+    });
+}
+
 function exportReferralList() {
     //Disable button
     //$('#referralListing-download-excel').addClass('disabled').attr("disabled", "disabled");
@@ -130,10 +198,12 @@ function exportReferralList() {
         url: url,
         type: "GET",
         success: function (data) {
-            $.fileDownload(url, { httpMethod: "GET" });
+            $.fileDownload(url, {
+                httpMethod: "GET"
+            });
         },
         error: function (xhr, status, error) {
-            Control.Dialog.showAlert("",error);
+            Control.Dialog.showAlert("", error);
         },
         complete: function () {
             //Re-enable button
@@ -142,9 +212,9 @@ function exportReferralList() {
     });
 }
 
-function addMember(){
+function addMember() {
     if (accountModel.isValid() == false) {
-        Control.Dialog.showAlert("",$('#fill-up-all-required-fields').text());
+        Control.Dialog.showAlert("", $('#fill-up-all-required-fields').text());
         return false;
     }
 
@@ -156,7 +226,7 @@ function addMember(){
     //Disable submit
     $('#addLink-btn').addClass('disabled').attr("disabled", "disabled");
     var param = ko.toJSON(accountModel);
-    param = JSON.parse(param); 
+    param = JSON.parse(param);
 
     $.ajax({
         url: url,
@@ -176,12 +246,12 @@ function addMember(){
                 //referralListingViewModel.memberModal.creativeLinkList.removeAll();
                 loadReferralListing();
             } else {
-                Control.Dialog.showAlert("",data.Message);
+                Control.Dialog.showAlert("", data.Message);
             }
 
         },
         error: function (xhr, status, error) {
-            Control.Dialog.showAlert("",error);
+            Control.Dialog.showAlert("", error);
             $('#addLink-btn').removeClass('disabled').removeAttr("disabled");
         },
         complete: function (xhr, status) {
@@ -197,8 +267,8 @@ function addMember(){
 
 function addLink() {
     console.log("000")
- //Disable submit
- //$('#addLink-btn').addClass('disabled').attr("disabled", "disabled");
+    //Disable submit
+    //$('#addLink-btn').addClass('disabled').attr("disabled", "disabled");
 
 
 }
@@ -209,19 +279,27 @@ $(document).ready(function () {
     //Binding Click Event
     //$("#addBalance-btn").click(addLink);
     $("#addMember-btn").click(addMember);
+    //$("#addMember-btn").click(addMember);
 
     $("#referralListing-download-excel").click(exportReferralList);
-    $("#addMember-cancel-btn").click(function (e) { e.preventDefault(); $("#addMemberModal").modal('hide'); });
+    $("#addMember-cancel-btn").click(function (e) {
+        e.preventDefault();
+        $("#addMemberModal").modal('hide');
+    });
+    $("#addBalance-cancel-btn").click(function (e) {
+        e.preventDefault();
+        $("#addBalanceModal").modal('hide');
+    });
     //Loader
     $("#subpage-loader").show();
     //accountModel.memberrole('0');
 
     // Wait for pulling sources
-    $.when(loadLabel(labelParam, referralListingViewModel),loadReferralListing()).then(function () {
+    $.when(loadLabel(labelParam, referralListingViewModel), loadReferralListing()).then(function () {
 
         ko.applyBindings(referralListingViewModel, document.getElementById("referralListingView"));
         ko.applyBindings(accountModel, document.getElementById("addMemberModal"));
-        
+
         ko.validation.group(accountModel).showAllMessages(true);
 
         $("#subpage-loader").hide();

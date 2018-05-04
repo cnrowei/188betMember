@@ -55,6 +55,7 @@
                                 <col width="70px" />
                                 <col width="70px" />
                                 <col width="70px" />
+                                <col width="70px" />
                                 <col />
                             </colgroup>
                             <thead>
@@ -65,6 +66,7 @@
                                     <th class="tac" data-bind="labelTemplate:['balance',label()]"></th>
                                     <th class="tac" data-bind="labelTemplate:['member.credit',label()]"></th>
                                     <th class="tac" data-bind="labelTemplate:['member.status',label()]"></th>
+                                    <th class="tac" data-bind="labelTemplate:['login.status',label()]"></th>
                                     <th class="tac" data-bind="labelTemplate:['administration',label()]"></th>
                                 </tr>
                             </thead>
@@ -75,12 +77,10 @@
                                     <td class="tac" data-bind="text:created"></td>
                                     <td class="tac" data-bind="text:balance"></td>
                                     <td class="tac" data-bind="text:credit"></td>
-                                    <td class="tac" data-bind="text:status"></td>
+                                    <td class="tac" > <a href="#" class="submit" data-bind="click: stopMember.bind(), text:status"></a> </td>
+                                    <td class="tac" > <a href="#" class="submit" data-bind="click: loginMember.bind(), text:login"></a> </td>
                                     <td class="tac">
-
-                                        <a href="#addBalanceModal" class="submit" data-bind="labelTemplate:['edit',$root.label()],click: manageMember.bind(), attr: {id: 'hpl-generate-qr-' + $index()}"></a> ,
-                                        <a href="#" class="submit" data-bind="labelTemplate:['stop.betting',$root.label()],click: manageMember.bind(), attr: {id: 'hpl-generate-qr-' + $index()}"></a> ,
-                                        <a href="#" class="submit" data-bind="labelTemplate:['frozen.account',$root.label()],click: manageMember.bind(), attr: {id: 'hpl-generate-qr-' + $index()}"></a>
+                                        <a href="#addBalanceModal" class="submit" data-bind="labelTemplate:['edit',$root.label()],click: manageMember.bind(), attr: {id: 'hpl-generate-qr-' + $index()}"></a>
                                     </td>
                                 </tr>
                             </tbody>

@@ -43,7 +43,7 @@ function loadMonthList() {
     var url = "/Api/Report/MonthList";
         winLossProductViewModel.winLossModel.monthList.push(new Month("", "---------------"));
     $.get(url, function (data) {
-        $.each(JSON.parse(data), function (index, item) {
+        $.each(data, function (index, item) {
             winLossProductViewModel.winLossModel.monthList.push(new Month(item.Value, item.Display));
         });
     })

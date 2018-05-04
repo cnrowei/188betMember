@@ -11,7 +11,7 @@ import (
 )
 
 var sessionMgr *helper.SessionMgr = nil
-var sessionUser models.Users
+var SessionUser models.Users
 
 //用户登录验证
 func Userlogin(username, password string, persistlogin bool, c http.ResponseWriter) (bool, error, string) {
@@ -53,7 +53,7 @@ func Editpassword(c *gin.Context) {
 
 	if err := c.ShouldBindJSON(&info); err == nil {
 
-		if user, err := models.GetUserInfo(sessionUser.Username); user != nil && err == nil {
+		if user, err := models.GetUserInfo(SessionUser.Username); user != nil && err == nil {
 
 			pass_md5 := helper.MD5_16(info.Current)
 			fmt.Println("pass info.Current:", info.Current)
@@ -63,7 +63,7 @@ func Editpassword(c *gin.Context) {
 			if user.Password == pass_md5 {
 				newpass_md5 := helper.MD5_16(info.Newpass)
 				user.Password = newpass_md5
-				if has, err := models.UpUserpass(sessionUser.Id, user); has > 0 && err == nil {
+				if has, err := models.UpUserpass(SessionUser.Id, user); has > 0 && err == nil {
 					c.JSON(http.StatusOK, gin.H{"Status": 1, "Message": "密码修改成功", "Params": nil})
 				} else {
 					c.JSON(http.StatusOK, gin.H{"Status": 1, "Message": "密码修改失败", "Params": nil})

@@ -78,11 +78,29 @@ type Users struct {
 	Ethcoin    float64   `json:"btccoin"`                 //eth
 	Ltbcoin    float64   `json:"btccoin"`                 //ltb
 	Online     bool      `json:"online"`                  //是否在线
-	Login      bool      `json:"Login"`                   //账号状态
+	Login      bool      `json:"login"`                   //账号状态
 	Odds       string    `json:"odds"`                    //赔率盘口
 	Status     bool      `json:"status"`                  //是否收单
 	Created    time.Time `json:"created"`                 //添加时间
 	Updated    time.Time `json:"updated"`                 //更新时间
+}
+
+//下注
+type Wagers struct {
+	Id           int64     `gorm:"index" json:"wagerNo"`                   //编号
+	Uid          int64     `gorm:"index" json:"Uid"`                       //类型
+	Counterid    int64     `gorm:"index" json:"counterId"`                 //类型
+	Drawno       int64     `gorm:"index" json:"drawNo"`                    //期数
+	Selections   string    `gorm:"type:json" json:"selections"`            //单注的信息
+	Stake        float64   `gorm:"type:numeric(18,4)" json:"stake"`        //投注的金额
+	Estwinning   float64   `gorm:"type:numeric(18,1)" json:"estWinning"`   //可盈利
+	Issystempick bool      `json:"isSystemPick"`                           //系统选取
+	Bettype      string    `gorm:"type:varchar(50)" json:"betType"`        //投注类型 num
+	Bettext      string    `gorm:"type:varchar(50)" json:"Bettext"`        //投注中文
+	Selection    string    `gorm:"type:varchar(50)" json:"selection"`      //投注类型 num
+	Returnamount float64   `gorm:"type:numeric(10,1)" json:"returnAmount"` //返还金额
+	Status       int       `json:"status"`                                 //-1输,0未结算,1为赢 输赢状态
+	Createtime   time.Time `json:"createTime"`                             //下单时间
 }
 
 //获取用户信息
@@ -103,11 +121,37 @@ func GetUsers(desc string) (*[]Users, error) {
 	return list, err
 }
 
+//获取代理用户列表
+func GetUsers_Admin(userid int64) (*[]Users, error) {
+	list := &[]Users{}
+	err := db.Where("Agentid=?", userid).Find(list).Error
+	return list, err
+}
+
 //根据角色获取代理
 func GetUsersByRole(role int64, offset int, limit int, field string) (*[]Users, error) {
 	users := &[]Users{}
 	err := db.Where("role=?", role).Order(field).Order("Created").Find(users).Error
 	return users, err
+}
+
+//GetWagers
+func GetWagers(desc string) (*[]Wagers, error) {
+	list := &[]Wagers{}
+	err := db.Order(desc).Find(list).Error
+	return list, err
+}
+
+func GetWagersInTime(userid int64, begtime, endtime time.Time) (*[]Wagers, error) {
+	list := &[]Wagers{}
+	err := db.Where("uid=? and createtime>=? and createtime<=?", userid, begtime, endtime).Find(list).Error
+	return list, err
+}
+
+func GetWagersAllTime(begtime, endtime time.Time) (*[]Wagers, error) {
+	list := &[]Wagers{}
+	err := db.Where("createtime>=? and createtime<=?", begtime, endtime).Find(list).Error
+	return list, err
 }
 
 //更新密码
@@ -119,8 +163,23 @@ func UpUserpass(uid int64, usr *Users) (int64, error) {
 
 //更新用户余额
 func UpUserBalance(uid int64, balance float64) error {
-	usr := &[]Users{}
-	err := db.Model(&usr).Where("id=?", uid).Updates(Users{Balance: balance}).Error
+	usr := &Users{Id: uid}
+	err := db.Model(&usr).Update("balance", balance).Error
+	return err
+}
+
+//更新用户余额
+func UpUserStatus(uid int64, status bool) error {
+	//fmt.Println("UpUserStatus", status)
+	usr := &Users{Id: uid}
+	err := db.Model(&usr).Update("status", status).Error
+	return err
+}
+
+//更新用户登录状态
+func UpUserLogin(uid int64, login bool) error {
+	usr := &Users{Id: uid}
+	err := db.Model(&usr).Update("login", login).Error
 	return err
 }
 
@@ -140,15 +199,14 @@ func NewUsers(user *Users) (int64, error) {
 }
 
 //查找用户
-func FindUser(username string) (*Users, error) {
+func FindUser(username string) bool {
 	users := &Users{}
 	//return db.Where("username = ?", username).First(users).RecordNotFound()
 	err := db.Where("username = ?", username).First(users).Error
-
-	if err == nil {
-		return users, nil
+	if err == gorm.ErrRecordNotFound {
+		return true
 	} else {
-		return nil, err
+		return false
 	}
 }
 

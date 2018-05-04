@@ -19,7 +19,6 @@ import (
 //"github.com/gin-gonic/gin/binding"
 
 var sessionMgr *helper.SessionMgr = nil
-var sessionUser models.Users
 
 //添加中间件
 func Middleware(c *gin.Context) {
@@ -28,10 +27,10 @@ func Middleware(c *gin.Context) {
 		//http.Redirect(c.Writer, c.Request, "/#!/Login", http.StatusFound)
 		if userInfo, ok := sessionMgr.GetSessionVal(sessionID, "UserInfo"); ok {
 
-			sessionUser = userInfo.(models.Users)
+			logics.SessionUser = userInfo.(models.Users)
 
 			// if value, ok := userInfo.(models.Users); ok {
-			fmt.Println("sessionUser.Username", sessionUser.Username)
+			fmt.Println("sessionUser.Username", logics.SessionUser.Username)
 			// }
 		}
 	}
@@ -105,6 +104,10 @@ func main() {
 	//
 
 	router.POST("/Api/Member/Add", logics.AddMember)
+	router.POST("/Api/Member/Status", logics.UserStatus)
+	router.POST("/Api/Member/LoginStatus", logics.LoginStatus)
+	router.POST("/Api/Report/WinLossProduct", logics.WinLossProduct)
+	router.GET("/Api/Report/MonthList", logics.MonthList)
 
 	//公告
 	router.POST("/Api/Web/Message", func(c *gin.Context) {
@@ -155,43 +158,50 @@ func main() {
 			if info, err := models.GetUserInfo(login.Username); info != nil && err == nil {
 				pass_md5 := helper.MD5_16(login.Password)
 
-				if info.Password == pass_md5 {
+				if info.Role > 0 { //判断用户级别
 
-					var sessionID = sessionMgr.StartSession(c.Writer, c.Request)
-					var loginUserInfo = models.Users{Id: info.Id, Username: info.Username}
+					if info.Password == pass_md5 {
 
-					//踢除重复登录的
-					var onlineSessionIDList = sessionMgr.GetSessionIDList()
+						var sessionID = sessionMgr.StartSession(c.Writer, c.Request)
+						var loginUserInfo = models.Users{Id: info.Id, Username: info.Username}
 
-					for _, onlineSessionID := range onlineSessionIDList {
-						if userInfo, ok := sessionMgr.GetSessionVal(onlineSessionID, "UserInfo"); ok {
-							if value, ok := userInfo.(models.Users); ok {
-								if value.Id == info.Id {
-									sessionMgr.EndSessionBy(onlineSessionID)
+						//踢除重复登录的
+						var onlineSessionIDList = sessionMgr.GetSessionIDList()
+
+						for _, onlineSessionID := range onlineSessionIDList {
+							if userInfo, ok := sessionMgr.GetSessionVal(onlineSessionID, "UserInfo"); ok {
+								if value, ok := userInfo.(models.Users); ok {
+									if value.Id == info.Id {
+										sessionMgr.EndSessionBy(onlineSessionID)
+									}
 								}
 							}
 						}
+
+						//设置变量值
+						sessionMgr.SetSessionVal(sessionID, "UserInfo", loginUserInfo)
+
+						c.JSON(http.StatusOK, gin.H{"Status": 0,
+							"Message": nil,
+							"Params": gin.H{
+								"CultureCode": "zh-CN",
+							},
+						})
+
+					} else {
+						c.JSON(http.StatusOK, gin.H{"Status": 1,
+							"Message": "The username or password provided is incorrect!",
+							"Params":  nil})
 					}
-
-					//设置变量值
-					sessionMgr.SetSessionVal(sessionID, "UserInfo", loginUserInfo)
-
-					c.JSON(http.StatusOK, gin.H{"Status": 0,
-						"Message": nil,
-						"Params": gin.H{
-							"CultureCode": "zh-CN",
-						},
-					})
-
 				} else {
 					c.JSON(http.StatusOK, gin.H{"Status": 1,
-						"Message": "The username or password provided is incorrect!",
+						"Message": "The username is null!",
 						"Params":  nil})
 				}
 
 			} else {
 				c.JSON(http.StatusOK, gin.H{"Status": 1,
-					"Message": "The username is notnull!",
+					"Message": "The username is null!",
 					"Params":  nil})
 			}
 
@@ -214,7 +224,7 @@ func main() {
 
 		if err := c.ShouldBindJSON(&info); err == nil {
 
-			if user, err := models.GetUserInfo(sessionUser.Username); user != nil && err == nil {
+			if user, err := models.GetUserInfo(logics.SessionUser.Username); user != nil && err == nil {
 
 				pass_md5 := helper.MD5_16(info.Current)
 				fmt.Println("pass info.Current:", info.Current)
@@ -224,7 +234,7 @@ func main() {
 				if user.Password == pass_md5 {
 					newpass_md5 := helper.MD5_16(info.Newpass)
 					user.Password = newpass_md5
-					if has, err := models.UpUserpass(sessionUser.Id, user); has > 0 && err == nil {
+					if has, err := models.UpUserpass(logics.SessionUser.Id, user); has > 0 && err == nil {
 						c.JSON(http.StatusOK, gin.H{"Status": 1, "Message": "密码修改成功", "Params": nil})
 					} else {
 						c.JSON(http.StatusOK, gin.H{"Status": 1, "Message": "密码修改失败", "Params": nil})
@@ -241,17 +251,6 @@ func main() {
 		// data := readFile1("Content/json/MonthList.json")
 		// c.Request.Header.Set("Content-Type", "application/json;charset=UTF-8")
 		// c.Writer.WriteString(data)
-	})
-
-	router.GET("/Api/Report/MonthList", func(c *gin.Context) {
-		data := readFile1("Content/json/MonthList.json")
-		c.Request.Header.Set("Content-Type", "application/json;charset=UTF-8")
-		c.Writer.WriteString(data)
-	})
-
-	router.POST("/Api/Report/WinLossProduct", func(c *gin.Context) {
-		data := readFile1("Content/json/WinLossProduct.json")
-		c.Writer.WriteString(data)
 	})
 
 	//会员列表
