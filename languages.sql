@@ -1,7 +1,7 @@
 /*
- Navicat Premium Data Transfer
+ Navicat PostgreSQL Data Transfer
 
- Source Server         : postgresql
+ Source Server         : PSQL
  Source Server Type    : PostgreSQL
  Source Server Version : 100003
  Source Host           : localhost:5432
@@ -12,22 +12,22 @@
  Target Server Version : 100003
  File Encoding         : 65001
 
- Date: 30/04/2018 17:03:35
+ Date: 04/05/2018 15:01:03
 */
 
 
 -- ----------------------------
 -- Table structure for languages
 -- ----------------------------
--- DROP TABLE IF EXISTS "public"."languages";
--- CREATE TABLE "public"."languages" (
---   "id" int4 NOT NULL DEFAULT nextval('language_id_seq'::regclass),
---   "code" varchar(50) COLLATE "pg_catalog"."default",
---   "descr" varchar(255) COLLATE "pg_catalog"."default",
---   "lang" varchar(50) COLLATE "pg_catalog"."default"
--- )
--- ;
--- ALTER TABLE "public"."languages" OWNER TO "root";
+DROP TABLE IF EXISTS "public"."languages";
+CREATE TABLE "public"."languages" (
+  "id" int8 NOT NULL DEFAULT nextval('languages_id_seq'::regclass),
+  "code" text COLLATE "pg_catalog"."default",
+  "descr" text COLLATE "pg_catalog"."default",
+  "lang" text COLLATE "pg_catalog"."default"
+)
+;
+ALTER TABLE "public"."languages" OWNER TO "root";
 
 -- ----------------------------
 -- Records of languages
@@ -257,9 +257,10 @@ INSERT INTO "public"."languages" VALUES (221, 'nickname', '昵称', 'zh-CN');
 INSERT INTO "public"."languages" VALUES (222, 'update.editmember.info', '请添加账号信息', 'zh-CN');
 INSERT INTO "public"."languages" VALUES (223, 'setting.balance', '设置账号额度', 'zh-CN');
 INSERT INTO "public"."languages" VALUES (224, 'member.role', '会员级别', 'zh-CN');
+INSERT INTO "public"."languages" VALUES (225, 'login.status', '登录状态', 'zh-CN');
 COMMIT;
 
--- -- ----------------------------
--- -- Primary Key structure for table languages
--- -- ----------------------------
--- ALTER TABLE "public"."languages" ADD CONSTRAINT "language_pkey" PRIMARY KEY ("id");
+-- ----------------------------
+-- Primary Key structure for table languages
+-- ----------------------------
+ALTER TABLE "public"."languages" ADD CONSTRAINT "languages_pkey" PRIMARY KEY ("id");
